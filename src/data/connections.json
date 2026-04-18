@@ -1,0 +1,254 @@
+[
+  {
+    "source": "maturity-mismatch",
+    "target": "sources-of-financial-fragility",
+    "relationship": "causes",
+    "description": "Maturity mismatch is the primary structural source of financial fragility — borrowing short and lending long creates vulnerability to funding runs."
+  },
+  {
+    "source": "maturity-mismatch",
+    "target": "bank-runs-modern-vs-traditional",
+    "relationship": "causes",
+    "description": "Maturity mismatch makes banks vulnerable to runs because short-term creditors can withdraw faster than long-term assets can be liquidated."
+  },
+  {
+    "source": "maturity-mismatch",
+    "target": "bank-liquidity-management",
+    "relationship": "motivates",
+    "description": "The risks of maturity mismatch motivate banks to hold reserves, secondary reserves, and maintain access to borrowing facilities."
+  },
+  {
+    "source": "sources-of-financial-fragility",
+    "target": "central-bank-crisis-responses",
+    "relationship": "motivates",
+    "description": "Structural fragility in the financial system motivates central banks to develop crisis response tools — both traditional and non-traditional."
+  },
+  {
+    "source": "sources-of-financial-fragility",
+    "target": "capital-regulation",
+    "relationship": "motivates",
+    "description": "The fragility of the financial system motivates capital regulation as a way to require banks to hold loss-absorbing buffers."
+  },
+  {
+    "source": "sources-of-financial-fragility",
+    "target": "structural-reform-volcker-vickers-liikanen",
+    "relationship": "motivates",
+    "description": "Financial fragility exposed by the 2008 crisis motivated structural reforms (Volcker, Vickers, Liikanen) to separate risky from essential banking activities."
+  },
+  {
+    "source": "bank-runs-modern-vs-traditional",
+    "target": "deposit-insurance-moral-hazard",
+    "relationship": "motivates",
+    "description": "The destructive potential of bank runs motivates deposit insurance, which in turn creates moral hazard — a fundamental tension in banking regulation."
+  },
+  {
+    "source": "bank-runs-modern-vs-traditional",
+    "target": "central-bank-crisis-responses",
+    "relationship": "motivates",
+    "description": "Modern wholesale funding runs motivated central banks to develop new facilities (TAF, PDCF, BTFP) to provide liquidity beyond traditional deposit insurance."
+  },
+  {
+    "source": "deposit-insurance-moral-hazard",
+    "target": "capital-regulation",
+    "relationship": "motivates",
+    "description": "Deposit insurance moral hazard motivates capital requirements — capital acts as a 'deductible' ensuring bank owners have skin in the game."
+  },
+  {
+    "source": "deposit-insurance-moral-hazard",
+    "target": "bank-runs-modern-vs-traditional",
+    "relationship": "tension",
+    "description": "Tension between preventing runs (deposit insurance) and maintaining market discipline (allowing some run risk). Eliminating all run risk destroys market discipline."
+  },
+  {
+    "source": "shadow-banking",
+    "target": "sources-of-financial-fragility",
+    "relationship": "causes",
+    "description": "Shadow banking's growth (10% to 60% of financial liabilities) created long, opaque intermediation chains that amplified financial fragility."
+  },
+  {
+    "source": "shadow-banking",
+    "target": "bank-runs-modern-vs-traditional",
+    "relationship": "manifests-as",
+    "description": "Shadow banking runs manifest as wholesale funding freezes — ABCP markets, repo markets, and money market funds 'breaking the buck.'"
+  },
+  {
+    "source": "capital-regulation",
+    "target": "unintended-consequences",
+    "relationship": "leads-to",
+    "description": "Capital regulation (Basel III Endgame) may push lending to less-regulated private credit, creating new systemic risks — the Eastland effect."
+  },
+  {
+    "source": "capital-regulation",
+    "target": "private-credit-turmoil",
+    "relationship": "leads-to",
+    "description": "Higher bank capital requirements drive regulatory arbitrage: lending migrates from regulated banks to unregulated private credit markets."
+  },
+  {
+    "source": "structural-reform-volcker-vickers-liikanen",
+    "target": "unintended-consequences",
+    "relationship": "leads-to",
+    "description": "The Volcker Rule reduced dealer inventories, worsening market liquidity and contributing to Treasury market dysfunction in 2014 and 2020."
+  },
+  {
+    "source": "structural-reform-volcker-vickers-liikanen",
+    "target": "glass-steagall-conflicts-of-interest",
+    "relationship": "prerequisite",
+    "description": "Understanding Glass-Steagall's original rationale and its critique is prerequisite for evaluating modern structural reform proposals."
+  },
+  {
+    "source": "glass-steagall-conflicts-of-interest",
+    "target": "accounting-firm-conflicts",
+    "relationship": "parallels",
+    "description": "The conflict between commercial and investment banking directly parallels the audit-consulting conflict at Big Four accounting firms."
+  },
+  {
+    "source": "glass-steagall-conflicts-of-interest",
+    "target": "banks-as-special-intermediaries",
+    "relationship": "tension",
+    "description": "If banks are special because of information from relationships, separating commercial from investment banking (Glass-Steagall) may destroy valuable information flows."
+  },
+  {
+    "source": "banks-as-special-intermediaries",
+    "target": "financial-development-and-growth",
+    "relationship": "causes",
+    "description": "Banks' special monitoring and certification abilities drive financial development, which in turn promotes economic growth (up to the Arcand threshold)."
+  },
+  {
+    "source": "financial-development-and-growth",
+    "target": "sources-of-financial-fragility",
+    "relationship": "tension",
+    "description": "Financial development promotes growth (King-Levine) but 'too much finance' (Arcand et al.) can increase fragility — the inverted-U relationship."
+  },
+  {
+    "source": "too-big-to-fail",
+    "target": "deposit-insurance-moral-hazard",
+    "relationship": "causes",
+    "description": "Too-big-to-fail creates an implicit government guarantee that extends moral hazard beyond insured depositors to all creditors of large banks."
+  },
+  {
+    "source": "too-big-to-fail",
+    "target": "structural-reform-volcker-vickers-liikanen",
+    "relationship": "motivates",
+    "description": "The too-big-to-fail problem motivates structural reform proposals that attempt to separate essential from risky banking activities."
+  },
+  {
+    "source": "geographic-restrictions-on-banking",
+    "target": "too-big-to-fail",
+    "relationship": "leads-to",
+    "description": "Removal of geographic restrictions (Riegle-Neal 1994) enabled bank consolidation, contributing to the creation of too-big-to-fail institutions."
+  },
+  {
+    "source": "supply-chain-fragilities",
+    "target": "sources-of-financial-fragility",
+    "relationship": "parallels",
+    "description": "Supply chains mirror financial system fragility: long chains (supplier's supplier = counterparty's counterparty), JIT = low buffers, chokepoints = common factor risk."
+  },
+  {
+    "source": "supply-chain-fragilities",
+    "target": "bank-runs-modern-vs-traditional",
+    "relationship": "parallels",
+    "description": "Supply chain disruptions parallel bank runs: sudden withdrawal of orders (like chip orders during COVID) mirrors sudden withdrawal of funding."
+  },
+  {
+    "source": "origin-and-functions-of-money",
+    "target": "digital-currencies-and-cbdcs",
+    "relationship": "prerequisite",
+    "description": "Understanding money's three functions (store of value, medium of exchange, unit of account) is prerequisite for evaluating Bitcoin and CBDCs."
+  },
+  {
+    "source": "digital-currencies-and-cbdcs",
+    "target": "deposit-insurance-moral-hazard",
+    "relationship": "tension",
+    "description": "CBDCs create tension: if people can hold money directly at the central bank, they may withdraw from commercial banks, reducing deposits and potentially causing disintermediation."
+  },
+  {
+    "source": "central-bank-crisis-responses",
+    "target": "ecb-boj-pboc-policy",
+    "relationship": "parallels",
+    "description": "ECB, BoJ, and PBoC each developed crisis response tools parallel to but distinct from the Fed's, shaped by their different financial system structures."
+  },
+  {
+    "source": "ecb-boj-pboc-policy",
+    "target": "digital-currencies-and-cbdcs",
+    "relationship": "leads-to",
+    "description": "PBoC's policy evolution leads to digital yuan (e-CNY) development as part of the transition from quantity-based to modern price-based monetary policy."
+  },
+  {
+    "source": "long-term-interest-rate-trends",
+    "target": "maturity-mismatch",
+    "relationship": "causes",
+    "description": "The four-decade decline in rates encouraged banks to extend duration (buy longer-term bonds) to maintain yields, amplifying maturity mismatch risk — as SVB demonstrated when rates reversed."
+  },
+  {
+    "source": "long-term-interest-rate-trends",
+    "target": "sources-of-financial-fragility",
+    "relationship": "causes",
+    "description": "Persistently low rates encouraged reach-for-yield behavior, compressed risk premiums, and inflated asset prices — building fragility that materialized when rates rose."
+  },
+  {
+    "source": "private-credit-turmoil",
+    "target": "shadow-banking",
+    "relationship": "parallels",
+    "description": "Private credit mirrors pre-2008 shadow banking: opacity, reliance on ratings, liquidity illusion, and growth outside the regulatory perimeter."
+  },
+  {
+    "source": "private-credit-turmoil",
+    "target": "unintended-consequences",
+    "relationship": "manifests-as",
+    "description": "Private credit's growth is an unintended consequence of post-2008 bank regulation — the financial system's Eastland effect."
+  },
+  {
+    "source": "unintended-consequences",
+    "target": "capital-regulation",
+    "relationship": "tension",
+    "description": "Tension between making banks safer (higher capital) and pushing risk to less-regulated sectors — stronger banks but potentially a weaker system."
+  },
+  {
+    "source": "bank-liquidity-management",
+    "target": "central-bank-crisis-responses",
+    "relationship": "motivates",
+    "description": "When bank liquidity management tools are exhausted (reserves depleted, markets frozen), central bank crisis tools become necessary."
+  },
+  {
+    "source": "bank-liquidity-management",
+    "target": "bank-runs-modern-vs-traditional",
+    "relationship": "tension",
+    "description": "Banks that optimize liquidity management (minimizing idle reserves) are more profitable but more vulnerable to runs when funding markets freeze."
+  },
+  {
+    "source": "accounting-firm-conflicts",
+    "target": "structural-reform-volcker-vickers-liikanen",
+    "relationship": "parallels",
+    "description": "UK operational separation of audit/consulting parallels Vickers ring-fencing; EY Everest parallels full Glass-Steagall separation; PwC parallels market self-regulation."
+  },
+  {
+    "source": "banks-as-special-intermediaries",
+    "target": "structural-reform-volcker-vickers-liikanen",
+    "relationship": "tension",
+    "description": "If banks are special because of their information advantages, structural reforms that limit their activities may destroy the very features that make them valuable."
+  },
+  {
+    "source": "shadow-banking",
+    "target": "private-credit-turmoil",
+    "relationship": "leads-to",
+    "description": "The shadow banking system's evolution continues: post-2008 regulation of traditional shadow banking pushed activity into private credit — the new frontier of unregulated intermediation."
+  },
+  {
+    "source": "maturity-mismatch",
+    "target": "capital-regulation",
+    "relationship": "motivates",
+    "description": "Maturity mismatch creates interest rate risk that capital regulation should (but doesn't always) capture — SVB's EVE of -27.7% was not required to be disclosed."
+  },
+  {
+    "source": "digital-currencies-and-cbdcs",
+    "target": "origin-and-functions-of-money",
+    "relationship": "manifests-as",
+    "description": "CBDCs and crypto are modern manifestations of the eternal question: what makes something money? Evaluated against store of value, medium of exchange, unit of account."
+  },
+  {
+    "source": "central-bank-crisis-responses",
+    "target": "deposit-insurance-moral-hazard",
+    "relationship": "tension",
+    "description": "Aggressive central bank crisis responses (BTFP, systemic risk exception) expand the safety net but also expand moral hazard — Diamond-Rajan vs. Bernanke debate."
+  }
+]

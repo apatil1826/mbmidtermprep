@@ -1,0 +1,821 @@
+[
+  {
+    "type": "topic",
+    "title": "Sources of Financial Fragility",
+    "content": "Structural factors that make the financial system prone to crisis: maturity mismatch, short-term wholesale funding reliance, shadow banking interconnectedness, credit rating over-reliance, and incentive failures. Diamond-Rajan three causes framework. Kroszner-Melick structural shift from bank-centric to market-based intermediation.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "topic",
+    "title": "Bank Runs: Modern vs. Traditional",
+    "content": "How bank runs evolved from retail deposit lines (1930s) to wholesale funding freezes (Northern Rock, Bear Stearns) and social-media-accelerated panics (SVB $42B in one day). Wholesale vs retail run distinction. UK partial deposit insurance vs US full coverage.",
+    "link": "/topics/bank-runs-modern-vs-traditional",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "topic",
+    "title": "Maturity Mismatch",
+    "content": "Banks borrow short and lend long — the source of both profits and risk. Duration of assets exceeds duration of liabilities. SVB: bought long-term bonds, HTM accounting masked losses, forced AFS sales triggered run. Interest rate risk and duration risk.",
+    "link": "/topics/maturity-mismatch",
+    "topicId": "maturity-mismatch"
+  },
+  {
+    "type": "topic",
+    "title": "Bank Liquidity Management",
+    "content": "Managing reserves (required + excess), secondary reserves, and borrowing sources. Reserve requirements as tax. Interest on reserves (IOR). Fed funds market, discount window, repo, ABCP. Responses to deposit outflows.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "topic",
+    "title": "Capital Regulation",
+    "content": "Bank capital as insurance and deductible. Risk-weighted capital ratios vs leverage ratios. Basel I/II/III framework. Problems with risk-weighting: manipulation, political, backward-looking. SVB EVE -27.7%. Basel III Endgame debate.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "topic",
+    "title": "Banks as Special Intermediaries",
+    "content": "James & Weir: bank loan announcements produce +1.93% stock return. Lummer & McConnell: positive reaction from revised loans only (+1.24%), not new loans (-0.01%). Banks gain information through ongoing relationships. Adverse selection and certification.",
+    "link": "/topics/banks-as-special-intermediaries",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "topic",
+    "title": "Structural Reform: Volcker, Vickers, Liikanen",
+    "content": "Three post-crisis approaches: Volcker Rule (US, bans proprietary trading), Vickers ring-fencing (UK, structural separation), Liikanen (EU, trading subsidiary). IMF comparison framework. Tarullo critique of Volcker complexity. UK ring-fencing under pressure.",
+    "link": "/topics/structural-reform-volcker-vickers-liikanen",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "topic",
+    "title": "Glass-Steagall and Conflicts of Interest",
+    "content": "Glass-Steagall (1933) separated commercial and investment banking. Repealed by Gramm-Leach-Bliley (1999). Kroszner-Rajan: commercial bank bonds defaulted less (12% vs 28%). Sorkin: repeal did NOT cause 2008. PwC/EY accounting firm analogy.",
+    "link": "/topics/glass-steagall-conflicts-of-interest",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "topic",
+    "title": "Financial Development and Growth",
+    "content": "King-Levine: financial depth positively correlates with growth across 80 countries. Arcand et al.: inverted-U, positive up to ~80-100% PRIVY then negative. Too much finance. Iceland example. Schumpeter hypothesis confirmed with nuance.",
+    "link": "/topics/financial-development-and-growth",
+    "topicId": "financial-development-and-growth"
+  },
+  {
+    "type": "topic",
+    "title": "Central Bank Crisis Responses",
+    "content": "Traditional tools (discount rate, OMOs, reserve requirements) plus non-traditional: Kroszner-Melick taxonomy (broaden counterparties, collateral, maturity). TAF, TSLF, PDCF, TALF, QE, BTFP. Credit easing vs quantitative easing. COVID programs. Draghi whatever it takes.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "topic",
+    "title": "Supply Chain Fragilities",
+    "content": "Parallels to financial system: supplier's supplier = counterparty's counterparty. JIT vs JIC. COVID disruptions, 10x shipping costs, semiconductor shortage. Toyota risk management. Geopolitical chokepoints: Hormuz, Suez, Panama.",
+    "link": "/topics/supply-chain-fragilities",
+    "topicId": "supply-chain-fragilities"
+  },
+  {
+    "type": "topic",
+    "title": "Origin and Functions of Money",
+    "content": "Three functions: store of value, medium of exchange, unit of account. Radford POW camp: cigarettes as money, Gresham's Law, BMk failure. SBF mackerel prison currency. Framework for evaluating Bitcoin and CBDCs.",
+    "link": "/topics/origin-and-functions-of-money",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "topic",
+    "title": "Digital Currencies and CBDCs",
+    "content": "Bitcoin fails as money (volatile, limited acceptance, not unit of account). Blockchain potential. CBDCs: pros (inclusion, risk-free payments) and cons (disintermediation, privacy). Three approaches: China pro-CBDC, US pro-crypto, Hong Kong both.",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "topic",
+    "title": "Shadow Banking",
+    "content": "Non-bank intermediaries performing bank-like functions without regulation: MMMFs, SIVs, conduits, hedge funds. Grew from 10% to 60% of US financial liabilities. Originate-to-distribute model. Breaking the buck. Long intermediation chains.",
+    "link": "/topics/shadow-banking",
+    "topicId": "shadow-banking"
+  },
+  {
+    "type": "topic",
+    "title": "Deposit Insurance and Moral Hazard",
+    "content": "FDIC $250K insurance prevents retail runs but creates moral hazard. UK partial insurance contributed to Northern Rock retail run. SVB 90%+ uninsured. Capital as deductible. Tension: run-free vs market discipline.",
+    "link": "/topics/deposit-insurance-moral-hazard",
+    "topicId": "deposit-insurance-moral-hazard"
+  },
+  {
+    "type": "topic",
+    "title": "Geographic Restrictions on Banking",
+    "content": "US unit banking and interstate branching restrictions. 30,000 banks (1980) to 3,815 (2025). Many banks did NOT mean much competition. Riegle-Neal Act (1994) phased out barriers. Consolidation trend.",
+    "link": "/topics/geographic-restrictions-on-banking",
+    "topicId": "geographic-restrictions-on-banking"
+  },
+  {
+    "type": "topic",
+    "title": "Too Big to Fail",
+    "content": "UBS + Credit Suisse = 208% Swiss GDP. JPMorgan = 15% US GDP. Arguments for and against breakup. 75% of Swiss want UBS broken up. Living wills, bail-in, TLAC as alternatives to breakup. SIFIs and G-SIBs.",
+    "link": "/topics/too-big-to-fail",
+    "topicId": "too-big-to-fail"
+  },
+  {
+    "type": "topic",
+    "title": "Unintended Consequences of Regulation",
+    "content": "Titanic/Eastland analogy: lifeboats regulation caused worse disaster. Volcker Rule reduced market liquidity. Basel III Endgame may push to private credit. Dodd-Frank halted new bank formation. Cost-benefit analysis essential.",
+    "link": "/topics/unintended-consequences",
+    "topicId": "unintended-consequences"
+  },
+  {
+    "type": "topic",
+    "title": "Long-Term Interest Rate Trends",
+    "content": "Four-decade (even eight-century) decline in real rates. Structural factors: demographics, China savings glut, declining investment demand. Potential reversal: dissaving, deglobalization, government debt. Neutral rate r-star.",
+    "link": "/topics/long-term-interest-rate-trends",
+    "topicId": "long-term-interest-rate-trends"
+  },
+  {
+    "type": "topic",
+    "title": "ECB, BoJ, and PBoC Policy",
+    "content": "ECB: bank-centric system, LTRO preferred over QE, Draghi whatever it takes, OMT, PEPP, TPI. BoJ: longest deflation fight, QQE, negative rates, yield curve control. PBoC: quantity to price transition, RRR, LPR, e-CNY.",
+    "link": "/topics/ecb-boj-pboc-policy",
+    "topicId": "ecb-boj-pboc-policy"
+  },
+  {
+    "type": "topic",
+    "title": "Private Credit Turmoil",
+    "content": "$1.7T industry. Bailey alarm bells ringing. $7B investor withdrawals. First Brands/Tricolor AAA-rated failures. Parallels to pre-2008 shadow banking: opacity, ratings reliance, liquidity illusion. Regulatory arbitrage from Basel III.",
+    "link": "/topics/private-credit-turmoil",
+    "topicId": "private-credit-turmoil"
+  },
+  {
+    "type": "topic",
+    "title": "Accounting Firm Conflicts of Interest",
+    "content": "Glass-Steagall analogy: audit (certification) + consulting (advisory) = conflict. EY Project Everest failed breakup. PwC voluntary curtailment parallels Kroszner 1920s bank self-regulation. UK operational separation.",
+    "link": "/topics/accounting-firm-conflicts",
+    "topicId": "accounting-firm-conflicts"
+  },
+  {
+    "type": "term",
+    "title": "Maturity Mismatch",
+    "content": "The condition where an institution's assets have longer maturities (duration) than its liabilities, meaning it borrows short-term but lends long-term. The fundamental source of banking profits AND banking risk.",
+    "link": "/topics/maturity-mismatch",
+    "topicId": "maturity-mismatch"
+  },
+  {
+    "type": "term",
+    "title": "Shadow Banking",
+    "content": "Non-bank financial intermediaries that perform bank-like functions (maturity transformation, credit intermediation, leverage) without being subject to traditional bank regulation. Includes MMMFs, SIVs, conduits, hedge funds, PE.",
+    "link": "/topics/shadow-banking",
+    "topicId": "shadow-banking"
+  },
+  {
+    "type": "term",
+    "title": "Originate-to-Distribute Model",
+    "content": "A lending model where banks originate loans but immediately sell or securitize them rather than holding them on their balance sheets, reducing monitoring incentives and creating long intermediation chains.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Greenspan Put",
+    "content": "The market expectation that the Fed under Greenspan would cut rates or intervene to prevent market declines, encouraging excessive risk-taking through moral hazard. A key incentive distortion identified by Diamond-Rajan.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Fire Sales",
+    "content": "Forced selling of assets at depressed prices, triggered when multiple institutions must sell simultaneously, pushing prices below fundamental value and creating a negative externality for all holders of similar assets.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Moral Hazard",
+    "content": "The tendency to take on more risk when protected from consequences. In banking: deposit insurance reduces depositors' incentive to monitor banks; too-big-to-fail reduces creditors' incentive to assess risk.",
+    "link": "/topics/deposit-insurance-moral-hazard",
+    "topicId": "deposit-insurance-moral-hazard"
+  },
+  {
+    "type": "term",
+    "title": "Adverse Selection (Lemons Problem)",
+    "content": "Market failure where one party has more information than the other. In lending: managers know more than investors, so public debt issuance may signal overvaluation. Banks solve this through inside information from relationships.",
+    "link": "/topics/banks-as-special-intermediaries",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "term",
+    "title": "Securitization",
+    "content": "The process of pooling financial assets (like mortgages) and issuing new securities backed by those pools. Central to the originate-to-distribute model and the growth of shadow banking.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "CDOs (Collateralized Debt Obligations)",
+    "content": "Structured products that pool cash-flow-generating assets and repackage them into tranches with different risk profiles. Central to the 2008 crisis when AAA-rated tranches proved far riskier than ratings suggested.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Credit Default Swaps (CDS)",
+    "content": "Derivative contracts functioning as insurance on bonds — buyer pays premiums, seller pays if reference entity defaults. AIG's massive CDS exposure was central to its near-collapse in 2008.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Counterparty Risk",
+    "content": "Risk that the other party in a financial transaction fails to meet obligations. Amplified by interconnectedness: needed to know counterparty's counterparty's counterparty to assess true risk exposure.",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "term",
+    "title": "Wholesale Funding Run",
+    "content": "Sudden refusal by institutional lenders to roll over short-term funding (ABCP, repo, commercial paper). The real crisis at Northern Rock (Aug 2007) was the wholesale run, not the later visible retail run.",
+    "link": "/topics/bank-runs-modern-vs-traditional",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "term",
+    "title": "Deposit Insurance (FDIC)",
+    "content": "Government guarantee of bank deposits up to $250,000 per depositor per institution. Prevents retail runs but creates moral hazard. UK partial insurance contributed to Northern Rock retail run.",
+    "link": "/topics/deposit-insurance-moral-hazard",
+    "topicId": "deposit-insurance-moral-hazard"
+  },
+  {
+    "type": "term",
+    "title": "Systemic Risk Exception",
+    "content": "Provision allowing FDIC to guarantee deposits beyond $250K when failure poses systemic risk. Invoked for SVB and Signature Bank (2023). Extends deposit insurance moral hazard.",
+    "link": "/topics/deposit-insurance-moral-hazard",
+    "topicId": "deposit-insurance-moral-hazard"
+  },
+  {
+    "type": "term",
+    "title": "Held-to-Maturity (HTM)",
+    "content": "Accounting classification for securities banks intend to hold until maturity, carried at amortized cost rather than market value. SVB used HTM to mask massive unrealized losses on long-term bonds.",
+    "link": "/topics/maturity-mismatch",
+    "topicId": "maturity-mismatch"
+  },
+  {
+    "type": "term",
+    "title": "Available-for-Sale (AFS)",
+    "content": "Accounting classification for securities that may be sold before maturity, requiring mark-to-market. SVB's forced AFS sales realized $1.8B in losses, triggering the run.",
+    "link": "/topics/maturity-mismatch",
+    "topicId": "maturity-mismatch"
+  },
+  {
+    "type": "term",
+    "title": "Duration",
+    "content": "Measure of bond price sensitivity to interest rate changes, expressed in years. Higher duration = greater price sensitivity. SVB had extreme duration mismatch: long-duration assets, short-duration liabilities.",
+    "link": "/topics/maturity-mismatch",
+    "topicId": "maturity-mismatch"
+  },
+  {
+    "type": "term",
+    "title": "Required Reserves",
+    "content": "Minimum reserves banks must hold at the Fed, set as a fraction of deposits. Historically a tax because non-interest-bearing. After 2008, IOR reduced the tax to the spread between IOR and market rates.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "term",
+    "title": "Interest on Reserves (IOR)",
+    "content": "Interest paid by the Fed on reserves held by banks. Introduced 2008. Changed the economics of reserve holding: the tax of reserve requirements now depends on the spread between IOR and market rates.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "term",
+    "title": "Federal Funds Market",
+    "content": "Interbank market where banks lend reserves overnight. The fed funds rate is a key monetary policy benchmark. Banks can borrow in this market to meet reserve requirements or cover deposit outflows.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "term",
+    "title": "Discount Window",
+    "content": "Fed lending facility where banks borrow directly at a penalty rate above the fed funds target. Banks avoid it due to stigma — borrowing signals weakness. TAF was created as an anonymous alternative.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "term",
+    "title": "Risk-Weighted Assets (RWA)",
+    "content": "Total assets adjusted by risk weights: 0% for government bonds, various weights for loans. Used as denominator in capital ratios. Flawed: SVB bonds had zero weight despite massive interest rate risk.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "term",
+    "title": "Leverage Ratio",
+    "content": "Tier 1 capital divided by total assets without risk weighting. Backstop to risk-weighted ratios. Avoids manipulation but creates perverse incentive to hold riskier assets (same capital charge for all).",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "term",
+    "title": "Basel III Endgame",
+    "content": "Final Basel III reforms raising capital requirements 16-25% for large US banks. Kroszner warns of cost-benefit concerns and migration to private credit. Implementation politically contested.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "term",
+    "title": "Economic Value of Equity (EVE)",
+    "content": "Net present value of all bank assets minus liabilities under different rate scenarios. SVB EVE was -27.7% under 200bp rate rise, far exceeding Basel 15% threshold. US did not require disclosure.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "term",
+    "title": "Volcker Rule",
+    "content": "US regulation banning proprietary trading by bank holding companies and limiting hedge fund/PE investments. Applies across entire group. Challenge: distinguishing prop trading from market making.",
+    "link": "/topics/structural-reform-volcker-vickers-liikanen",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "term",
+    "title": "Vickers Ring-Fencing",
+    "content": "UK reform requiring structural separation of retail banking from investment banking within the banking group. Retail ring-fenced body gets higher capital. Best for improving resolvability per IMF.",
+    "link": "/topics/structural-reform-volcker-vickers-liikanen",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "term",
+    "title": "Liikanen Proposal",
+    "content": "EU structural reform requiring trading activities in a separately capitalized subsidiary within the banking group. Most balanced approach per IMF. Combines features of Volcker and Vickers.",
+    "link": "/topics/structural-reform-volcker-vickers-liikanen",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "term",
+    "title": "Glass-Steagall Act (1933)",
+    "content": "US law separating commercial banking from investment banking. Repealed by Gramm-Leach-Bliley (1999). Kroszner-Rajan: commercial bank bonds defaulted less (12% vs 28%), questioning the rationale.",
+    "link": "/topics/glass-steagall-conflicts-of-interest",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "term",
+    "title": "Gramm-Leach-Bliley Act (1999)",
+    "content": "US law repealing Glass-Steagall, allowing universal banking. Despite common claims, Sorkin shows repeal did NOT cause the 2008 crisis — Bear, Lehman, AIG were not universal banks.",
+    "link": "/topics/glass-steagall-conflicts-of-interest",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "term",
+    "title": "PRIVY (Private Credit / GDP)",
+    "content": "Key financial development measure. King-Levine: positively correlated with growth. Arcand et al.: relationship becomes negative above ~80-100% threshold (inverted-U).",
+    "link": "/topics/financial-development-and-growth",
+    "topicId": "financial-development-and-growth"
+  },
+  {
+    "type": "term",
+    "title": "TAF (Term Auction Facility)",
+    "content": "Fed program allowing banks to bid anonymously for term funding, avoiding discount window stigma. Broadened counterparties and lengthened maturity in Kroszner-Melick taxonomy.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "TSLF (Term Securities Lending Facility)",
+    "content": "Fed program lending Treasury securities to primary dealers in exchange for less liquid collateral including MBS. Broadened collateral dimension of Kroszner-Melick taxonomy.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "PDCF (Primary Dealer Credit Facility)",
+    "content": "Fed lending to primary dealers (investment banks), broadening counterparties beyond traditional commercial banks. Extended the lender-of-last-resort function to non-banks.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "BTFP (Bank Term Funding Program)",
+    "content": "Created after SVB (2023), allowing banks to borrow using securities at PAR value (not market value). Prevented forced sales of depreciated bonds across the banking system. Expired March 2024.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "Credit Easing vs. Quantitative Easing",
+    "content": "Bernanke distinction: Fed credit easing focused on composition of assets (what you buy matters for targeted market repair); BoJ QE focused on quantity of reserves (expanding balance sheet).",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "Forward Guidance",
+    "content": "Central bank communication about expected future policy path, used as a tool at the zero lower bound to influence long-term rates and market expectations.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "term",
+    "title": "JIT (Just-In-Time)",
+    "content": "Inventory strategy minimizing stock by receiving goods only as needed. Efficient in normal times, fragile in stress. Parallels low liquidity buffers in banking. COVID exposed the fragility.",
+    "link": "/topics/supply-chain-fragilities",
+    "topicId": "supply-chain-fragilities"
+  },
+  {
+    "type": "term",
+    "title": "JIC (Just-In-Case)",
+    "content": "Inventory strategy maintaining buffer stocks as insurance against disruption. Supply chain equivalent of excess reserves in banking. Toyota approach after Fukushima.",
+    "link": "/topics/supply-chain-fragilities",
+    "topicId": "supply-chain-fragilities"
+  },
+  {
+    "type": "term",
+    "title": "Store of Value",
+    "content": "Money function: preserves purchasing power over time. Bitcoin fails this test due to extreme volatility. Cigarettes served this function in Radford POW camp.",
+    "link": "/topics/origin-and-functions-of-money",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "term",
+    "title": "Medium of Exchange",
+    "content": "Money function: commonly accepted intermediary for transactions, eliminating barter double coincidence of wants. Bitcoin is limited by slow processing and low acceptance.",
+    "link": "/topics/origin-and-functions-of-money",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "term",
+    "title": "Unit of Account",
+    "content": "Money function: common measure for pricing goods. The last function to emerge historically. Bitcoin is virtually never used as a unit of account. Cigarettes served this role in POW camps.",
+    "link": "/topics/origin-and-functions-of-money",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "term",
+    "title": "Gresham's Law",
+    "content": "Bad money drives out good: when two forms of money circulate, people hoard the more valuable one and spend the less valuable one. In POW camp, bad cigarettes were smoked, good ones circulated as money.",
+    "link": "/topics/origin-and-functions-of-money",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "term",
+    "title": "Bitcoin",
+    "content": "Decentralized digital currency with 21M supply cap, proof-of-work consensus. Fails all three money functions: too volatile (store of value), limited acceptance (medium of exchange), not used for pricing (unit of account).",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "term",
+    "title": "CBDC (Central Bank Digital Currency)",
+    "content": "Digital fiat currency issued by the central bank. Pros: financial inclusion, risk-free payments, policy tool. Cons: bank disintermediation, privacy concerns, balance sheet expansion.",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "term",
+    "title": "e-CNY (Digital Yuan)",
+    "content": "China CBDC, most advanced pilot globally. Domestic adoption sluggish (Alipay/WeChat already dominate). Cross-border potential through Project mBridge may challenge dollar dominance.",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "term",
+    "title": "Stablecoin",
+    "content": "Cryptocurrency pegged to a reserve asset (usually USD), attempting to solve Bitcoin volatility problem. Subject to convertibility risk — a form of run risk similar to traditional bank deposits.",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "term",
+    "title": "LTRO (Long-Term Refinancing Operations)",
+    "content": "ECB loans to banks with maturities up to 3 years. Preferred over QE because the Eurozone has a bank-centric financial system where firms depend on bank loans more than capital markets.",
+    "link": "/topics/ecb-boj-pboc-policy",
+    "topicId": "ecb-boj-pboc-policy"
+  },
+  {
+    "type": "term",
+    "title": "OMT (Outright Monetary Transactions)",
+    "content": "ECB program for unlimited sovereign bond purchases with conditions. Announced after Draghi whatever it takes but never used — credible commitment alone stabilized markets.",
+    "link": "/topics/ecb-boj-pboc-policy",
+    "topicId": "ecb-boj-pboc-policy"
+  },
+  {
+    "type": "term",
+    "title": "Yield Curve Control",
+    "content": "BoJ policy of capping the 10-year government bond yield, committing to buy unlimited bonds to maintain the target. Part of Japan extreme unconventional policy toolkit against deflation.",
+    "link": "/topics/ecb-boj-pboc-policy",
+    "topicId": "ecb-boj-pboc-policy"
+  },
+  {
+    "type": "term",
+    "title": "SIFI / G-SIB",
+    "content": "Systemically Important Financial Institution / Global Systemically Important Bank. Subject to additional capital surcharges, enhanced supervision, and living will requirements under Dodd-Frank and Basel III.",
+    "link": "/topics/too-big-to-fail",
+    "topicId": "too-big-to-fail"
+  },
+  {
+    "type": "term",
+    "title": "Living Wills",
+    "content": "Resolution plans required for large banks, describing how they could be wound down without taxpayer bailouts. Part of the post-crisis framework for addressing too-big-to-fail.",
+    "link": "/topics/too-big-to-fail",
+    "topicId": "too-big-to-fail"
+  },
+  {
+    "type": "term",
+    "title": "Bail-In",
+    "content": "Resolution mechanism where a failing bank creditors absorb losses through conversion of claims to equity, instead of taxpayer-funded bailouts. Requires sufficient TLAC.",
+    "link": "/topics/too-big-to-fail",
+    "topicId": "too-big-to-fail"
+  },
+  {
+    "type": "term",
+    "title": "Regulatory Arbitrage",
+    "content": "Exploiting regulatory differences to minimize costs or avoid restrictions. Key mechanism: higher bank capital requirements push lending to less-regulated private credit and shadow banking.",
+    "link": "/topics/unintended-consequences",
+    "topicId": "unintended-consequences"
+  },
+  {
+    "type": "term",
+    "title": "Titanic/Eastland Analogy",
+    "content": "After the Titanic (1912), lifeboats-for-all regulation caused the SS Eastland to capsize (1915, 844 dead). Regulation making one thing safer made the whole system more dangerous. Perfect analogy for financial regulation.",
+    "link": "/topics/unintended-consequences",
+    "topicId": "unintended-consequences"
+  },
+  {
+    "type": "term",
+    "title": "Neutral Real Interest Rate (R-Star)",
+    "content": "The real interest rate at which the economy is at full employment with stable inflation. Has declined for decades due to demographics, savings glut, and declining investment demand. May now be reversing.",
+    "link": "/topics/long-term-interest-rate-trends",
+    "topicId": "long-term-interest-rate-trends"
+  },
+  {
+    "type": "term",
+    "title": "Savings Glut",
+    "content": "Bernanke (2005) concept: global savings exceeding investment opportunities, driven by China and oil exporters, pushing interest rates down and fueling asset bubbles in the US.",
+    "link": "/topics/long-term-interest-rate-trends",
+    "topicId": "long-term-interest-rate-trends"
+  },
+  {
+    "type": "term",
+    "title": "Relationship Lending",
+    "content": "Lending based on long-term ongoing relationships where banks accumulate proprietary information. Lummer-McConnell show this is the source of banks special role: revised loans (+1.24%) vs new (-0.01%).",
+    "link": "/topics/banks-as-special-intermediaries",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "term",
+    "title": "Private Credit",
+    "content": "Direct lending by non-bank institutions (PE, credit funds, insurance companies). $1.7T industry growing outside regulatory perimeter. Parallels pre-2008 shadow banking. Bailey warns alarm bells ringing.",
+    "link": "/topics/private-credit-turmoil",
+    "topicId": "private-credit-turmoil"
+  },
+  {
+    "type": "term",
+    "title": "Breaking the Buck",
+    "content": "When a money market fund NAV falls below $1, meaning investors receive less than invested. Reserve Primary Fund broke the buck in 2008 after Lehman exposure, triggering a run on MMMFs.",
+    "link": "/topics/shadow-banking",
+    "topicId": "shadow-banking"
+  },
+  {
+    "type": "term",
+    "title": "Procyclicality",
+    "content": "Risk-based capital requirements amplify cycles: in booms, risk weights fall and banks expand; in busts, weights rise and banks contract. Makes the financial system more volatile rather than more stable.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "term",
+    "title": "Riegle-Neal Act (1994)",
+    "content": "US law phasing out interstate branching barriers. Triggered wave of bank consolidation: ~30,000 banks in 1980 to ~3,815 by 2025. Key turning point in US banking structure.",
+    "link": "/topics/geographic-restrictions-on-banking",
+    "topicId": "geographic-restrictions-on-banking"
+  },
+  {
+    "type": "term",
+    "title": "Unit Banking",
+    "content": "System where banks are restricted to a single office with no branches. Many US states mandated this historically, creating thousands of small, undiversified banks with local monopolies.",
+    "link": "/topics/geographic-restrictions-on-banking",
+    "topicId": "geographic-restrictions-on-banking"
+  },
+  {
+    "type": "concept",
+    "title": "Diamond-Rajan Three Causes of Fragility",
+    "content": "Framework identifying three causes of the 2008 crisis: (1) high reliance on short-term external finance, (2) high interconnectedness through shadow banking, (3) distorted incentives for excessive risk-taking (including the Greenspan Put).",
+    "link": "/topics/sources-of-financial-fragility",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "concept",
+    "title": "Kroszner-Melick Three-Dimensional Taxonomy",
+    "content": "Framework for classifying non-traditional central bank tools along three dimensions: (1) broadening counterparties (TAF, PDCF, swap lines), (2) broadening collateral (TSLF, TALF), (3) lengthening maturity (TAF terms, MBS purchases).",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "concept",
+    "title": "Bernanke Three Categories at Zero Lower Bound",
+    "content": "Fed actions when rates hit zero: (1) lending to financial institutions, (2) providing liquidity to key credit markets, (3) purchasing longer-term securities. Distinct from BoJ pure quantity approach.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "concept",
+    "title": "IMF Structural Reform Comparison",
+    "content": "Volcker best for bank-level risk reduction; Vickers best for retail bank resolvability; Liikanen most balanced. All have significant implementation costs. No single approach dominates.",
+    "link": "/topics/structural-reform-volcker-vickers-liikanen",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "concept",
+    "title": "Capital as Deductible",
+    "content": "Bank capital functions like an insurance deductible: the amount bank owners must lose before deposit insurance or taxpayer money absorbs losses. Higher capital = more skin in the game = less moral hazard.",
+    "link": "/topics/capital-regulation",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "concept",
+    "title": "Reserve Requirements as Tax",
+    "content": "Reserve requirements impose a cost on banks because reserves earn less than market rates. Pre-2008: zero interest meant full tax. Post-2008: IOR reduced tax to spread between IOR rate and market rate.",
+    "link": "/topics/bank-liquidity-management",
+    "topicId": "bank-liquidity-management"
+  },
+  {
+    "type": "concept",
+    "title": "Inverted-U Finance-Growth Relationship",
+    "content": "Arcand et al.: financial development promotes growth up to ~80-100% of private credit/GDP, then turns negative. Too much finance. Iceland example. Nuances the King-Levine positive finding.",
+    "link": "/topics/financial-development-and-growth",
+    "topicId": "financial-development-and-growth"
+  },
+  {
+    "type": "concept",
+    "title": "Revised vs. New Loan Announcement Effects",
+    "content": "Lummer-McConnell key finding: new bank loans -0.01% (insignificant), revised favorable loans +1.24%, unfavorable bank-initiated revisions -7.22%. Banks advantage comes from ongoing relationships, not initial screening.",
+    "link": "/topics/banks-as-special-intermediaries",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "concept",
+    "title": "Wholesale vs. Retail Bank Runs",
+    "content": "Traditional: retail depositors queue at branches. Modern: wholesale funding freeze (invisible but lethal) + technology-accelerated runs. Northern Rock had both types. SVB was the fastest run ever ($42B in one day).",
+    "link": "/topics/bank-runs-modern-vs-traditional",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "concept",
+    "title": "Northern Rock Two-Run Analysis (Shin)",
+    "content": "Northern Rock experienced two runs: (1) wholesale funding freeze Aug 2007 (the real crisis — securitization markets dried up), (2) retail deposit run Sept 2007 (the visible aftermath). UK partial deposit insurance worsened the retail run.",
+    "link": "/topics/bank-runs-modern-vs-traditional",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "concept",
+    "title": "SVB Collapse Mechanics",
+    "content": "Long-term bonds bought during low rates, HTM accounting masked unrealized losses, rate rises destroyed market value, forced AFS sales realized $1.8B loss, $42B withdrawals in one day via mobile banking, 90%+ uninsured deposits, fastest bank run in history.",
+    "link": "/topics/bank-runs-modern-vs-traditional",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "concept",
+    "title": "Supply Chain = Financial Chain Parallel",
+    "content": "Supplier's supplier's supplier = counterparty's counterparty's counterparty. JIT = low liquidity buffers. Toyota = well-managed bank. Chip shortage = wholesale funding run. Chokepoints = common factor risk.",
+    "link": "/topics/supply-chain-fragilities",
+    "topicId": "supply-chain-fragilities"
+  },
+  {
+    "type": "concept",
+    "title": "Three National CBDC Approaches",
+    "content": "China: pro-CBDC (e-CNY pilot), anti-crypto (banned). US: pro-crypto (Strategic Bitcoin Reserve), anti-CBDC (Trump EO bans it). Hong Kong: both CBDC and crypto. Reflects different views on government role in money.",
+    "link": "/topics/digital-currencies-and-cbdcs",
+    "topicId": "digital-currencies-and-cbdcs"
+  },
+  {
+    "type": "concept",
+    "title": "Kroszner-Rajan Historical Evidence on Conflicts",
+    "content": "Commercial bank-underwritten bonds defaulted 12% vs investment bank bonds at 28% through 1940. Market mechanisms (separate affiliates, reputation) addressed conflicts without Glass-Steagall. The professor's own research.",
+    "link": "/topics/glass-steagall-conflicts-of-interest",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "concept",
+    "title": "Credible Commitment (Draghi Whatever It Takes)",
+    "content": "Draghi 2012 declaration stabilized European sovereign debt markets without the ECB actually buying any bonds. The OMT was announced but never used. Demonstrates that credible central bank commitment can resolve crises alone.",
+    "link": "/topics/central-bank-crisis-responses",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "concept",
+    "title": "Eastland Effect in Financial Regulation",
+    "content": "Regulation making one part of the system safer can make the whole system more dangerous. Basel III makes banks safer but pushes risk to private credit. Volcker Rule makes banks safer but reduces market liquidity.",
+    "link": "/topics/unintended-consequences",
+    "topicId": "unintended-consequences"
+  },
+  {
+    "type": "reading",
+    "title": "Diamond & Rajan: The Credit Crisis (2009)",
+    "content": "Three causes of fragility: short-term funding dependence, interconnectedness, distorted incentives. Skeptical of blanket Fed lending. Banks need recapitalization not just liquidity.",
+    "link": "/readings/diamond-rajan-2009",
+    "topicId": "sources-of-financial-fragility"
+  },
+  {
+    "type": "reading",
+    "title": "Kroszner & Melick: Fed Response to Crisis (2009)",
+    "content": "Three-dimensional taxonomy of non-traditional tools: broaden counterparties, broaden collateral, lengthen maturity. Shift from bank-centric (60%) to market-based (30%) intermediation.",
+    "link": "/readings/kroszner-melick-2009",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "reading",
+    "title": "Bernanke: Credit Easing Speech (2009)",
+    "content": "Credit easing vs quantitative easing: Fed focuses on composition (what you buy matters), BoJ focused on quantity. Three categories at zero lower bound: lending, market liquidity, long-term purchases.",
+    "link": "/readings/bernanke-2009-credit-easing",
+    "topicId": "central-bank-crisis-responses"
+  },
+  {
+    "type": "reading",
+    "title": "Shin: Reflections on Northern Rock (2009)",
+    "content": "Two runs on Northern Rock: wholesale funding freeze (Aug 2007, the real crisis) and retail deposit run (Sept 2007, visible aftermath). Retail funding fell from 60% to 23%. UK partial deposit insurance worsened retail run.",
+    "link": "/readings/shin-2009-northern-rock",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "reading",
+    "title": "King & Levine: Finance and Growth (1993)",
+    "content": "80 countries, 1960-1989. Financial depth measures (LLY, BANK, PRIVATE, PRIVY) positively correlate with GDP growth. Initial depth predicts subsequent growth. Supports Schumpeter hypothesis.",
+    "link": "/readings/king-levine-1993",
+    "topicId": "financial-development-and-growth"
+  },
+  {
+    "type": "reading",
+    "title": "Arcand, Berkes & Panizza: Too Much Finance? (2015)",
+    "content": "Inverted-U relationship between financial depth and growth. Positive up to ~80-100% PRIVY, then potentially negative. Iceland example. Resource misallocation at high financial depth.",
+    "link": "/readings/arcand-berkes-panizza-2015",
+    "topicId": "financial-development-and-growth"
+  },
+  {
+    "type": "reading",
+    "title": "James & Weir: Bank Loan Announcements (1990)",
+    "content": "Bank loan announcements: +1.93% stock return. Private placements: -0.91%. Banks provide valuable certification and monitoring service that capital markets do not replicate.",
+    "link": "/readings/james-weir-1990",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "reading",
+    "title": "Lummer & McConnell: New vs. Revised Loans (1989)",
+    "content": "New bank loans: -0.01% (insignificant). Revised favorable: +1.24%. Unfavorable bank-initiated: -7.22%. Banks advantage is ongoing relationships and private information, not initial screening.",
+    "link": "/readings/lummer-mcconnell-1989",
+    "topicId": "banks-as-special-intermediaries"
+  },
+  {
+    "type": "reading",
+    "title": "Kroszner & Rajan: Is Glass-Steagall Justified? (1994)",
+    "content": "Pre-Glass-Steagall data: commercial bank bonds defaulted 12% vs investment bank 28%. Market mechanisms addressed conflicts. Glass-Steagall rationale was weaker than believed. Professor own research.",
+    "link": "/readings/kroszner-rajan-1994",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "reading",
+    "title": "Sorkin: Reinstating Glass-Steagall Not a Cure (2012)",
+    "content": "Glass-Steagall repeal did NOT cause 2008. Bear, Lehman, Merrill were investment banks. AIG was insurance. WaMu, Wachovia failed from traditional mortgage lending.",
+    "link": "/readings/sorkin-2012",
+    "topicId": "glass-steagall-conflicts-of-interest"
+  },
+  {
+    "type": "reading",
+    "title": "IMF Structural Reform Comparison",
+    "content": "Volcker best for bank-level risk reduction. Vickers best for resolvability. Liikanen most balanced. All have significant implementation costs. No single approach dominates.",
+    "link": "/readings/imf-structural-reform-comparison",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "reading",
+    "title": "Tarullo: Departing Thoughts on Volcker Rule (2017)",
+    "content": "Volcker Rule too complicated. Five agencies involved. Intent-based approach (prop trading vs market making) does not work. Suggests simplification not repeal.",
+    "link": "/readings/tarullo-2017-volcker",
+    "topicId": "structural-reform-volcker-vickers-liikanen"
+  },
+  {
+    "type": "reading",
+    "title": "Radford: Economic Organisation of a P.O.W. Camp (1945)",
+    "content": "Cigarettes spontaneously emerged as money in WWII POW camp. All three functions demonstrated. Gresham Law observed. Paper currency (BMk) failed from deflation and loss of convertibility.",
+    "link": "/readings/radford-1945",
+    "topicId": "origin-and-functions-of-money"
+  },
+  {
+    "type": "reading",
+    "title": "Kroszner: Basel III Endgame Analysis (2023)",
+    "content": "Basel III Endgame raises capital 16-25% for large banks. Needs cost-benefit analysis. May push activity to private credit (regulatory arbitrage). Eastland parallel.",
+    "link": "/readings/kroszner-2023-basel-endgame",
+    "topicId": "capital-regulation"
+  },
+  {
+    "type": "reading",
+    "title": "FDIC Report on SVB (2023)",
+    "content": "Fastest bank run in history: $42B in one day. 90%+ uninsured deposits. HTM accounting masked losses. Mobile banking and social media accelerated the run. Inadequate risk management.",
+    "link": "/readings/svb-fdic-report-2023",
+    "topicId": "bank-runs-modern-vs-traditional"
+  },
+  {
+    "type": "reading",
+    "title": "Fed Report on SVB Supervision (2023)",
+    "content": "Fed self-assessment: supervisors identified risks but failed to act. SVB EVE was -27.7% under 200bp rate rise (Basel threshold 15%). US did not require disclosure for mid-size banks.",
+    "link": "/readings/svb-fed-report-2023",
+    "topicId": "capital-regulation"
+  }
+]

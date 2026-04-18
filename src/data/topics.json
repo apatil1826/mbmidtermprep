@@ -1,0 +1,742 @@
+[
+  {
+    "id": "sources-of-financial-fragility",
+    "name": "Sources of Financial Fragility",
+    "shortDescription": "Structural factors that make the financial system prone to crisis.",
+    "importance": "critical",
+    "week": [1, 2],
+    "prerequisites": [],
+    "relatedTopics": ["bank-runs-modern-vs-traditional", "maturity-mismatch", "central-bank-crisis-responses", "shadow-banking"],
+    "summary": "Financial fragility refers to the structural conditions that make the financial system inherently prone to crisis. These include maturity mismatch (borrowing short-term to lend long-term), heavy reliance on short-term wholesale funding, deep interconnectedness through shadow banking networks, over-reliance on credit ratings that prove unreliable in stress, and incentive failures at every level of the financial chain from mortgage originators to rating agencies to regulators.\n\nDiamond and Rajan identify three core causes of fragility: (1) high reliance on short-term external finance, which means funding can evaporate overnight; (2) high interconnectedness through shadow banking, which means one institution's failure cascades through the system; and (3) distorted incentives for excessive risk-taking, amplified by the 'Greenspan Put' — the belief that the Fed would always bail out markets. Kroszner and Melick document the transformation from a bank-centric system (banks held 60% of financial assets in 1950) to a market-based system (banks held only 30% by 2006), creating long intermediation chains where assessing counterparty risk required knowing your counterparty's counterparty's counterparty.\n\nThis topic matters because understanding the sources of fragility is essential for evaluating every regulatory and policy response studied in the course. Whether we are discussing capital requirements, deposit insurance, structural reform, or central bank crisis tools, the question always comes back to: does this policy address or exacerbate the underlying sources of fragility? The 2008 crisis, SVB's 2023 collapse, and current concerns about private credit all trace back to these same structural vulnerabilities.",
+    "definitions": [
+      { "term": "Maturity mismatch", "definition": "The condition where an institution's assets have longer maturities (duration) than its liabilities, meaning it borrows short-term but lends long-term." },
+      { "term": "Shadow banking", "definition": "Non-bank financial intermediaries that perform bank-like functions (maturity transformation, credit intermediation, leverage) without being subject to traditional bank regulation." },
+      { "term": "Originate-to-distribute model", "definition": "A lending model where banks originate loans but immediately sell/securitize them rather than holding them on their balance sheets, reducing monitoring incentives." },
+      { "term": "Tail risk", "definition": "The risk of rare but extreme adverse events that occur in the tails of a probability distribution, often underestimated by standard risk models." },
+      { "term": "Greenspan Put", "definition": "The market expectation that the Federal Reserve under Alan Greenspan (and successors) would cut interest rates or intervene to prevent market declines, encouraging excessive risk-taking." },
+      { "term": "Fire sales", "definition": "Forced selling of assets at depressed prices, often triggered when multiple institutions must sell simultaneously, pushing prices below fundamental value." },
+      { "term": "Adverse selection", "definition": "A market failure where one party in a transaction has more information than the other, leading to a 'market for lemons' where only low-quality participants transact." },
+      { "term": "Moral hazard", "definition": "The tendency to take on more risk when you are protected from the consequences — e.g., banks taking excessive risks because they expect government bailouts." },
+      { "term": "Securitization", "definition": "The process of pooling financial assets (like mortgages) and issuing new securities backed by those pools, which are then sold to investors." },
+      { "term": "CDOs (Collateralized Debt Obligations)", "definition": "Structured financial products that pool cash-flow-generating assets and repackage them into tranches with different risk/return profiles." },
+      { "term": "Credit default swaps (CDS)", "definition": "Derivative contracts that function like insurance on bonds or loans — the buyer pays premiums, the seller pays out if the reference entity defaults." },
+      { "term": "Counterparty risk", "definition": "The risk that the other party in a financial transaction will fail to meet its obligations, potentially triggering cascading failures through interconnected networks." }
+    ],
+    "agreements": [
+      "All authors agree that maturity mismatch combined with reliance on short-term funding is a fundamental source of financial fragility.",
+      "All authors agree that incentive failures at multiple levels of the financial system contributed to the buildup of risk before 2008.",
+      "There is consensus that the shift from bank-centric to market-based intermediation created longer, more opaque chains of credit intermediation that amplified fragility.",
+      "Diamond & Rajan, Bernanke, and Kroszner all acknowledge that interconnectedness through shadow banking was a key amplification mechanism."
+    ],
+    "disagreements": [
+      "Diamond and Rajan are more skeptical of blanket Fed lending to financial institutions, arguing it can reward reckless behavior and delay necessary restructuring.",
+      "Bernanke is more willing to use all available tools aggressively, arguing the cost of inaction in a financial crisis far exceeds the moral hazard cost of intervention.",
+      "There is debate about whether fragility is an inherent feature of financial intermediation (the Diamond-Dybvig view) or a policy-created problem (the moral hazard view)."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Expects you to name the three Diamond-Rajan causes of fragility, cite specific readings by author, and draw comparisons to contemporary cases like SVB and private credit.",
+      "strongAnswerStructure": "Start with the Diamond-Rajan framework (three causes), support with Kroszner-Melick data on structural shift (60% to 30%), use SVB or private credit as modern illustration, and conclude with policy implications."
+    },
+    "practiceQuestionIds": [5, 13]
+  },
+  {
+    "id": "bank-runs-modern-vs-traditional",
+    "name": "Bank Runs: Modern vs. Traditional",
+    "shortDescription": "How bank runs have evolved from retail deposit lines to wholesale funding freezes and social-media-accelerated panics.",
+    "importance": "critical",
+    "week": [1, 2],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "maturity-mismatch", "deposit-insurance-moral-hazard", "shadow-banking"],
+    "summary": "Traditional bank runs, as depicted in 'It's a Wonderful Life' and experienced during the 1930s, involved retail depositors physically lining up at bank branches to withdraw their savings. These runs were driven by panic and incomplete information — depositors could not distinguish between solvent and insolvent banks, so they ran on all banks. The creation of FDIC deposit insurance in 1933 largely eliminated this type of run in the United States by guaranteeing deposits up to a set limit (currently $250,000).\n\nModern bank runs look fundamentally different. Northern Rock (2007) experienced TWO distinct runs: first, a wholesale funding freeze in August 2007 when securitization markets dried up and the bank could not roll over its short-term wholesale borrowing (the real crisis that brought it down); second, a retail deposit run in September 2007 that made headlines with images of queues outside branches. The retail run was partly caused by the UK's partial deposit insurance scheme, which only covered a fraction of deposits up to a low limit. SVB (2023) was even more dramatic — $42 billion in attempted withdrawals in a single day (March 9, 2023), the fastest bank run in history, enabled by mobile banking apps and coordinated through VC social media networks. Over 90% of SVB's deposits were uninsured, making depositors rationally motivated to run.\n\nThe key analytical distinction is between wholesale funding runs (which are invisible to the public but lethal to institutions dependent on short-term market funding) and retail deposit runs (which are visible and dramatic but less common in systems with robust deposit insurance). Shin's analysis of Northern Rock demonstrates that the wholesale run was the real killer — the bank's retail funding had already fallen from 60% to 23% of liabilities as it shifted to securitization-based funding. Understanding this distinction is essential for evaluating deposit insurance design, central bank lender-of-last-resort policy, and the regulatory treatment of wholesale funding.",
+    "definitions": [
+      { "term": "Wholesale funding run", "definition": "A sudden refusal by institutional lenders (money market funds, other banks, repo counterparties) to roll over short-term funding, effectively cutting off an institution's access to liquidity." },
+      { "term": "Retail deposit run", "definition": "Individual depositors withdrawing their funds from a bank, either by lining up at branches (traditional) or through electronic transfers (modern)." },
+      { "term": "Deposit insurance (FDIC)", "definition": "Government guarantee of bank deposits up to $250,000 per depositor per institution, designed to eliminate the incentive for retail depositors to run." },
+      { "term": "Systemic risk exception", "definition": "A provision allowing the FDIC to guarantee deposits beyond the normal limit when a bank's failure would pose systemic risk, invoked for SVB and Signature Bank in 2023." },
+      { "term": "ABCP (Asset-Backed Commercial Paper)", "definition": "Short-term debt securities (typically 30-270 days) backed by pools of financial assets, a key form of wholesale funding that froze during the 2007-2008 crisis." },
+      { "term": "Repo (Repurchase Agreement)", "definition": "A short-term borrowing arrangement where one party sells securities and agrees to repurchase them at a slightly higher price, functioning as collateralized short-term lending." },
+      { "term": "Commercial paper", "definition": "Short-term unsecured promissory notes issued by corporations and financial institutions to fund day-to-day operations, typically maturing in 1-270 days." },
+      { "term": "Funding run", "definition": "A broader term encompassing any sudden withdrawal of funding from a financial institution, whether from retail depositors, wholesale lenders, or both." }
+    ],
+    "agreements": [
+      "All authors agree that modern bank runs primarily occur through wholesale funding channels rather than retail deposit lines.",
+      "There is consensus that deposit insurance design matters enormously — the UK's partial insurance scheme contributed to Northern Rock's retail run, while US full coverage (up to $250K) generally prevents retail runs.",
+      "Authors agree that SVB demonstrated how technology (mobile banking, social media) has dramatically accelerated the speed at which runs can occur."
+    ],
+    "disagreements": [
+      "Whether bank runs should be completely eliminated is debated — Practice Q8 solution argues FALSE to 'a sound banking system cannot be permitted to experience bank runs,' because without some run possibility there is no market discipline.",
+      "Diamond & Rajan question whether blanket protection against runs creates unacceptable moral hazard, while Bernanke argues the systemic costs of allowing runs to proceed far outweigh moral hazard concerns."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Will likely ask you to compare traditional and modern bank runs using specific cases (Northern Rock, SVB). May frame as True/False with justification: 'A sound banking system cannot permit bank runs.'",
+      "strongAnswerStructure": "Distinguish wholesale vs. retail runs clearly. Use Northern Rock to show both types (cite Shin). Use SVB to show speed and technology effects. Address the deposit insurance design difference (UK partial vs. US full). Conclude with the tension between preventing runs and maintaining market discipline."
+    },
+    "practiceQuestionIds": [8, 13]
+  },
+  {
+    "id": "maturity-mismatch",
+    "name": "Maturity Mismatch",
+    "shortDescription": "Banks borrow short and lend long — the fundamental source of both profits and risk in banking.",
+    "importance": "critical",
+    "week": [1, 2],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "bank-runs-modern-vs-traditional", "bank-liquidity-management", "capital-regulation"],
+    "summary": "Maturity mismatch is the defining feature of banking: banks borrow short-term (through deposits, wholesale funding, and other short-term liabilities) and lend long-term (through mortgages, business loans, and bond portfolios). The duration of a bank's assets systematically exceeds the duration of its liabilities. This is not a bug — it is the core economic function of banking. Banks provide 'liquidity insurance' by transforming illiquid long-term assets into liquid short-term claims that depositors and other creditors can access on demand.\n\nThe profit in banking comes precisely from this transformation: long-term interest rates are typically higher than short-term rates (the yield curve normally slopes upward), so banks earn a 'net interest margin' — the spread between what they earn on long-term assets and what they pay on short-term liabilities. However, this same mismatch creates the fundamental vulnerability: if short-term funding dries up or if interest rates rise sharply, the bank faces a crisis. Rising rates reduce the market value of existing long-term assets while simultaneously increasing the cost of short-term funding.\n\nSVB is the textbook example of maturity mismatch risk. The bank invested heavily in long-term government bonds and mortgage-backed securities during the low-rate environment. When the Fed raised rates aggressively in 2022-2023, the market value of these bonds plummeted. SVB classified many holdings as 'held-to-maturity' (HTM), which under accounting rules allowed them to avoid marking losses on their balance sheet — masking the true erosion of economic value. When deposit outflows forced SVB to sell securities from its 'available-for-sale' (AFS) portfolio, it realized $1.8 billion in losses, triggering the panic that led to the fastest bank run in history.",
+    "definitions": [
+      { "term": "Duration", "definition": "A measure of the sensitivity of a bond's (or portfolio's) price to changes in interest rates, expressed in years. Higher duration means greater price sensitivity to rate changes." },
+      { "term": "Maturity transformation", "definition": "The core banking function of converting short-term liabilities (deposits) into long-term assets (loans), providing liquidity to depositors while funding long-term investment." },
+      { "term": "Liquidity insurance", "definition": "The service banks provide by allowing depositors to withdraw funds on demand while the underlying assets are illiquid and long-term — effectively insuring depositors against liquidity needs." },
+      { "term": "Checkable deposits", "definition": "Bank deposits that can be withdrawn on demand by writing checks or making electronic transfers, the most liquid form of bank liability." },
+      { "term": "Held-to-maturity (HTM)", "definition": "An accounting classification for securities that the bank intends to hold until they mature, allowing the bank to carry them at amortized cost rather than marking them to market value." },
+      { "term": "Available-for-sale (AFS)", "definition": "An accounting classification for securities that may be sold before maturity, requiring the bank to mark them to market value with unrealized gains/losses reported in other comprehensive income." },
+      { "term": "Interest rate risk", "definition": "The risk that changes in interest rates will adversely affect the value of a bank's assets, liabilities, or net interest margin." },
+      { "term": "Duration risk", "definition": "The specific risk arising from the mismatch between the duration of assets and liabilities — when asset duration exceeds liability duration, rising rates reduce the economic value of equity." }
+    ],
+    "agreements": [
+      "All authors agree that maturity mismatch is both the fundamental source of banking profits and the fundamental source of banking risk.",
+      "There is consensus that SVB is a clear modern example of maturity mismatch risk materializing in devastating fashion.",
+      "Authors agree that accounting rules (HTM vs. AFS classification) can mask the true economic impact of interest rate changes on bank balance sheets."
+    ],
+    "disagreements": [
+      "There is debate about how much maturity mismatch regulators should permit — stricter limits reduce risk but also reduce banks' ability to perform their core economic function.",
+      "Whether HTM accounting should be reformed is contested: it allows banks to avoid pro-cyclical mark-to-market volatility, but it can also hide genuine deterioration in economic value (as SVB showed)."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Will ask you to define maturity mismatch, explain why it exists (profits AND liquidity insurance), and use SVB as an example of how it can go wrong. May also ask how accounting rules (HTM) interact with the risk.",
+      "strongAnswerStructure": "Define maturity mismatch precisely. Explain the dual nature (profit source AND risk source). Describe SVB: long-term bond purchases, rate rises, HTM masking losses, forced AFS sales, realized losses triggering run. Connect to liquidity management and capital regulation."
+    },
+    "practiceQuestionIds": [10, 11]
+  },
+  {
+    "id": "bank-liquidity-management",
+    "name": "Bank Liquidity Management",
+    "shortDescription": "How banks manage reserves, secondary reserves, and borrowing sources to meet deposit outflows and funding needs.",
+    "importance": "critical",
+    "week": [2, 3],
+    "prerequisites": ["maturity-mismatch"],
+    "relatedTopics": ["maturity-mismatch", "sources-of-financial-fragility", "central-bank-crisis-responses", "capital-regulation"],
+    "summary": "Bank liquidity management is the day-to-day process of ensuring a bank has enough liquid assets and funding sources to meet its obligations — primarily deposit withdrawals and loan commitments. Banks hold multiple layers of liquidity: required reserves (mandated by the central bank), excess reserves (additional reserves beyond the requirement), and secondary reserves (liquid securities like Treasury bills that can be quickly sold or used as collateral). The management challenge is that holding too much liquidity is costly (liquid assets earn lower returns), while holding too little risks insolvency in a crisis.\n\nReserve requirements have historically functioned as a 'tax' on banks because required reserves were held in non-interest-bearing accounts at the Fed, meaning banks foregone the return they could have earned by investing those funds. After 2008, the Fed began paying Interest on Reserves (IOR), which changed the economics: the effective 'tax' of holding reserves now depends on the spread between the IOR rate and prevailing market rates. When deposit outflow uncertainty increases, banks rationally increase both excess reserves and secondary reserves as precautionary buffers.\n\nWhen a bank faces a sudden deposit outflow, it has several responses available in order of preference: (1) draw down excess reserves, (2) sell liquid securities from its secondary reserve portfolio, (3) borrow from other banks in the federal funds market, (4) borrow from the Federal Reserve's discount window (though this carries stigma), (5) issue asset-backed commercial paper (ABCP) or commercial paper, (6) enter into repo agreements using securities as collateral, or (7) as a last resort, call in or refuse to renew loans. Active, well-functioning securities markets reduce the need for excess reserves because more of a bank's assets can serve as effective secondary reserves — they can be quickly liquidated at close to fair value without significant fire-sale discounts.",
+    "definitions": [
+      { "term": "Required reserves", "definition": "The minimum amount of reserves (cash in vault or deposits at the Fed) that banks must hold, set as a fraction of certain deposit liabilities by the central bank." },
+      { "term": "Excess reserves", "definition": "Reserves held by banks above and beyond the required minimum, serving as a precautionary buffer against unexpected deposit outflows." },
+      { "term": "Secondary reserves", "definition": "Highly liquid securities (especially short-term government bonds) that banks hold as a second line of defense after cash reserves, easily convertible to cash." },
+      { "term": "Federal funds market", "definition": "The interbank market where banks lend reserves to each other overnight, with the interest rate (fed funds rate) serving as a key benchmark for monetary policy." },
+      { "term": "Discount window", "definition": "The Fed's lending facility where banks can borrow reserves directly from the central bank, typically at a rate above the fed funds target (the 'penalty rate')." },
+      { "term": "Repo (Repurchase agreement)", "definition": "A form of short-term collateralized borrowing where a bank sells securities with an agreement to repurchase them at a slightly higher price." },
+      { "term": "ABCP (Asset-Backed Commercial Paper)", "definition": "Short-term debt backed by financial assets, used by banks and their off-balance-sheet vehicles as a source of wholesale funding." },
+      { "term": "Interest on Reserves (IOR)", "definition": "Interest paid by the Federal Reserve on reserves held by banks at the Fed, introduced in 2008, which reduces the effective 'tax' of reserve requirements." },
+      { "term": "Reserve requirements as a 'tax'", "definition": "The implicit cost imposed on banks by requiring them to hold non-interest-bearing (or below-market-rate) reserves, reducing their potential earnings." }
+    ],
+    "agreements": [
+      "All sources agree that liquidity management involves a fundamental tradeoff between safety (holding more liquid assets) and profitability (investing in higher-yielding but less liquid assets).",
+      "There is consensus that active securities markets reduce the need for excess reserves by making more assets effectively liquid.",
+      "Authors agree that the introduction of IOR fundamentally changed the economics of reserve holding."
+    ],
+    "disagreements": [
+      "Whether reserve requirements should be eliminated entirely (as some argue since IOR makes them less distortionary) or maintained as a prudential tool is debated.",
+      "The appropriate level of required liquidity buffers is contested — higher requirements are safer but more costly for banks and potentially for credit availability."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Will ask about the reserve requirement 'tax' mechanism, how banks respond to deposit outflows (list all responses), and how the introduction of IOR changed the picture. May also link to SVB's liquidity failure.",
+      "strongAnswerStructure": "Define reserves (required + excess) and secondary reserves. Explain the tax mechanism (old: zero interest, new: IOR reduces tax to spread). List all responses to deposit outflows in order. Explain why active securities markets reduce need for excess reserves. Connect to real cases."
+    },
+    "practiceQuestionIds": [2, 4, 7, 11]
+  },
+  {
+    "id": "capital-regulation",
+    "name": "Capital Regulation",
+    "shortDescription": "Bank capital as insurance/deductible, risk-weighted ratios vs. leverage ratios, and the Basel framework's strengths and failures.",
+    "importance": "critical",
+    "week": [3, 4],
+    "prerequisites": ["bank-liquidity-management", "sources-of-financial-fragility"],
+    "relatedTopics": ["deposit-insurance-moral-hazard", "too-big-to-fail", "unintended-consequences", "structural-reform-volcker-vickers-liikanen"],
+    "summary": "Bank capital regulation is the cornerstone of prudential banking oversight. Bank capital — primarily common equity — serves two functions: it provides insurance to depositors and creditors (a loss-absorbing buffer), and it acts as a 'deductible' that limits moral hazard by ensuring bank owners have 'skin in the game' and stand to lose their own money before any government insurance kicks in. The more capital a bank holds relative to its assets, the larger the loss it can absorb before becoming insolvent.\n\nThe Basel framework (I, II, III) introduced risk-weighted capital ratios, where different asset classes receive different risk weights (e.g., government bonds at 0%, corporate loans at various weights based on ratings). The logic is sound: banks holding riskier assets should hold more capital. However, risk-weighting has serious problems in practice. Banks can manipulate risk weights through regulatory arbitrage, political considerations influence weight assignments, the weights are backward-looking (based on historical data that may not reflect future risks), and they can miss entire categories of risk. SVB's held-to-maturity government bonds had ZERO risk weight despite carrying massive interest rate risk — the risk weight captured credit risk but completely ignored duration risk.\n\nThe simple leverage ratio (capital / total assets, regardless of risk) was introduced as a backstop to risk-weighted ratios. It avoids the manipulation problem but creates its own perverse incentive: if all assets require the same amount of capital, banks are incentivized to hold riskier assets (higher return for the same capital charge). It is also 'not simple' because measuring total assets requires decisions about off-balance-sheet items. A critical missing metric exposed by SVB was the Economic Value of Equity (EVE) — SVB's EVE was -27.7% under a 200 basis point rate rise scenario, far exceeding Basel's 15% threshold for concern. However, the US did not require banks of SVB's size to disclose this metric. The ongoing Basel III Endgame debate (Kroszner) would raise capital requirements 16-25% for large banks, but may push activity to less-regulated private credit markets, requiring careful cost-benefit analysis.",
+    "definitions": [
+      { "term": "Bank capital", "definition": "The difference between a bank's assets and its liabilities — primarily common equity. It represents the owners' stake in the bank and serves as a loss-absorbing buffer." },
+      { "term": "Tier 1 capital", "definition": "The highest-quality form of bank capital, consisting primarily of common equity and retained earnings, which can absorb losses while the bank continues operating." },
+      { "term": "Risk-weighted assets (RWA)", "definition": "Total assets adjusted by risk weights assigned to each asset class (e.g., 0% for government bonds, 20-150% for various loans), used as the denominator in risk-based capital ratios." },
+      { "term": "Leverage ratio", "definition": "A simple capital ratio calculated as Tier 1 capital divided by total assets (without risk weighting), serving as a backstop to risk-weighted ratios." },
+      { "term": "Basel I/II/III", "definition": "Successive international banking regulations setting minimum capital standards: Basel I (1988, simple risk weights), Basel II (2004, internal models), Basel III (post-2008, higher minimums + liquidity rules)." },
+      { "term": "Capital adequacy", "definition": "Whether a bank holds sufficient capital to absorb potential losses and continue operating, measured against regulatory minimums." },
+      { "term": "Deductible (analogy)", "definition": "Bank capital functions like an insurance deductible — the amount the bank's owners must lose before government deposit insurance or other safety nets absorb losses, incentivizing prudent risk management." },
+      { "term": "Procyclicality", "definition": "The tendency of risk-based capital requirements to amplify business cycles: in booms, risk weights fall and banks expand; in busts, risk weights rise and banks contract, deepening the downturn." },
+      { "term": "Economic Value of Equity (EVE)", "definition": "The net present value of all bank assets minus liabilities under different interest rate scenarios — a measure of how the bank's true economic worth changes with rates." },
+      { "term": "IRRBB (Interest Rate Risk in the Banking Book)", "definition": "The risk that changes in interest rates adversely affect the economic value of a bank's banking book positions (loans, bonds, deposits)." },
+      { "term": "Basel III Endgame", "definition": "The final set of Basel III reforms being implemented in the US, which would raise capital requirements 16-25% for large banks through changes to risk-weight calculations and reduced reliance on internal models." }
+    ],
+    "agreements": [
+      "All authors agree that bank capital serves as a crucial loss-absorbing buffer and moral hazard mitigant (the 'deductible' function).",
+      "There is consensus that purely risk-weighted ratios are insufficient and should be complemented by a leverage ratio.",
+      "Authors agree SVB exposed significant gaps in how capital regulation handles interest rate risk."
+    ],
+    "disagreements": [
+      "Whether the benefits of higher capital requirements (greater stability) outweigh the costs (reduced lending, migration to shadow banking) is actively debated in the Basel III Endgame context.",
+      "Kroszner argues Basel III Endgame needs more rigorous cost-benefit analysis and warns of regulatory arbitrage to private credit; proponents argue current capital levels are still too low.",
+      "Whether risk-weighting should be simplified or made more granular remains contested — simpler is more robust but less accurate."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Will ask you to explain the logic of risk-based capital, identify its flaws, and use SVB as a case study. May ask about the Basel III Endgame debate. Expects balanced analysis (both sides).",
+      "strongAnswerStructure": "Start with the economic logic (insurance + deductible). Explain risk-weighted capital ratios and their benefits. Identify the flaws (manipulation, political, backward-looking). Use SVB as an example (zero risk weight on bonds with massive duration risk, EVE of -27.7%). Discuss leverage ratio as complement (pros and cons). Address Basel III Endgame (Kroszner's cost-benefit concern)."
+    },
+    "practiceQuestionIds": [6]
+  },
+  {
+    "id": "banks-as-special-intermediaries",
+    "name": "Banks as Special Intermediaries",
+    "shortDescription": "Why bank lending is unique: the empirical evidence that banks provide special certification and monitoring services.",
+    "importance": "critical",
+    "week": [3],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "glass-steagall-conflicts-of-interest", "structural-reform-volcker-vickers-liikanen"],
+    "summary": "A central question in financial economics is whether banks are 'special' — do they provide services that other financial intermediaries cannot replicate? The empirical evidence strongly suggests yes. James and Weir (1990) found that bank loan announcements produce a positive stock price reaction of +1.93%, while private placements produce a negative reaction of -0.91%. This means the market interprets a bank loan as GOOD news about a firm's quality, while a private placement (bypassing the bank) is interpreted as potentially negative information.\n\nLummer and McConnell (1989) refined this finding with a crucial distinction: the positive stock price reaction comes ENTIRELY from revised (renewed) loans, not from new loans. New bank loan announcements produced an insignificant -0.01% reaction, while favorable revised loans produced +1.24% and unfavorable bank-initiated revisions produced a dramatic -7.22% decline. This implies that banks do NOT have a comparative advantage in initial credit evaluation (other lenders can do this too), but they DO have special access to private information through ongoing lending relationships. It is the relationship — the ongoing monitoring, the access to inside information, the repeated interaction — that makes banks special.\n\nThis finding has profound implications for bank regulation and financial architecture. If banks are special because of their relationships and monitoring capabilities, then policies that disrupt these relationships (forced breakups, excessive regulation that drives lending to non-banks) may destroy real economic value. The adverse selection / 'lemons' problem provides the theoretical foundation: corporate managers know more about their firms than outside investors. Issuing public debt signals potential overvaluation (why else go to the uninformed market?). A bank loan avoids this problem because the bank, as an inside lender with access to private information, can credibly certify the firm's quality.",
+    "definitions": [
+      { "term": "Information asymmetry", "definition": "A situation where one party to a transaction has more or better information than the other, creating potential for adverse selection and moral hazard." },
+      { "term": "Adverse selection (lemons problem)", "definition": "In lending markets, borrowers who are most eager to borrow at a given rate may be the riskiest (like 'lemons' in a used car market), causing lenders to ration credit or charge higher rates." },
+      { "term": "Monitoring", "definition": "The ongoing oversight banks exercise over borrowers through covenant enforcement, financial reporting requirements, and access to the firm's accounts and operations." },
+      { "term": "Certification", "definition": "The implicit signal that a bank loan sends to the market — the bank's willingness to lend certifies the borrower's creditworthiness because the bank has conducted due diligence." },
+      { "term": "Inside debt vs. outside debt", "definition": "Inside debt is held by lenders with access to private information (like banks); outside debt is held by arm's-length investors who rely only on public information." },
+      { "term": "Relationship lending", "definition": "A lending model based on long-term, ongoing relationships between banks and borrowers, where the bank accumulates proprietary information over time." }
+    ],
+    "agreements": [
+      "Both James & Weir and Lummer & McConnell agree that bank lending conveys positive information to the market, confirming banks' special role.",
+      "All authors agree that the bank's access to private information through ongoing relationships is the key source of its comparative advantage.",
+      "There is consensus that the adverse selection / lemons problem provides the theoretical foundation for why bank lending is valuable."
+    ],
+    "disagreements": [
+      "Whether banks' special role has diminished over time as capital markets have become more sophisticated and information more widely available is debated.",
+      "The extent to which non-bank lenders (private credit, fintech) can replicate banks' monitoring and certification functions is an open question."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q9. Will ask you to explain what makes banks special, citing specific empirical evidence. Must distinguish James & Weir from Lummer & McConnell findings.",
+      "strongAnswerStructure": "State the question: are banks special? Cite James & Weir (+1.93% for bank loans). Then cite Lummer & McConnell: the distinction between new loans (-0.01%) and revised loans (+1.24%). Explain the implication: banks gain information through ongoing relationships, not initial evaluation. Connect to adverse selection theory. Discuss implications for regulation."
+    },
+    "practiceQuestionIds": [9]
+  },
+  {
+    "id": "structural-reform-volcker-vickers-liikanen",
+    "name": "Structural Reform: Volcker, Vickers, and Liikanen",
+    "shortDescription": "Three approaches to separating banking activities: US proprietary trading ban, UK ring-fencing, and EU subsidiary model.",
+    "importance": "critical",
+    "week": [3],
+    "prerequisites": ["banks-as-special-intermediaries", "glass-steagall-conflicts-of-interest"],
+    "relatedTopics": ["glass-steagall-conflicts-of-interest", "too-big-to-fail", "unintended-consequences", "capital-regulation"],
+    "summary": "After the 2008 financial crisis, policymakers in the US, UK, and EU each developed distinct approaches to structural reform of the banking sector, all aimed at reducing the risks posed by large, complex financial institutions but taking different paths to get there. Understanding the comparison is essential for the exam.\n\nThe Volcker Rule (US, part of Dodd-Frank 2010) bans proprietary trading by commercial bank holding companies and limits their investment in hedge funds and private equity. It applies across the entire banking group — there is no structural separation, just a ban on certain activities. The major implementation challenge is distinguishing proprietary trading from legitimate market-making (both involve the bank taking positions in securities). Tarullo (2017) criticized the rule as overly complicated, noting that five different agencies were involved in enforcement and the intent-based approach (was the trade for clients or for profit?) is inherently unworkable. The Vickers Commission / Ring-fencing (UK, implemented 2019) takes a different approach: it requires structural separation of retail banking from investment banking WITHIN the banking holding company. The retail 'ring-fenced body' receives higher capital requirements and cannot engage in trading activities. Crucially, both entities remain within the same group — the parent company still owns both. Liikanen (EU, proposed but not fully implemented) combines elements of both: it requires trading activities to be housed in a separately capitalized subsidiary, but allows both entities within the same group.\n\nThe IMF comparison provides the exam-ready framework: the Volcker Rule is best for reducing risk at the individual bank level; Vickers ring-fencing is best for improving the resolvability of the retail bank (if the investment bank fails, the retail bank can continue operating); Liikanen offers the most balanced approach. All three have significant implementation costs. Importantly, UK ring-fencing is now under pressure — KPMG (2025) reports that bank CEOs want it removed, arguing it increases costs and reduces competitiveness, though the Bank of England (2025) is expected to resist major changes. For the exam, you need to know the comparison table, be specific about the costs and benefits of each approach, and be prepared to make a clear policy recommendation supported by evidence.",
+    "definitions": [
+      { "term": "Volcker Rule", "definition": "A US regulation (part of Dodd-Frank) that prohibits commercial bank holding companies from engaging in proprietary trading and limits their investment in hedge funds and private equity." },
+      { "term": "Vickers Ring-fencing", "definition": "UK structural reform requiring large banks to separate retail banking operations into a ring-fenced body with higher capital requirements, separate from investment banking activities." },
+      { "term": "Liikanen Proposal", "definition": "EU structural reform proposal requiring banks to house their trading activities in a separately capitalized subsidiary within the banking group." },
+      { "term": "Proprietary trading", "definition": "A bank trading financial instruments with its own money for profit, rather than on behalf of clients." },
+      { "term": "Market making", "definition": "A bank standing ready to buy and sell securities to facilitate client trading and provide market liquidity — involves taking positions similar to proprietary trading but with a different purpose." },
+      { "term": "Ring-fenced body", "definition": "Under UK Vickers reforms, the legally separate entity within a banking group that houses core retail banking services and is subject to stricter capital and operational requirements." }
+    ],
+    "agreements": [
+      "All three approaches agree on the fundamental goal: reducing the risk that taxpayers bear losses from failing banks by limiting the combination of risky and essential banking activities.",
+      "All authors acknowledge significant implementation costs for each approach.",
+      "The IMF analysis recognizes that each approach has distinct strengths suited to different policy priorities."
+    ],
+    "disagreements": [
+      "Whether the Volcker Rule's activity-based approach (banning specific trades) or Vickers' entity-based approach (structurally separating businesses) is more effective is debated.",
+      "Tarullo (2017) argues the Volcker Rule should be simplified because the intent-based distinction between proprietary trading and market making is unworkable in practice.",
+      "UK bank CEOs argue ring-fencing should be removed for cost and competitiveness reasons, while the Bank of England defends it as essential for financial stability."
+    ],
+    "examTips": {
+      "howProfessorAsks": "HW3 was entirely about this topic. Expects a clear comparison table (what each does, what it's best at, its costs). Will likely ask you to recommend one approach and justify it with evidence.",
+      "strongAnswerStructure": "Describe each approach clearly (Volcker = activity ban, Vickers = structural separation, Liikanen = subsidiary). Use the IMF framework (Volcker for risk reduction, Vickers for resolvability, Liikanen for balance). Discuss implementation challenges (Tarullo on Volcker complexity). Address current debates (UK ring-fencing under pressure). Make a recommendation with evidence."
+    },
+    "practiceQuestionIds": [12]
+  },
+  {
+    "id": "glass-steagall-conflicts-of-interest",
+    "name": "Glass-Steagall and Conflicts of Interest",
+    "shortDescription": "The historical separation of commercial and investment banking, the evidence on conflicts of interest, and whether repeal caused the crisis.",
+    "importance": "high",
+    "week": [3],
+    "prerequisites": [],
+    "relatedTopics": ["structural-reform-volcker-vickers-liikanen", "banks-as-special-intermediaries", "accounting-firm-conflicts"],
+    "summary": "The Glass-Steagall Act (1933) separated commercial banking from investment banking in response to perceived conflicts of interest during the 1920s — the concern was that banks underwriting securities would dump bad securities on unsuspecting depositors. It was gradually eroded and finally repealed by the Gramm-Leach-Bliley Act (1999), allowing the creation of universal banks that combined commercial banking, investment banking, and insurance.\n\nKroszner and Rajan provide crucial historical evidence that challenges the original rationale for Glass-Steagall. Examining data from the pre-Glass-Steagall era, they found that bonds underwritten by commercial bank affiliates actually defaulted LESS than bonds underwritten by investment banks — 12% default rate versus 28% through 1940. This suggests the market itself had already developed mechanisms to address conflicts of interest: banks used separate affiliate structures (firewalls) and had reputational incentives to maintain quality. The market disciplined conflicts of interest without needing a regulatory prohibition.\n\nThe claim that Glass-Steagall's repeal caused the 2008 financial crisis is examined and largely debunked by multiple sources. As Sorkin points out, the institutions at the center of the crisis were NOT universal banks violating the spirit of Glass-Steagall: Bear Stearns, Lehman Brothers, and Merrill Lynch were pure investment banks; AIG was an insurance company; Wachovia and Washington Mutual failed from traditional mortgage lending. The PwC/EY analogy is instructive: accounting firms face the same conflict-of-interest logic (audit + consulting creates conflicts, just as commercial banking + investment banking does), and PwC voluntarily curtailed consulting for audit clients — a market adaptation without regulatory mandate, paralleling Kroszner's findings about 1920s banks self-regulating through separate affiliates.",
+    "definitions": [
+      { "term": "Glass-Steagall Act (1933)", "definition": "US legislation that separated commercial banking (deposit-taking and lending) from investment banking (securities underwriting and dealing), in force until 1999." },
+      { "term": "Gramm-Leach-Bliley Act (1999)", "definition": "US legislation that repealed the Glass-Steagall separation, allowing financial holding companies to combine commercial banking, investment banking, and insurance." },
+      { "term": "Conflicts of interest", "definition": "Situations where an institution has competing incentives — e.g., a bank that both lends to a company and underwrites its securities might push bad securities onto investors to protect its lending relationship." },
+      { "term": "Universal banking", "definition": "A banking model where a single institution provides commercial banking, investment banking, insurance, and other financial services — common in Europe, prohibited in the US from 1933-1999." },
+      { "term": "Chinese walls / firewalls", "definition": "Information barriers within financial institutions designed to prevent conflicts of interest by separating departments that might have conflicting incentives." },
+      { "term": "Separate affiliate structure", "definition": "Organizing potentially conflicting activities in legally separate entities within a holding company, with restrictions on information sharing and cross-subsidization." }
+    ],
+    "agreements": [
+      "Kroszner's evidence and Sorkin's analysis both undermine the claim that Glass-Steagall's repeal was a primary cause of the 2008 crisis.",
+      "Authors agree that conflicts of interest in banking are real and must be managed, even if the optimal response is not necessarily a legislative prohibition.",
+      "The parallel to accounting firm conflicts (PwC/EY) reinforces the finding that market mechanisms can address conflicts of interest."
+    ],
+    "disagreements": [
+      "Some policymakers (Senator Warren, some Republicans) still argue for restoring Glass-Steagall-like separation, while Kroszner's research suggests the original rationale was weak.",
+      "Whether market self-regulation of conflicts is sufficient or whether some form of structural separation is necessary remains debated.",
+      "The degree to which universal banking creates systemic risk (beyond just conflict-of-interest concerns) is contested."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q12. May ask whether Glass-Steagall repeal caused the 2008 crisis. The professor's own research (Kroszner) shows the original rationale was weak. Expects you to cite the evidence.",
+      "strongAnswerStructure": "State what Glass-Steagall did and when it was repealed. Present Kroszner-Rajan evidence (12% vs. 28% default rates). Explain how market mechanisms addressed conflicts (separate affiliates, reputation). Address the 2008 claim using Sorkin's evidence (Bear, Lehman, AIG were not universal banks). Draw the PwC/EY parallel. Acknowledge both sides."
+    },
+    "practiceQuestionIds": [12]
+  },
+  {
+    "id": "financial-development-and-growth",
+    "name": "Financial Development and Economic Growth",
+    "shortDescription": "The empirical relationship between financial depth and economic growth — positive up to a point, then potentially negative.",
+    "importance": "high",
+    "week": [2],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "banks-as-special-intermediaries"],
+    "summary": "The relationship between financial development and economic growth has been studied since Schumpeter (1911), who argued that financial intermediaries are essential for channeling resources to innovative entrepreneurs. King and Levine (1993) provided the most influential empirical evidence: using cross-country data from 80 countries over 1960-1989, they showed that various measures of financial depth (LLY = liquid liabilities/GDP, BANK = commercial bank assets relative to central bank assets, PRIVATE = credit to private sector by banks, PRIVY = private credit/GDP) are all positively and significantly correlated with GDP growth per capita, capital stock growth, and productivity growth. Crucially, they showed that INITIAL financial depth predicts SUBSEQUENT growth — the relationship is not just correlation but suggests a causal link from finance to growth.\n\nHowever, Arcand, Berkes, and Panizza ('Too Much Finance,' 2015) showed that the relationship is non-monotonic — it follows an inverted-U shape. Financial development promotes growth up to a point (approximately 80-100% of PRIVY), but beyond that threshold, additional financial deepening may actually harm growth. The mechanism involves resource misallocation, excessive risk-taking, and the financial sector drawing talent and resources away from more productive sectors. Iceland is the canonical example: it had one of the most developed financial sectors in the world before 2008, and was hit hardest by the crisis.\n\nFor the exam, the key question (Practice Q1) asks whether the statement 'Financial development promotes economic growth' is TRUE or FALSE. The nuanced answer is FALSE (but with a strong case for 'uncertain'). You must cite BOTH King-Levine (positive relationship) AND Arcand et al. (inverted-U, potential negative relationship at high levels). The complete answer acknowledges that finance promotes growth up to a point but can become excessive — and that the countries with the greatest financial development were often hit hardest in the 2008 crisis.",
+    "definitions": [
+      { "term": "Financial depth", "definition": "The size of the financial sector relative to the economy, measured by various ratios of financial assets, liabilities, or credit to GDP." },
+      { "term": "PRIVY (Private Credit / GDP)", "definition": "The ratio of credit extended to the private sector by financial intermediaries to GDP, a key measure of financial development." },
+      { "term": "LLY (Liquid Liabilities / GDP)", "definition": "The ratio of liquid liabilities of the financial system (currency + demand deposits + time deposits) to GDP, measuring overall financial depth." },
+      { "term": "BANK", "definition": "The ratio of commercial bank assets to commercial bank plus central bank assets, measuring the relative importance of the private banking sector." },
+      { "term": "PRIVATE", "definition": "Credit issued to the private sector by commercial banks divided by total domestic credit, measuring how much lending goes to the private sector." },
+      { "term": "Inverted-U relationship", "definition": "The finding by Arcand et al. that the relationship between financial development and growth is positive up to a threshold (~80-100% PRIVY) and then turns negative." }
+    ],
+    "agreements": [
+      "All authors agree that at moderate levels, financial development promotes economic growth by channeling savings to productive investment and facilitating risk sharing.",
+      "King-Levine and Arcand et al. both agree that financial depth measures are correlated with growth — the disagreement is about whether the relationship is monotonic."
+    ],
+    "disagreements": [
+      "King-Levine's results suggest a monotonically positive relationship, while Arcand et al. show an inverted-U with a potential negative effect at high financial depth.",
+      "Whether the negative effects of 'too much finance' are inherent to financial deepening or result from regulatory failures is debated."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q1 asks TRUE/FALSE: 'Financial development promotes economic growth.' The answer is FALSE (but strong case for uncertain). Must cite BOTH sides.",
+      "strongAnswerStructure": "Start with King-Levine: positive relationship, initial depth predicts subsequent growth, multiple measures, 80 countries. Then introduce Arcand et al.: inverted-U, threshold around 80-100% PRIVY, 'too much finance.' Use Iceland as an example. Conclude: relationship is non-monotonic, so the blanket statement is false."
+    },
+    "practiceQuestionIds": [1]
+  },
+  {
+    "id": "central-bank-crisis-responses",
+    "name": "Central Bank Crisis Responses",
+    "shortDescription": "Traditional and non-traditional tools central banks deployed during 2008, COVID, and the SVB episode.",
+    "importance": "high",
+    "week": [1],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "bank-runs-modern-vs-traditional", "bank-liquidity-management", "ecb-boj-pboc-policy"],
+    "summary": "Central banks have three traditional monetary policy tools: the discount rate, open market operations, and reserve requirements. These work well in normal times but proved insufficient during the 2008 financial crisis, when the federal funds rate hit the zero lower bound and traditional channels of monetary transmission were impaired. This forced central banks to develop an array of non-traditional or 'unconventional' tools.\n\nKroszner and Melick provide a useful three-dimensional taxonomy for classifying non-traditional tools: (1) broadening the set of counterparties who can borrow from the central bank (TAF for banks with stigma concerns, PDCF for primary dealers, swap lines for foreign central banks), (2) broadening the collateral the central bank will accept (TSLF accepted mortgage-backed securities, TALF accepted asset-backed securities), and (3) lengthening the maturity of central bank lending (TAF offered 28-day and 84-day terms, MBS purchases effectively committed for years). Bernanke organized the Fed's response into three categories at the zero lower bound: (1) lending to financial institutions, (2) providing liquidity directly to key credit markets, and (3) purchasing longer-term securities (QE). He distinguished the Fed's 'credit easing' (focused on the composition of assets purchased — what you buy matters) from the Bank of Japan's 'quantitative easing' (focused simply on expanding the quantity of reserves).\n\nSubsequent crises saw even larger responses. During COVID-19, the Fed deployed programs that went well beyond 2008: corporate credit facilities (primary and secondary market), municipal lending facility, Main Street Lending Program, and PPP Liquidity Facility. For SVB (2023), the response included expanding deposit insurance via systemic risk exception, creating the Bank Term Funding Program (BTFP, which lent against bank securities at PAR value rather than market value), and easing discount window conditions. Draghi's 'whatever it takes' (2012) demonstrated that sometimes credible commitment alone is sufficient — the OMT program was announced but never actually used, yet it stabilized European sovereign debt markets.",
+    "definitions": [
+      { "term": "TAF (Term Auction Facility)", "definition": "Fed program allowing banks to bid anonymously for term funding, designed to avoid the stigma associated with discount window borrowing." },
+      { "term": "TSLF (Term Securities Lending Facility)", "definition": "Fed program that lent Treasury securities to primary dealers in exchange for less liquid collateral (including MBS), broadening acceptable collateral." },
+      { "term": "PDCF (Primary Dealer Credit Facility)", "definition": "Fed lending facility extended to primary dealers (investment banks), broadening the set of counterparties beyond traditional commercial banks." },
+      { "term": "TALF (Term Asset-Backed Securities Loan Facility)", "definition": "Fed program providing loans to investors to purchase asset-backed securities, aimed at unfreezing securitization markets." },
+      { "term": "Quantitative Easing (QE)", "definition": "Large-scale central bank purchases of longer-term securities (government bonds, MBS) to lower long-term interest rates and stimulate the economy when short-term rates are at zero." },
+      { "term": "Credit easing", "definition": "Bernanke's term for the Fed's approach — focusing on the types of assets purchased (targeting specific markets) rather than simply expanding the quantity of reserves." },
+      { "term": "Swap lines", "definition": "Arrangements between central banks allowing them to exchange currencies, used during crises to provide dollar liquidity to foreign banks through their own central banks." },
+      { "term": "BTFP (Bank Term Funding Program)", "definition": "Created after SVB's collapse (2023), allowing banks to borrow from the Fed using securities as collateral valued at PAR (not market value), preventing forced sales of depreciated bonds." },
+      { "term": "Discount window stigma", "definition": "Banks' reluctance to borrow from the Fed's discount window because doing so may signal financial weakness to the market, making the facility ineffective in crises." },
+      { "term": "13(3) emergency powers", "definition": "Section 13(3) of the Federal Reserve Act, which allows the Fed to lend to non-bank entities in 'unusual and exigent circumstances' — the legal basis for many crisis programs." },
+      { "term": "LIBOR-OIS spread", "definition": "The difference between LIBOR (interbank lending rate) and the Overnight Index Swap rate, a key measure of stress in interbank funding markets." },
+      { "term": "Forward guidance", "definition": "Central bank communication about the expected future path of policy rates, used as a monetary policy tool especially at the zero lower bound." }
+    ],
+    "agreements": [
+      "All authors agree that traditional tools were insufficient during the 2008 crisis and non-traditional measures were necessary.",
+      "Kroszner, Bernanke, and others agree that the three-dimensional expansion (counterparties, collateral, maturity) framework captures the key innovations.",
+      "There is consensus that discount window stigma is a real problem that reduces the effectiveness of the lender-of-last-resort function."
+    ],
+    "disagreements": [
+      "Diamond and Rajan question whether aggressive blanket lending by the Fed creates moral hazard and delays necessary restructuring.",
+      "Bernanke defends aggressive intervention, arguing the systemic cost of inaction far exceeds moral hazard concerns.",
+      "Whether COVID-era programs (especially corporate credit facilities and Main Street lending) went too far beyond the central bank's traditional mandate is debated."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q14. Will ask you to name specific non-traditional programs and explain WHY the central bank created each one. May ask about COVID-era programs or SVB-specific responses.",
+      "strongAnswerStructure": "Start with the Kroszner-Melick three-dimensional taxonomy. Name at least two specific programs from 2008 (TAF, TSLF, PDCF, TALF). Explain what market failure each addressed. Distinguish credit easing (Fed) from quantitative easing (BoJ). Include at least one COVID-era program. Include SVB response (BTFP). Mention Draghi's 'whatever it takes' as credible commitment example."
+    },
+    "practiceQuestionIds": [14]
+  },
+  {
+    "id": "supply-chain-fragilities",
+    "name": "Supply Chain Fragilities",
+    "shortDescription": "Parallels between financial system fragility and global supply chain vulnerabilities — JIT, concentration risk, and chokepoints.",
+    "importance": "high",
+    "week": [2],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "bank-runs-modern-vs-traditional"],
+    "summary": "Global supply chains share remarkable structural parallels with the financial system, and the COVID-19 pandemic exposed these vulnerabilities dramatically. Just as the financial system is built on long, opaque chains of intermediation (your counterparty's counterparty's counterparty), supply chains involve deep tiers of suppliers (your supplier's supplier's supplier) where disruptions at any point can cascade through the entire network.\n\nThe most striking parallel is between Just-In-Time (JIT) inventory management and low liquidity buffers in banking. JIT systems minimize inventory costs by receiving goods only as needed for production — highly efficient in normal times, but catastrophically fragile when disruptions occur, just as banks minimizing excess reserves is efficient in normal times but leaves no buffer for stress. COVID-19 demonstrated this: shipping delays multiplied, container shipping costs rose 10x, and inventory-to-sales ratios plummeted as firms scrambled to secure inputs. The semiconductor shortage was particularly illustrative — auto makers had paused chip orders during early COVID lockdowns (poor risk management, analogous to banks ignoring tail risks), and their 'best efforts' contracts with chipmakers provided no supply guarantees. Toyota was the notable exception: it had conducted layer-by-layer supply chain analysis after the 2011 Fukushima disaster and stockpiled critical chips, analogous to a well-managed bank maintaining high liquidity buffers.\n\nGeopolitical chokepoints represent 'common factor risk' — single points of failure that can disrupt the entire system. The Strait of Hormuz (38% of seaborne crude oil), the Suez Canal (recently disrupted by Houthi attacks), and the Panama Canal (affected by drought) are physical bottlenecks analogous to the concentrated clearing and settlement infrastructure in financial markets. The policy lesson is the same: systems optimized for efficiency are fragile, and resilience requires deliberate redundancy and buffers — whether in supply chains (JIC = Just-In-Case inventory) or banking (higher liquidity and capital requirements).",
+    "definitions": [
+      { "term": "JIT (Just-In-Time)", "definition": "An inventory management strategy that minimizes stock by receiving goods only as needed for production, reducing carrying costs but increasing vulnerability to supply disruptions." },
+      { "term": "JIC (Just-In-Case)", "definition": "An inventory strategy that maintains buffer stocks of critical inputs as insurance against supply disruptions — the supply chain equivalent of excess reserves in banking." },
+      { "term": "Common factor risk", "definition": "The risk that a single event or bottleneck can simultaneously disrupt many seemingly independent supply chains or financial institutions." },
+      { "term": "Chokepoints", "definition": "Physical or logistical bottlenecks (Strait of Hormuz, Suez Canal, Panama Canal) through which large volumes of global trade must pass, creating concentrated vulnerability." },
+      { "term": "Best efforts contracts", "definition": "Supply agreements that commit the supplier to try to deliver but provide no firm guarantee of quantity or timing — auto makers' weak contracts with chipmakers contributed to the semiconductor shortage." },
+      { "term": "Concentration risk", "definition": "The risk arising from excessive dependence on a single supplier, geography, or transportation route, analogous to counterparty concentration risk in finance." },
+      { "term": "Second/third-tier suppliers", "definition": "Suppliers deeper in the supply chain who provide inputs to your direct suppliers — disruptions at these invisible levels can cascade upward." }
+    ],
+    "agreements": [
+      "All sources agree that the financial system and global supply chains share structural parallels: both feature long intermediation chains, efficiency-fragility tradeoffs, and common factor risks.",
+      "There is consensus that COVID-19 exposed supply chain vulnerabilities just as 2008 exposed financial system vulnerabilities.",
+      "Toyota's risk management approach (mapping deep supply chain tiers, stockpiling critical components) is universally cited as best practice."
+    ],
+    "disagreements": [
+      "Whether the response should be full 'reshoring' of supply chains or targeted 'friend-shoring' / diversification is debated.",
+      "The optimal balance between JIT efficiency and JIC resilience is contested — too much buffer inventory is costly, too little is fragile."
+    ],
+    "examTips": {
+      "howProfessorAsks": "HW2 Q3. Will ask you to draw explicit parallels between supply chain fragility and financial system fragility. Use specific examples.",
+      "strongAnswerStructure": "Draw the parallel: supplier's supplier = counterparty's counterparty. JIT = low liquidity buffers. Toyota = well-managed bank. Semiconductor shortage = bank run (chip orders paused like wholesale funding withdrawal). Use specific chokepoints (Hormuz, Suez) as common factor risk examples. Northern Rock's funding supply chain as bridge between the two."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "origin-and-functions-of-money",
+    "name": "Origin and Functions of Money",
+    "shortDescription": "The three functions of money (store of value, medium of exchange, unit of account) and their historical and modern manifestations.",
+    "importance": "high",
+    "week": [4],
+    "prerequisites": [],
+    "relatedTopics": ["digital-currencies-and-cbdcs"],
+    "summary": "Money serves three fundamental functions: store of value (it preserves purchasing power over time), medium of exchange (it facilitates transactions by eliminating the 'double coincidence of wants' required by barter), and unit of account (it provides a common measure for pricing goods and services). These functions form a hierarchy — historically, something typically becomes a medium of exchange first, then a store of value, and only after widespread adoption does it become a unit of account.\n\nRadford's classic 1945 study of a World War II prisoner-of-war camp provides a remarkable natural experiment. Cigarettes spontaneously emerged as money in the camp economy, fulfilling all three functions: prisoners quoted prices in cigarettes, used them to facilitate exchange, and stored them as savings. The case also illustrates Gresham's Law ('bad money drives out good'): when cigarettes served as money, prisoners smoked the worst-quality cigarettes and used the best ones for trade. Paper currency (Bully Mark notes, or BMk) was attempted but failed due to deflation (as the camp population shrank) and loss of convertibility (the backing restaurant closed). The modern echo: after smoking was banned in US federal prisons, mackerel packets became the new currency — and SBF reportedly used them during his imprisonment.\n\nThese concepts are directly applicable to evaluating modern monetary innovations, particularly Bitcoin and CBDCs. Bitcoin can be assessed against all three functions: it is a poor store of value (extreme volatility), a limited medium of exchange (slow, expensive, limited acceptance), and virtually unused as a unit of account. Understanding WHY something becomes money — network effects, stability, trust, and institutional backing — is essential for evaluating whether new forms of digital money will succeed or fail.",
+    "definitions": [
+      { "term": "Store of value", "definition": "The function of money that allows wealth to be saved and retrieved later with predictable purchasing power." },
+      { "term": "Medium of exchange", "definition": "The function of money that facilitates transactions by serving as a commonly accepted intermediary, eliminating the need for barter's 'double coincidence of wants.'" },
+      { "term": "Unit of account", "definition": "The function of money that provides a common measure for pricing all goods and services, enabling comparison and accounting." },
+      { "term": "Commodity money", "definition": "Money that has intrinsic value as a commodity (gold, cigarettes, mackerel packets) — its value as money is tied to its value as a good." },
+      { "term": "Fiat money", "definition": "Money that has no intrinsic value and is not backed by a commodity — its value derives from government decree and social convention." },
+      { "term": "Gresham's Law", "definition": "'Bad money drives out good' — when two forms of money circulate with the same face value, people hoard the more valuable one and spend the less valuable one." },
+      { "term": "Barter", "definition": "Direct exchange of goods and services without money, limited by the 'double coincidence of wants' — both parties must want what the other has." }
+    ],
+    "agreements": [
+      "All sources agree on the three functions of money and their importance as an analytical framework.",
+      "The Radford POW camp case is universally cited as demonstrating spontaneous emergence of money and Gresham's Law.",
+      "Authors agree that evaluating new monetary forms (Bitcoin, CBDCs) against the three functions provides a rigorous framework."
+    ],
+    "disagreements": [
+      "Whether Bitcoin can evolve into 'real' money despite currently failing most function tests is debated.",
+      "Whether government backing is necessary for money or whether purely private/decentralized money can succeed remains contested."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q15, HW4 Q1. Will ask you to evaluate Bitcoin (or another candidate) against the three functions of money. Know the Radford case.",
+      "strongAnswerStructure": "Define the three functions. Use Radford POW camp to illustrate (cigarettes as money, Gresham's Law, BMk failure). Apply to Bitcoin: fails store of value (volatility), limited medium of exchange, not a unit of account. Connect to CBDCs as a potential alternative. Mention the mackerel/SBF modern parallel."
+    },
+    "practiceQuestionIds": [15]
+  },
+  {
+    "id": "digital-currencies-and-cbdcs",
+    "name": "Digital Currencies and CBDCs",
+    "shortDescription": "Bitcoin, blockchain, and central bank digital currencies — evaluation against money functions, national strategies, and policy implications.",
+    "importance": "high",
+    "week": [4],
+    "prerequisites": ["origin-and-functions-of-money"],
+    "relatedTopics": ["origin-and-functions-of-money", "central-bank-crisis-responses"],
+    "summary": "Bitcoin, created in 2009, is a decentralized digital currency with a fixed supply cap of 21 million coins, operating on a proof-of-work consensus mechanism. Evaluated against the three functions of money, Bitcoin largely fails: it is an extremely poor store of value due to its volatility (often fluctuating 20-30% in weeks), a limited medium of exchange (slow transaction processing, high fees during congestion, limited merchant acceptance), and it is virtually never used as a unit of account (no one prices goods in Bitcoin). Its fixed supply would lead to deflation in a Bitcoin-standard economy, discouraging spending and investment. However, Bitcoin's underlying technology — blockchain (a distributed ledger using consensus mechanisms without central authority) — has potential applications beyond currency, including smart contracts and supply chain tracking.\n\nCentral Bank Digital Currencies (CBDCs) represent governments' response to the digital currency challenge. Arguments for CBDCs include financial inclusion (reaching the unbanked), providing a risk-free digital payment alternative, creating a new monetary policy tool, and competing with Big Tech payment platforms (Alipay, WeChat Pay, Apple Pay). Arguments against include the risk of bank disintermediation (if people hold CBDCs directly at the central bank, they may withdraw deposits from commercial banks), privacy concerns, central bank balance sheet expansion, and the question of whether CBDCs are needed if existing systems work (e.g., the Fed's FedNow real-time payment system).\n\nThree national approaches illustrate the policy spectrum (HW4). China is the most aggressive CBDC promoter with its e-CNY (digital yuan), the world's most advanced CBDC pilot, though adoption has been sluggish because Alipay and WeChat Pay already serve the digital payment function well. China simultaneously banned cryptocurrency. The US under the Trump Executive Order has taken the opposite approach: promoting cryptocurrency (Strategic Bitcoin Reserve) while explicitly banning CBDC development. Hong Kong is pursuing both — developing a CBDC while creating a regulatory framework for crypto. China's e-CNY may find its greatest impact in cross-border payments (Project mBridge) rather than domestic use, potentially challenging dollar dominance in international transactions.",
+    "definitions": [
+      { "term": "Bitcoin", "definition": "A decentralized digital currency created in 2009 with a fixed supply of 21 million coins, operating on proof-of-work blockchain technology without a central authority." },
+      { "term": "Blockchain", "definition": "A distributed ledger technology where transactions are recorded in blocks linked cryptographically, maintained by a network of computers using consensus mechanisms." },
+      { "term": "Distributed ledger", "definition": "A database that is shared, replicated, and synchronized across multiple nodes or locations, with no single central administrator." },
+      { "term": "Proof of work", "definition": "A consensus mechanism where participants (miners) compete to solve computational puzzles to validate transactions and create new blocks, consuming significant energy." },
+      { "term": "CBDC (Central Bank Digital Currency)", "definition": "A digital form of a country's fiat currency issued directly by the central bank, combining the safety of central bank money with the convenience of digital payments." },
+      { "term": "e-CNY (Digital Yuan)", "definition": "China's CBDC, the most advanced in the world in terms of pilot testing, designed to complement (not replace) existing digital payment systems." },
+      { "term": "Stablecoin", "definition": "A cryptocurrency designed to maintain a stable value by pegging to a reserve asset (usually the US dollar), attempting to solve Bitcoin's volatility problem." },
+      { "term": "Strategic Bitcoin Reserve", "definition": "A Trump administration policy to have the US government hold Bitcoin as a reserve asset, signaling a pro-crypto, anti-CBDC US approach." },
+      { "term": "Convertibility risk", "definition": "The risk that a digital currency (stablecoin, CBDC) cannot be exchanged for its underlying asset at the promised rate, analogous to a bank run." },
+      { "term": "Byzantine Generals Problem", "definition": "A computer science problem of achieving consensus among distributed nodes when some may be unreliable — blockchain's consensus mechanisms aim to solve this." }
+    ],
+    "agreements": [
+      "Most authors agree that Bitcoin currently fails as money by traditional criteria (store of value, medium of exchange, unit of account).",
+      "There is broad agreement that blockchain technology has potential applications beyond cryptocurrency.",
+      "Authors agree that CBDC design involves significant tradeoffs between financial inclusion, privacy, and banking system stability."
+    ],
+    "disagreements": [
+      "Whether Bitcoin's failings as money are inherent or transitional is hotly debated — crypto advocates argue adoption will solve volatility.",
+      "Whether CBDCs are necessary given existing digital payment infrastructure (FedNow, Alipay) is contested.",
+      "The three national approaches (China pro-CBDC, US pro-crypto, Hong Kong both) reflect fundamentally different views on the role of government in money."
+    ],
+    "examTips": {
+      "howProfessorAsks": "HW4 Q1 and Q2, Practice Q15. Will ask you to evaluate Bitcoin against the three functions of money and to compare national CBDC strategies. May ask for a policy recommendation.",
+      "strongAnswerStructure": "Evaluate Bitcoin against each function (fails all three, explain why for each). Discuss blockchain's non-currency potential. Present CBDC pros and cons. Compare three national approaches (China: pro-CBDC/anti-crypto; US: pro-crypto/anti-CBDC; HK: both). Discuss China's e-CNY adoption challenge and cross-border potential. Make a recommendation with evidence."
+    },
+    "practiceQuestionIds": [15]
+  },
+  {
+    "id": "shadow-banking",
+    "name": "Shadow Banking",
+    "shortDescription": "Non-bank financial intermediaries that perform bank-like functions without bank regulation, and their role in financial crises.",
+    "importance": "high",
+    "week": [1, 2, 3],
+    "prerequisites": [],
+    "relatedTopics": ["sources-of-financial-fragility", "bank-runs-modern-vs-traditional", "maturity-mismatch", "private-credit-turmoil"],
+    "summary": "Shadow banking refers to the system of non-bank financial intermediaries that perform core banking functions — maturity transformation, credit intermediation, and leverage — without being subject to traditional bank regulation (capital requirements, deposit insurance, reserve requirements, or direct Fed supervision). The shadow banking system includes money market mutual funds (MMMFs), structured investment vehicles (SIVs), conduits, hedge funds, private equity firms, and the entire securitization infrastructure.\n\nThe growth of shadow banking fundamentally transformed the US financial system. Shadow banking's share of US financial liabilities grew from roughly 10% in 1952 to approximately 60% by 2007, while traditional banks' share shrank correspondingly. This migration was driven by regulatory arbitrage (shadow banks could offer higher returns because they faced lower capital and reserve requirements) and innovation (securitization allowed credit risks to be sliced, diced, and redistributed). The originate-to-distribute model replaced the traditional originate-and-hold model, creating long chains of intermediation.\n\nShadow banking played a central role in the 2008 crisis. Securitized assets, credit derivatives, and MMMFs were at the epicenter. The fundamental problem was opacity: to assess the soundness of any single institution, you needed to know your counterparty's counterparty's counterparty — the chain was too long and complex for anyone to evaluate. When confidence broke, the entire shadow banking system experienced the equivalent of a bank run: wholesale funding froze, ABCP markets shut down, and MMMFs 'broke the buck' (the Reserve Primary Fund). Post-crisis, shadow banking's share fell but remains above 50% of financial liabilities, and new forms (private credit) continue to emerge.",
+    "definitions": [
+      { "term": "SIVs (Structured Investment Vehicles)", "definition": "Off-balance-sheet entities that funded long-term structured credit products with short-term commercial paper, performing maturity transformation outside bank regulation." },
+      { "term": "Conduits", "definition": "Special purpose vehicles set up by banks to hold assets off-balance-sheet, funded by issuing ABCP, allowing banks to earn fees while avoiding capital requirements." },
+      { "term": "MMMFs (Money Market Mutual Funds)", "definition": "Funds that invest in short-term, high-quality debt securities and aim to maintain a stable $1 NAV, functioning as a close substitute for bank deposits but without deposit insurance." },
+      { "term": "Securitization", "definition": "The process of pooling loans or receivables and issuing tradable securities backed by those pools, transferring credit risk from originators to investors." },
+      { "term": "Originate-to-distribute", "definition": "A lending model where banks originate loans but immediately sell or securitize them rather than holding them, potentially reducing their incentive to monitor borrower quality." },
+      { "term": "Off-balance-sheet", "definition": "Assets and liabilities that do not appear on a bank's balance sheet, often structured through special purpose vehicles to reduce regulatory capital requirements." },
+      { "term": "ABCP (Asset-Backed Commercial Paper)", "definition": "Short-term securities issued by conduits and SIVs, backed by pools of financial assets, that served as a primary funding mechanism for shadow banking." },
+      { "term": "Breaking the buck", "definition": "When a money market fund's net asset value falls below $1 per share, indicating that investors will receive less than their investment — a form of 'run' on the fund." }
+    ],
+    "agreements": [
+      "All authors agree that the growth of shadow banking significantly increased systemic risk by creating unregulated entities performing bank-like functions.",
+      "There is consensus that the opacity and interconnectedness of shadow banking was a key amplifier of the 2008 crisis.",
+      "Authors agree that post-crisis regulation has not fully addressed shadow banking risks, with new forms (private credit) emerging outside the regulatory perimeter."
+    ],
+    "disagreements": [
+      "Whether shadow banking should be regulated like traditional banking (potentially reducing innovation and efficiency) or whether lighter-touch regulation is appropriate is debated.",
+      "The extent to which post-2008 reforms have actually reduced shadow banking risks versus simply pushing them into new forms is contested."
+    ],
+    "examTips": {
+      "howProfessorAsks": "May appear in questions about sources of fragility or the 2008 crisis. Expects you to know the growth statistics (10% to 60%) and the key entities (SIVs, conduits, MMMFs). May connect to private credit as the new shadow banking.",
+      "strongAnswerStructure": "Define shadow banking. Cite the growth statistics (Kroszner-Melick). Explain why it grew (regulatory arbitrage, innovation). Describe its role in 2008 (opacity, long chains, runs on wholesale funding). Connect to current private credit concerns."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "deposit-insurance-moral-hazard",
+    "name": "Deposit Insurance and Moral Hazard",
+    "shortDescription": "How deposit insurance prevents runs but creates moral hazard, and the tension between stability and market discipline.",
+    "importance": "high",
+    "week": [2, 3],
+    "prerequisites": ["bank-runs-modern-vs-traditional"],
+    "relatedTopics": ["bank-runs-modern-vs-traditional", "capital-regulation", "too-big-to-fail", "sources-of-financial-fragility"],
+    "summary": "Deposit insurance, established in the US through the FDIC in 1933 with a current coverage limit of $250,000 per depositor per institution, was designed to eliminate the incentive for retail depositors to run on banks. By guaranteeing deposits, the government removes the rational basis for panic — insured depositors have no reason to withdraw even if they fear the bank is in trouble. This has been remarkably successful: retail deposit runs in the US became extremely rare after 1933.\n\nHowever, deposit insurance creates a classic moral hazard problem. If depositors know their money is guaranteed regardless of how reckily the bank behaves, they have no incentive to monitor the bank's risk-taking or move their deposits to safer institutions. This eliminates 'market discipline' — the mechanism by which depositors would otherwise punish risky banks by withdrawing funds. Without market discipline, banks can take excessive risks knowing that depositors will not flee and that losses will ultimately be borne by the deposit insurance fund (and indirectly by taxpayers or other banks through insurance premiums).\n\nThe design of deposit insurance matters enormously. The UK's partial insurance scheme before Northern Rock (which covered only a fraction of deposits up to a low limit) was the worst of both worlds: it was insufficient to prevent retail runs but still created some moral hazard. SVB demonstrated the limits of even the US system: with 90%+ of deposits uninsured, the rational response was a run. The solution — invoking the systemic risk exception to guarantee ALL deposits — extended moral hazard further. Capital requirements function as a 'deductible' within this insurance framework: by requiring banks to hold substantial equity, regulators ensure that bank owners lose their own money before insurance kicks in, partially restoring incentives for prudent risk management. Practice Q8 frames this tension directly: 'A sound banking system cannot be permitted to experience bank runs' is FALSE — without some possibility of runs, there is no market discipline at all.",
+    "definitions": [
+      { "term": "FDIC (Federal Deposit Insurance Corporation)", "definition": "The US agency that insures bank deposits up to $250,000 per depositor per institution, funded by premiums paid by member banks." },
+      { "term": "Deposit insurance", "definition": "Government guarantee of bank deposits up to a specified limit, designed to prevent bank runs by assuring depositors their money is safe." },
+      { "term": "Moral hazard", "definition": "The tendency to take excessive risks when protected from the consequences — deposit insurance reduces depositors' incentive to monitor bank risk-taking." },
+      { "term": "Market discipline", "definition": "The mechanism by which depositors and creditors monitor and punish risky bank behavior by withdrawing funds or demanding higher interest rates." },
+      { "term": "Too big to fail", "definition": "The expectation that the government will rescue large, systemically important banks, extending moral hazard beyond insured depositors to all creditors." },
+      { "term": "Systemic risk exception", "definition": "A provision allowing FDIC to guarantee all deposits (beyond the $250K limit) when a bank's failure poses systemic risk, invoked for SVB and Signature Bank." }
+    ],
+    "agreements": [
+      "All authors agree that deposit insurance successfully prevents retail bank runs in systems where it is credible and comprehensive.",
+      "There is consensus that deposit insurance creates moral hazard by reducing depositors' incentive to monitor banks.",
+      "Authors agree that capital requirements serve as a crucial counterweight to deposit insurance moral hazard (the 'deductible' function)."
+    ],
+    "disagreements": [
+      "Whether bank runs should be completely eliminated (maximizing stability but destroying market discipline) or whether some run risk should remain (Practice Q8: FALSE) is debated.",
+      "The optimal coverage level is contested — higher coverage prevents more runs but creates more moral hazard.",
+      "Whether the SVB systemic risk exception set a dangerous precedent for guaranteeing all deposits at all banks is an open policy question."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q8 frames this directly. May also appear in discussions of capital regulation. The key insight is the tension between preventing runs and maintaining market discipline.",
+      "strongAnswerStructure": "Explain deposit insurance purpose (prevent runs). Explain the moral hazard it creates (no market discipline). Compare UK partial insurance (Northern Rock) to US system ($250K). Discuss SVB (90%+ uninsured, systemic risk exception). Explain capital as deductible. Address the runs vs. discipline tension."
+    },
+    "practiceQuestionIds": [8]
+  },
+  {
+    "id": "geographic-restrictions-on-banking",
+    "name": "Geographic Restrictions on Banking",
+    "shortDescription": "US historical restrictions on branching and interstate banking, their effects on bank structure, and their removal.",
+    "importance": "medium",
+    "week": [3],
+    "prerequisites": [],
+    "relatedTopics": ["capital-regulation", "too-big-to-fail"],
+    "summary": "The United States historically imposed severe geographic restrictions on banking that had no parallel in other major economies. Many states had 'unit banking' laws that prohibited banks from opening branches at all, while interstate banking was effectively prohibited by the McFadden Act (1927) and the Douglas Amendment to the Bank Holding Company Act (1956). These restrictions produced a uniquely fragmented banking system: the US had over 30,000 banks in 1980, compared to just a handful of major banks in countries like Canada, the UK, or Japan.\n\nCountering the common intuition that more banks means more competition, the geographic restrictions actually insulated banks from competition by creating local monopolies. A unit bank in a small town faced no competitive pressure from banks in neighboring towns or states. The Riegle-Neal Interstate Banking and Branching Efficiency Act (1994) phased out interstate branching barriers, triggering a wave of consolidation. The number of banks has declined steadily from about 30,000 in 1980 to approximately 3,815 by 2025, while the number of banking offices initially increased (as acquirers added branches) before stabilizing.\n\nThis history matters for understanding the current structure of US banking: the large number of small community banks, the tension between small-bank lobbying and consolidation pressures, and the debate over whether the US should allow further consolidation to achieve scale economies or preserve the community banking model. It also provides context for regulations like Dodd-Frank that impose different requirements based on bank size.",
+    "definitions": [
+      { "term": "Unit banking", "definition": "A system where banks are restricted to a single office with no branches, historically mandated by many US states." },
+      { "term": "Branch banking", "definition": "A system where banks can operate multiple offices/branches across a geographic area, allowing diversification and economies of scale." },
+      { "term": "Riegle-Neal Act (1994)", "definition": "US legislation that phased out restrictions on interstate banking and branching, enabling nationwide bank consolidation." },
+      { "term": "Bank holding company", "definition": "A company that owns or controls one or more banks, historically used to circumvent branching restrictions by acquiring banks in multiple states." }
+    ],
+    "agreements": [
+      "Authors agree that geographic restrictions produced a uniquely fragmented US banking system with far more banks than other countries.",
+      "There is consensus that more banks did not mean more competition — restrictions actually insulated banks from competitive pressure.",
+      "The trend toward consolidation after Riegle-Neal is universally acknowledged."
+    ],
+    "disagreements": [
+      "Whether continued consolidation is beneficial (economies of scale, diversification) or harmful (too-big-to-fail, reduced community lending) is debated.",
+      "The appropriate balance between regulatory burden on small banks and systemic risk management remains contested."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Practice Q3. May ask why the US has so many banks, or whether many banks means much competition (the counterintuitive answer is no).",
+      "strongAnswerStructure": "Describe the historical restrictions (unit banking, McFadden Act). Explain the counterintuitive competition point. Cite Riegle-Neal as the turning point. Provide statistics (30,000 to 3,815). Connect to current policy debates."
+    },
+    "practiceQuestionIds": [3]
+  },
+  {
+    "id": "too-big-to-fail",
+    "name": "Too Big to Fail",
+    "shortDescription": "The problem of systemically important banks whose failure would threaten the entire financial system, and proposed solutions.",
+    "importance": "medium",
+    "week": [3],
+    "prerequisites": ["capital-regulation", "sources-of-financial-fragility"],
+    "relatedTopics": ["structural-reform-volcker-vickers-liikanen", "capital-regulation", "deposit-insurance-moral-hazard", "unintended-consequences"],
+    "summary": "The 'too big to fail' (TBTF) problem arises when financial institutions become so large and interconnected that their failure would pose unacceptable systemic risk, creating an implicit government guarantee that distorts incentives. The scale of the problem is striking: UBS combined with Credit Suisse has assets equal to 208% of Swiss GDP, while JPMorgan alone represents about 15% of US GDP. This implicit guarantee gives TBTF banks a funding advantage (creditors accept lower returns because they expect a government rescue), encourages excessive risk-taking (moral hazard), and creates unfair competition with smaller banks.\n\nArguments for breaking up TBTF banks include: reducing systemic risk, eliminating the implicit government guarantee, restoring market discipline, and reducing moral hazard. Arguments against breakup include: loss of economies of scale (large banks can serve global clients, invest in technology, and diversify risks in ways small banks cannot), reduced international competitiveness (if US banks are broken up but Chinese or European banks are not), and the observation that size alone is not the problem (Lehman Brothers was not a universal bank; the 2008 crisis involved failures at institutions of all sizes and types).\n\nPublic opinion can differ from economic analysis: 75% of Swiss citizens want UBS broken up after the Credit Suisse merger, and Senator Warren along with some Republicans support restoring Glass-Steagall-like separation. Post-crisis reforms have tried to address TBTF without breaking up banks: living wills (resolution plans), total loss-absorbing capacity (TLAC) requirements, bail-in provisions (creditors take losses before taxpayers), and higher capital surcharges for globally systemically important banks (G-SIBs). Whether these reforms are sufficient remains an open question.",
+    "definitions": [
+      { "term": "SIFI (Systemically Important Financial Institution)", "definition": "A financial institution whose failure could trigger a financial crisis due to its size, interconnectedness, complexity, or substitutability." },
+      { "term": "G-SIB (Global Systemically Important Bank)", "definition": "A bank identified by the Financial Stability Board as systemically important at the global level, subject to additional capital surcharges and supervisory requirements." },
+      { "term": "Living wills", "definition": "Resolution plans that large banks must file with regulators, describing how they could be wound down in an orderly manner without taxpayer bailouts." },
+      { "term": "Resolution authority", "definition": "The legal framework allowing regulators to take over and wind down failing financial institutions in an orderly manner, established by Dodd-Frank's Title II." },
+      { "term": "Bail-in", "definition": "A resolution mechanism where a failing bank's creditors (bondholders, large depositors) absorb losses by having their claims converted to equity, instead of using taxpayer money." },
+      { "term": "TLAC (Total Loss-Absorbing Capacity)", "definition": "A requirement that G-SIBs hold sufficient equity and bail-in-able debt to absorb losses in resolution, ensuring taxpayers are protected." }
+    ],
+    "agreements": [
+      "All authors agree that TBTF creates moral hazard and unfair competitive advantages for the largest banks.",
+      "There is consensus that the implicit government guarantee needs to be addressed, whether through breakup, higher capital requirements, or better resolution frameworks.",
+      "Authors agree that simply breaking up banks without addressing underlying structural issues would not prevent future crises."
+    ],
+    "disagreements": [
+      "Whether breakup is the right solution or whether enhanced regulation (living wills, TLAC, bail-in) is sufficient is debated.",
+      "Whether the benefits of large, diversified banks (scale economies, international competitiveness) outweigh the systemic risk they pose remains contested.",
+      "The political economy differs across countries: Swiss voters want UBS broken up, while US regulators have focused on enhanced regulation rather than structural breakup."
+    ],
+    "examTips": {
+      "howProfessorAsks": "May appear as part of structural reform discussion or deposit insurance/moral hazard discussion. Cite specific size statistics (UBS = 208% Swiss GDP). Know both sides.",
+      "strongAnswerStructure": "Define the problem with specific examples (UBS, JPMorgan size ratios). Present arguments for breakup (systemic risk, moral hazard, fairness). Present arguments against (scale economies, competitiveness, Lehman wasn't universal). Discuss alternatives (living wills, TLAC, bail-in). Take a position."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "unintended-consequences",
+    "name": "Unintended Consequences of Regulation",
+    "shortDescription": "How financial regulations can produce unexpected harmful effects, from the Titanic/Eastland analogy to modern examples.",
+    "importance": "medium",
+    "week": [3, 4],
+    "prerequisites": ["capital-regulation", "structural-reform-volcker-vickers-liikanen"],
+    "relatedTopics": ["capital-regulation", "structural-reform-volcker-vickers-liikanen", "too-big-to-fail", "private-credit-turmoil"],
+    "summary": "A recurring theme in financial regulation is the law of unintended consequences: regulations designed to solve one problem often create new problems, sometimes worse than the original. The Titanic/Eastland analogy powerfully illustrates this principle. After the Titanic disaster (1912), regulations required ships to carry 'lifeboats for all.' The SS Eastland, a Great Lakes excursion steamer, was already top-heavy and the additional lifeboats made it dangerously unstable. In 1915, it capsized in the Chicago River, killing 844 people — more than died on the Titanic. The regulation designed to prevent Titanic-like disasters caused a worse disaster.\n\nModern financial regulation exhibits the same pattern. The Volcker Rule, designed to reduce bank risk by banning proprietary trading, also reduced dealer inventories of bonds, worsening market liquidity. This contributed to the Treasury flash crash of October 2014 and the severe Treasury market dysfunction of March 2020 (when even the 'safest' market in the world experienced a liquidity crisis during COVID). Basel III Endgame, designed to strengthen bank capital, may push financial activity to less-regulated private credit markets — creating a new, potentially larger shadow banking problem. Dodd-Frank's compliance costs have contributed to a near-halt in new bank formation since 2010 (the Bank of Bird-in-Hand, Pennsylvania is a rare exception), consolidating the industry and potentially reducing competition and access to credit for underserved communities.\n\nThe lesson is not that regulation is bad, but that cost-benefit analysis is essential, second-order effects must be anticipated, and regulatory design must account for how institutions will adapt to new rules (regulatory arbitrage). Every regulation creates incentives, and regulated entities will find ways to optimize within the new rules — often in ways that undermine the regulation's original intent.",
+    "definitions": [
+      { "term": "Unintended consequences", "definition": "Outcomes of a regulation or policy that were not foreseen or intended by its designers, often counterproductive to the original goal." },
+      { "term": "Regulatory arbitrage", "definition": "The practice of exploiting differences between regulatory regimes to minimize costs or avoid restrictions, often moving activity to less-regulated sectors or jurisdictions." },
+      { "term": "Cost-benefit analysis", "definition": "A systematic evaluation of the costs and benefits of a proposed regulation, including both direct effects and potential unintended consequences." },
+      { "term": "Fire-sale externality", "definition": "The negative externality created when one institution's forced asset sales depress prices for all holders of similar assets, potentially triggering a cascade of forced sales." }
+    ],
+    "agreements": [
+      "All authors acknowledge that financial regulations frequently produce unintended consequences.",
+      "There is consensus that cost-benefit analysis should be an integral part of the regulatory process.",
+      "Authors agree that regulatory arbitrage is a predictable response and must be accounted for in regulation design."
+    ],
+    "disagreements": [
+      "Whether the unintended consequences of Dodd-Frank and Basel III are serious enough to warrant rollback or whether they are acceptable costs of greater stability is debated.",
+      "Kroszner emphasizes the need for rigorous cost-benefit analysis before implementing Basel III Endgame; proponents argue delay itself is costly."
+    ],
+    "examTips": {
+      "howProfessorAsks": "The Titanic/Eastland analogy is a favorite. May ask for specific examples of unintended consequences in financial regulation. May appear in Basel III Endgame or Volcker Rule discussions.",
+      "strongAnswerStructure": "Start with the Titanic/Eastland analogy (powerful framing). Give 2-3 modern examples (Volcker Rule → reduced liquidity, Basel III Endgame → private credit migration, Dodd-Frank → fewer new banks). Connect to cost-benefit analysis. Note that the lesson is not anti-regulation but pro-smart-regulation."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "long-term-interest-rate-trends",
+    "name": "Long-Term Interest Rate Trends",
+    "shortDescription": "The four-decade decline in real interest rates, its structural causes, and the potential for reversal.",
+    "importance": "medium",
+    "week": [2],
+    "prerequisites": [],
+    "relatedTopics": ["maturity-mismatch", "central-bank-crisis-responses"],
+    "summary": "Real (inflation-adjusted) interest rates experienced a remarkable four-decade decline from the early 1980s to around 2020, falling from double-digit levels to near-zero or even negative territory. Research by Schmelzing (2020) extended this observation to an eight-century decline in real rates, suggesting deep structural forces at work beyond any single policy or business cycle.\n\nSeveral structural factors explain the decline: (1) demographics — aging populations in developed economies save more during their working years, increasing the supply of savings and pushing rates down; (2) the China savings glut — China's extraordinary savings rate and its integration into the global financial system dramatically increased the global supply of investable funds; (3) declining investment demand — slowing productivity growth and the shift to asset-light technology companies reduced the demand for physical capital investment; (4) central bank policies — persistently accommodative monetary policy, especially after 2008, kept rates low.\n\nHowever, several forces may now be reversing the trend: aging populations eventually dissave (spend down their retirement savings, reducing the supply of savings), deglobalization and geopolitical tensions may reduce cross-border capital flows, higher government debt levels (especially post-COVID) increase the demand for borrowing, and the energy transition requires massive new investment. Understanding these trends is essential for evaluating the sustainability of financial system structures (like banking business models and pension systems) that were built during the era of declining rates.",
+    "definitions": [
+      { "term": "Neutral real interest rate (r-star)", "definition": "The real interest rate at which the economy is at full employment with stable inflation — the rate that neither stimulates nor constrains economic activity." },
+      { "term": "Savings glut", "definition": "A condition where the global supply of savings exceeds the demand for investment, pushing interest rates down (Ben Bernanke's 2005 concept)." },
+      { "term": "Secular stagnation", "definition": "The hypothesis (Larry Summers) that advanced economies face persistently low growth and interest rates due to structural factors like demographics, inequality, and reduced investment demand." },
+      { "term": "R-star", "definition": "Shorthand for the neutral real interest rate — the rate at which monetary policy is neither expansionary nor contractionary." }
+    ],
+    "agreements": [
+      "All authors acknowledge the remarkable multi-decade decline in real interest rates.",
+      "There is broad agreement on the key structural factors (demographics, savings glut, declining investment demand).",
+      "Authors agree that the era of persistently declining rates may be ending."
+    ],
+    "disagreements": [
+      "Whether the reversal is temporary (cyclical) or permanent (structural) is debated.",
+      "The relative importance of different structural factors (demographics vs. savings glut vs. technology) is contested.",
+      "How much of the decline was due to central bank policy versus structural economic forces remains uncertain."
+    ],
+    "examTips": {
+      "howProfessorAsks": "May appear as context for SVB (interest rate risk) or central bank policy discussions. Know the structural factors driving rates down and the forces that may reverse the trend.",
+      "strongAnswerStructure": "State the trend (four-decade decline, Schmelzing's eight centuries). Explain structural causes (demographics, China savings glut, declining investment demand). Discuss potential reversal factors. Connect to implications for banking (maturity mismatch risk when rates rise — SVB)."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "ecb-boj-pboc-policy",
+    "name": "ECB, BoJ, and PBoC Policy",
+    "shortDescription": "Comparing central bank approaches: ECB's bank-centric tools, BoJ's fight against deflation, and PBoC's transition to price-based policy.",
+    "importance": "medium",
+    "week": [1],
+    "prerequisites": ["central-bank-crisis-responses"],
+    "relatedTopics": ["central-bank-crisis-responses", "digital-currencies-and-cbdcs"],
+    "summary": "The European Central Bank (ECB), Bank of Japan (BoJ), and People's Bank of China (PBoC) have each developed distinct policy approaches shaped by their different financial system structures and economic challenges. Understanding these differences illuminates why 'one size fits all' central banking does not work.\n\nThe ECB operates in a bank-centric financial system (European firms rely on bank loans far more than capital markets), which explains its preference for LTRO (Long-Term Refinancing Operations — lending to banks) over QE (buying bonds) as its primary crisis tool. Key innovations include the SMP (Securities Markets Programme), Draghi's 'whatever it takes' and the OMT (Outright Monetary Transactions, 2012), QE (belatedly, 2015), and the PEPP (Pandemic Emergency Purchase Programme) and TPI (Transmission Protection Instrument). The ECB currently has a 2% deposit rate but faces potential adjustment due to geopolitical energy shocks.\n\nThe BoJ has fought the longest battle against deflation of any major central bank, beginning in the 1990s and still ongoing. Its tools have become increasingly unconventional: QQE (Quantitative and Qualitative Monetary Easing), negative interest rates (charging banks for holding excess reserves), and yield curve control (targeting not just short-term rates but capping long-term government bond yields). The BoJ only recently ended negative rates in March 2024 and currently sits at 0.75%. The PBoC is transitioning from quantity-based policy (controlling the money supply through reserve requirement ratios and lending quotas) to price-based policy (using interest rates as the primary tool). Key instruments include RRR cuts, LPR (Loan Prime Rate) reform, and increasingly, the digital yuan (e-CNY). China faces near-deflation since 2023, with record low interest rates.",
+    "definitions": [
+      { "term": "LTRO (Long-Term Refinancing Operations)", "definition": "ECB loans to banks with maturities up to 3 years, providing long-term funding to the banking system — particularly important because the Eurozone is bank-centric." },
+      { "term": "OMT (Outright Monetary Transactions)", "definition": "ECB program announced by Draghi in 2012 to buy sovereign bonds of stressed countries, never actually used — the credible commitment alone stabilized markets." },
+      { "term": "PEPP (Pandemic Emergency Purchase Programme)", "definition": "ECB bond-buying program launched during COVID-19, notable for its flexibility across Eurozone countries." },
+      { "term": "TPI (Transmission Protection Instrument)", "definition": "ECB tool to address 'unwarranted' divergence in sovereign bond yields across Eurozone countries that could impair monetary policy transmission." },
+      { "term": "QQE (Quantitative and Qualitative Monetary Easing)", "definition": "BoJ's expanded asset purchase program that included buying not just government bonds but also ETFs and REITs." },
+      { "term": "Yield curve control", "definition": "BoJ policy of targeting not just the short-term rate but also capping the 10-year government bond yield, committing to buy unlimited bonds to maintain the cap." },
+      { "term": "RRR (Reserve Requirement Ratio)", "definition": "The fraction of deposits that Chinese banks must hold as reserves at the PBoC — cutting the RRR is a key PBoC easing tool." },
+      { "term": "LPR (Loan Prime Rate)", "definition": "China's benchmark lending rate, reformed in 2019 to be more market-determined, serving as the PBoC's primary price-based policy tool." },
+      { "term": "e-CNY (Digital Yuan)", "definition": "China's CBDC, currently in pilot phase, with potential for both domestic payment modernization and cross-border payment innovation." }
+    ],
+    "agreements": [
+      "All three central banks agree that traditional tools became insufficient and non-traditional measures were necessary.",
+      "There is consensus that the structure of the financial system (bank-centric vs. market-based) should shape the choice of policy tools.",
+      "Authors agree that each central bank faces unique challenges shaped by its economic and institutional context."
+    ],
+    "disagreements": [
+      "Whether the ECB was too slow to adopt QE (compared to the Fed) or whether its LTRO-first approach was appropriate given the Eurozone's bank-centric structure is debated.",
+      "Whether the BoJ's extreme policies (negative rates, yield curve control) represent creativity or desperation is contested.",
+      "The PBoC's appropriate pace of transition from quantity-based to price-based policy is debated."
+    ],
+    "examTips": {
+      "howProfessorAsks": "May appear in comparison with Fed policy. Know why ECB preferred LTRO (bank-centric system). Know BoJ's unique tools (yield curve control). Know PBoC's transition.",
+      "strongAnswerStructure": "Compare the three central banks' approaches: ECB (LTRO, OMT, bank-centric), BoJ (QQE, negative rates, yield curve control, deflation fight), PBoC (RRR, LPR, quantity-to-price transition). Explain why each took its approach (financial system structure, economic context). Note current rates and challenges."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "private-credit-turmoil",
+    "name": "Private Credit Turmoil",
+    "shortDescription": "Growing concerns about the $1.7T private credit industry and parallels to pre-2008 shadow banking risks.",
+    "importance": "medium",
+    "week": [1],
+    "prerequisites": ["shadow-banking", "sources-of-financial-fragility"],
+    "relatedTopics": ["shadow-banking", "sources-of-financial-fragility", "unintended-consequences", "capital-regulation"],
+    "summary": "Private credit — direct lending by non-bank institutions (private equity firms, specialized credit funds, insurance companies) — has grown into a $1.7 trillion industry, driven in part by post-2008 banking regulations that made it more expensive for traditional banks to hold certain types of loans. Bank of England Governor Andrew Bailey has warned that 'alarm bells are ringing' about the sector.\n\nThe parallels to pre-2008 shadow banking are concerning. Private credit operates largely outside the regulatory perimeter: no bank-like capital requirements, limited transparency, no deposit insurance, and no direct central bank access. Investors have been pulling money from the largest funds ($7 billion in withdrawals), revealing the illiquidity of private credit investments — articles titled 'Private Credit Is Learning All About Liquidity' echo the 2007-2008 moment when supposedly liquid markets suddenly froze. The First Brands/Tricolor failures of early 2025, where AAA-rated securitized notes backed by auto dealer loans failed, directly echoed the 2008 pattern of highly-rated securitized products proving much riskier than their ratings suggested.\n\nThis is a critical topic because it connects to the broader course theme of regulatory arbitrage and unintended consequences. Basel III and Dodd-Frank succeeded in making traditional banks safer but may have simply pushed risk into the less-regulated private credit sector — the financial system equivalent of the Eastland capsizing. If private credit experiences its own 2008-style crisis, the question will be whether regulators and central banks have the tools and authority to respond, given that these institutions are outside the traditional safety net.",
+    "definitions": [
+      { "term": "Private credit", "definition": "Direct lending by non-bank financial institutions (PE firms, credit funds, insurance companies) to businesses, typically illiquid loans held to maturity rather than traded." },
+      { "term": "Regulatory arbitrage (in context)", "definition": "The migration of lending activity from regulated banks to less-regulated private credit markets in response to higher bank capital requirements." },
+      { "term": "Liquidity illusion", "definition": "The false belief that an investment is liquid because it has not yet been tested in stress — private credit funds discovered this when investors tried to withdraw." },
+      { "term": "First Brands/Tricolor failures", "definition": "2025 failures of AAA-rated securitized notes backed by auto dealer loans, echoing the 2008 pattern of highly-rated structured products defaulting." }
+    ],
+    "agreements": [
+      "Multiple authorities (BoE Bailey, financial commentators) agree that private credit poses growing systemic risks.",
+      "There is consensus that the growth of private credit is partly a consequence of post-2008 bank regulation (regulatory arbitrage).",
+      "The parallels to pre-2008 shadow banking (opacity, reliance on ratings, liquidity illusion) are widely acknowledged."
+    ],
+    "disagreements": [
+      "Whether private credit represents a genuine systemic risk or a manageable market correction is debated.",
+      "Whether the solution is to extend bank-like regulation to private credit or to accept the risk as the price of a diverse financial system is contested.",
+      "Industry participants argue private credit is fundamentally different from pre-2008 securitization because loans are held to maturity rather than traded."
+    ],
+    "examTips": {
+      "howProfessorAsks": "May appear as a current-events application of course concepts. Connect to shadow banking, regulatory arbitrage, and the Eastland analogy (unintended consequences of bank regulation pushing risk elsewhere).",
+      "strongAnswerStructure": "Describe the growth of private credit ($1.7T). Cite Bailey's warning. Draw parallels to pre-2008 shadow banking (opacity, ratings reliance, liquidity illusion). Connect to regulatory arbitrage (Basel III/Dodd-Frank pushed activity out of banks). Use First Brands/Tricolor as specific example. Connect to Eastland analogy."
+    },
+    "practiceQuestionIds": []
+  },
+  {
+    "id": "accounting-firm-conflicts",
+    "name": "Accounting Firm Conflicts of Interest",
+    "shortDescription": "The Glass-Steagall parallel: conflicts between audit and consulting at Big Four firms, and market-driven vs. regulatory solutions.",
+    "importance": "medium",
+    "week": [3],
+    "prerequisites": ["glass-steagall-conflicts-of-interest"],
+    "relatedTopics": ["glass-steagall-conflicts-of-interest", "structural-reform-volcker-vickers-liikanen"],
+    "summary": "The conflict-of-interest logic that motivated Glass-Steagall in banking applies with equal force to accounting firms. When the same firm provides both audit services (monitoring and certification — analogous to commercial banking's deposit-taking and monitoring role) and consulting/advisory services (revenue-generating relationships — analogous to investment banking's underwriting and trading), there is a risk that the firm will compromise audit quality to preserve lucrative consulting relationships. An auditor who flags problems might lose consulting business; the conflict is structural, not merely ethical.\n\nEY's 'Project Everest' represented the most ambitious attempt to address this conflict through a complete structural breakup of the firm into separate audit and consulting entities. However, it failed due to internal disagreement among partners — illustrating the difficulty of implementing structural reform even when the rationale is clear. PwC took a different approach, voluntarily curtailing consulting services for its audit clients — a market-driven adaptation that parallels Kroszner's findings about 1920s banks, which addressed conflicts of interest through separate affiliate structures and reputational incentives without needing Glass-Steagall's regulatory mandate.\n\nThe UK adopted a middle path: requiring 'operational separation' at the Big Four accounting firms (audit and consulting remain within the same firm but with stricter independence requirements and governance separation). This parallels the Vickers ring-fencing approach in banking. The accounting firm case thus serves as a useful lens for evaluating the broader debate about how to handle conflicts of interest in financial services: should regulators mandate structural separation (Glass-Steagall approach), or can market forces and reputational incentives adequately address conflicts (Kroszner's historical evidence)?",
+    "definitions": [
+      { "term": "Glass-Steagall analogy", "definition": "The parallel between separating commercial and investment banking and separating audit and consulting at accounting firms — both involve potential conflicts between monitoring/certification and revenue-generating advisory roles." },
+      { "term": "EY Project Everest", "definition": "EY's failed 2022-2023 plan to fully separate its audit and consulting businesses into independent firms, which collapsed due to partner disagreement." },
+      { "term": "PwC voluntary curtailment", "definition": "PwC's decision to limit consulting services for audit clients, a market-driven response to conflict-of-interest concerns paralleling Kroszner's findings about 1920s bank self-regulation." },
+      { "term": "Operational separation (UK)", "definition": "UK requirement that Big Four firms operationally separate their audit and consulting practices, with separate governance and financial reporting, paralleling Vickers ring-fencing." }
+    ],
+    "agreements": [
+      "All sources acknowledge that the audit-consulting conflict of interest is real and structurally analogous to the commercial-investment banking conflict.",
+      "There is agreement that market forces can partially address conflicts (PwC's voluntary action, 1920s bank self-regulation).",
+      "The failure of EY Project Everest is cited as evidence that full structural separation faces formidable internal resistance."
+    ],
+    "disagreements": [
+      "Whether market-driven solutions (PwC model) are sufficient or whether mandatory structural separation is needed remains debated.",
+      "Whether the UK's operational separation approach strikes the right balance or is too weak to address the fundamental conflict is contested."
+    ],
+    "examTips": {
+      "howProfessorAsks": "Likely appears as part of a Glass-Steagall/conflicts-of-interest discussion. Use the PwC/EY examples to parallel bank regulation. Kroszner's research informs both contexts.",
+      "strongAnswerStructure": "Draw the parallel explicitly: audit = monitoring/certification (commercial banking), consulting = advisory (investment banking). Cite EY Project Everest (failed full breakup). Cite PwC (voluntary market adaptation). Compare to Kroszner's findings on 1920s banks. Reference UK operational separation as a middle path. Connect to the broader regulatory philosophy question."
+    },
+    "practiceQuestionIds": []
+  }
+]

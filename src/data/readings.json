@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "week1-class-notes",
+    "title": "Week 1 Class Notes",
+    "author": "Professor Kroszner",
+    "source": "Class Lecture",
+    "week": 1,
+    "type": "academic",
+    "required": true,
+    "summary": "Overview of financial system structure, sources of fragility, the shift from bank-centric to market-based intermediation, and introduction to central bank crisis responses. Sets the framework for the entire course.",
+    "keyPoints": [
+      "Financial system has shifted from bank-centric (60% in 1950) to market-based (banks 30% by 2006)",
+      "Three sources of fragility: short-term funding, interconnectedness, incentive failures",
+      "Central banks had to develop non-traditional tools when traditional ones proved insufficient",
+      "COVID-19 responses were even larger and faster than 2008 responses"
+    ],
+    "relevantTopicIds": ["sources-of-financial-fragility", "central-bank-crisis-responses", "shadow-banking", "ecb-boj-pboc-policy", "private-credit-turmoil"],
+    "examRelevance": "Foundation for all exam questions. The structural shift statistics and Diamond-Rajan framework appear repeatedly."
+  },
+  {
+    "id": "week2-class-notes",
+    "title": "Week 2 Class Notes",
+    "author": "Professor Kroszner",
+    "source": "Class Lecture",
+    "week": 2,
+    "type": "academic",
+    "required": true,
+    "summary": "Covers bank liquidity management, maturity mismatch, bank runs (traditional and modern), deposit insurance design, financial development and growth, supply chain fragilities, and long-term interest rate trends.",
+    "keyPoints": [
+      "Reserve requirements as a tax on banks; IOR changes the economics",
+      "Maturity mismatch is both profit source and risk source",
+      "Northern Rock experienced both wholesale and retail runs",
+      "Financial development and growth: King-Levine (positive) vs Arcand et al. (inverted-U)"
+    ],
+    "relevantTopicIds": ["bank-liquidity-management", "maturity-mismatch", "bank-runs-modern-vs-traditional", "deposit-insurance-moral-hazard", "financial-development-and-growth", "supply-chain-fragilities", "long-term-interest-rate-trends"],
+    "examRelevance": "Core banking concepts tested in Practice Q2, Q4, Q7, Q8, Q10, Q11. Supply chain parallels tested in HW2."
+  },
+  {
+    "id": "week3-class-notes",
+    "title": "Week 3 Class Notes",
+    "author": "Professor Kroszner",
+    "source": "Class Lecture",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Covers capital regulation (risk-weighted vs leverage ratios), banks as special intermediaries (James & Weir, Lummer & McConnell), structural reform (Volcker, Vickers, Liikanen), Glass-Steagall and conflicts of interest, geographic restrictions, too-big-to-fail, and unintended consequences.",
+    "keyPoints": [
+      "Capital regulation: insurance/deductible logic, risk-weighting flaws, SVB as case study",
+      "Banks are special: revised loans (+1.24%) vs new loans (-0.01%)",
+      "Three structural reform approaches compared (IMF framework)",
+      "Unintended consequences: Titanic/Eastland analogy"
+    ],
+    "relevantTopicIds": ["capital-regulation", "banks-as-special-intermediaries", "structural-reform-volcker-vickers-liikanen", "glass-steagall-conflicts-of-interest", "geographic-restrictions-on-banking", "too-big-to-fail", "unintended-consequences", "accounting-firm-conflicts", "deposit-insurance-moral-hazard"],
+    "examRelevance": "Capital regulation (Q6), banks as special (Q9), structural reform (Q12, HW3), geographic restrictions (Q3)."
+  },
+  {
+    "id": "week4-class-notes",
+    "title": "Week 4 Class Notes",
+    "author": "Professor Kroszner",
+    "source": "Class Lecture",
+    "week": 4,
+    "type": "academic",
+    "required": true,
+    "summary": "Covers money's origins and functions (store of value, medium of exchange, unit of account), the Radford POW camp case, digital currencies (Bitcoin, blockchain), CBDCs, and national approaches to digital money.",
+    "keyPoints": [
+      "Three functions of money and their hierarchy",
+      "Radford POW camp: cigarettes as money, Gresham's Law, BMk failure",
+      "Bitcoin fails all three functions of money",
+      "Three CBDC approaches: China (pro-CBDC), US (pro-crypto), Hong Kong (both)"
+    ],
+    "relevantTopicIds": ["origin-and-functions-of-money", "digital-currencies-and-cbdcs"],
+    "examRelevance": "Practice Q15, HW4 Q1 and Q2. Evaluate Bitcoin against three functions. Compare CBDC strategies."
+  },
+  {
+    "id": "diamond-rajan-2009",
+    "title": "The Credit Crisis: Conjectures about Causes and Remedies",
+    "author": "Douglas Diamond and Raghuram Rajan",
+    "source": "American Economic Review P&P",
+    "week": 1,
+    "type": "academic",
+    "required": true,
+    "summary": "Identifies three fundamental causes of the 2008 crisis: reliance on short-term external finance, interconnectedness through shadow banking, and incentive distortions encouraging excessive risk-taking. Argues against blanket Fed lending as it may reward reckless behavior.",
+    "keyPoints": [
+      "Three causes: short-term funding dependence, interconnectedness, distorted incentives",
+      "Greenspan Put encouraged excessive risk-taking",
+      "Skeptical of blanket Fed lending — may delay needed restructuring",
+      "Banks need to be recapitalized, not just given liquidity",
+      "Tail risks were systematically underpriced"
+    ],
+    "relevantTopicIds": ["sources-of-financial-fragility", "bank-runs-modern-vs-traditional", "shadow-banking", "central-bank-crisis-responses"],
+    "examRelevance": "Practice Q5 and Q13 require citing Diamond-Rajan's three causes. Key for contrasting with Bernanke's more interventionist approach."
+  },
+  {
+    "id": "kroszner-melick-2009",
+    "title": "The Response of the Federal Reserve to the Recent Banking and Financial Crisis",
+    "author": "Randall Kroszner and William Melick",
+    "source": "Working Paper",
+    "week": 1,
+    "type": "academic",
+    "required": true,
+    "summary": "Provides a three-dimensional taxonomy of the Fed's non-traditional crisis tools: broadening counterparties, broadening collateral, and lengthening maturity. Documents the shift from bank-centric to market-based intermediation.",
+    "keyPoints": [
+      "Three-dimensional taxonomy: counterparties, collateral, maturity",
+      "Banks' share of financial assets fell from 60% (1950) to 30% (2006)",
+      "Long intermediation chains created opacity and systemic risk",
+      "Fed had to innovate because traditional tools were insufficient",
+      "Each new program targeted a specific market failure"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses", "sources-of-financial-fragility", "shadow-banking"],
+    "examRelevance": "Practice Q14 expects you to use this taxonomy. Key framework for organizing discussion of central bank tools."
+  },
+  {
+    "id": "bernanke-2009-credit-easing",
+    "title": "The Crisis and the Policy Response (Credit Easing Speech)",
+    "author": "Ben Bernanke",
+    "source": "Federal Reserve (Speech at LSE)",
+    "week": 1,
+    "type": "speech",
+    "required": true,
+    "summary": "Bernanke distinguishes 'credit easing' (focusing on the composition of Fed assets) from 'quantitative easing' (BoJ's focus on quantity of reserves). Outlines three categories of Fed action at the zero lower bound.",
+    "keyPoints": [
+      "Credit easing vs quantitative easing: composition matters, not just quantity",
+      "Three categories: lending to institutions, liquidity to markets, purchasing longer-term securities",
+      "Defends aggressive use of all available tools",
+      "Fed focused on specific market dysfunctions, not just expanding reserves",
+      "Forward guidance as a tool at zero lower bound"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses", "sources-of-financial-fragility"],
+    "examRelevance": "The credit easing vs QE distinction is exam-worthy. Use Bernanke's three categories alongside Kroszner-Melick's taxonomy."
+  },
+  {
+    "id": "shin-2009-northern-rock",
+    "title": "Reflections on Northern Rock: The Bank Run That Heralded the Global Financial Crisis",
+    "author": "Hyun Song Shin",
+    "source": "Journal of Economic Perspectives",
+    "week": 1,
+    "type": "academic",
+    "required": true,
+    "summary": "Analyzes Northern Rock's two runs: the wholesale funding freeze (August 2007, the real crisis) and the retail deposit run (September 2007, the visible symptom). Shows how the bank's shift from retail to wholesale funding created vulnerability.",
+    "keyPoints": [
+      "Northern Rock's retail funding fell from 60% to 23% of liabilities",
+      "Wholesale funding freeze was the real crisis (Aug 2007)",
+      "Retail run was a visible aftermath (Sept 2007)",
+      "UK partial deposit insurance contributed to retail run",
+      "The bank run was a symptom of deeper structural fragility"
+    ],
+    "relevantTopicIds": ["bank-runs-modern-vs-traditional", "sources-of-financial-fragility", "deposit-insurance-moral-hazard", "maturity-mismatch"],
+    "examRelevance": "Practice Q8 and Q13 require citing Shin on Northern Rock. The two-run distinction is a key exam point."
+  },
+  {
+    "id": "king-levine-1993",
+    "title": "Finance and Growth: Schumpeter Might Be Right",
+    "author": "Robert King and Ross Levine",
+    "source": "Quarterly Journal of Economics",
+    "week": 2,
+    "type": "academic",
+    "required": true,
+    "summary": "Cross-country study of 80 countries (1960-1989) showing that financial depth measures (LLY, BANK, PRIVATE, PRIVY) positively correlate with GDP growth. Initial financial depth predicts subsequent growth, suggesting causality.",
+    "keyPoints": [
+      "Four financial depth measures: LLY, BANK, PRIVATE, PRIVY",
+      "All positively correlated with GDP per capita growth, capital accumulation, and productivity",
+      "Initial financial depth predicts subsequent growth (30 years later)",
+      "Supports Schumpeter's hypothesis about finance driving innovation",
+      "80-country cross-section provides robust evidence"
+    ],
+    "relevantTopicIds": ["financial-development-and-growth"],
+    "examRelevance": "Practice Q1 requires citing King-Levine as the 'pro' side of the finance-growth relationship. Must be paired with Arcand et al."
+  },
+  {
+    "id": "arcand-berkes-panizza-2015",
+    "title": "Too Much Finance?",
+    "author": "Jean-Louis Arcand, Enrico Berkes, and Ugo Panizza",
+    "source": "Journal of Economic Growth",
+    "week": 2,
+    "type": "academic",
+    "required": true,
+    "summary": "Shows the finance-growth relationship is non-monotonic (inverted-U shaped). Financial development promotes growth up to ~80-100% of private credit/GDP, then potentially harms growth. Iceland cited as example of 'too much finance.'",
+    "keyPoints": [
+      "Inverted-U relationship between financial depth and growth",
+      "Threshold around 80-100% of PRIVY (private credit/GDP)",
+      "Beyond threshold, additional financial deepening may reduce growth",
+      "Resource misallocation and excessive risk-taking at high financial depth",
+      "Iceland: most financially developed, hit hardest by crisis"
+    ],
+    "relevantTopicIds": ["financial-development-and-growth"],
+    "examRelevance": "Practice Q1 requires citing Arcand et al. as the counterpoint to King-Levine. The inverted-U finding is the key nuance."
+  },
+  {
+    "id": "james-weir-1990",
+    "title": "Borrowing Relationships, Intermediation, and the Cost of Issuing Public Securities",
+    "author": "Christopher James and Peggy Weir",
+    "source": "Journal of Financial Economics",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Documents that bank loan announcements produce a +1.93% abnormal stock return, while private placements produce -0.91%. Shows banks provide valuable certification/monitoring that capital markets do not.",
+    "keyPoints": [
+      "Bank loan announcements: +1.93% abnormal return",
+      "Private placements: -0.91% abnormal return",
+      "Banks provide certification service — market interprets bank loan as good signal",
+      "Information asymmetry / lemons problem is the theoretical foundation",
+      "Banks are 'special' relative to other financial intermediaries"
+    ],
+    "relevantTopicIds": ["banks-as-special-intermediaries"],
+    "examRelevance": "Practice Q9 requires citing the +1.93% figure. Must be paired with Lummer & McConnell for the full picture."
+  },
+  {
+    "id": "lummer-mcconnell-1989",
+    "title": "Further Evidence on the Bank Lending Process and the Capital-Market Response to Bank Loan Agreements",
+    "author": "Scott Lummer and John McConnell",
+    "source": "Journal of Financial Economics",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Refines James & Weir by showing the positive stock reaction comes entirely from REVISED (renewed) loans, not new loans. New: -0.01% (insignificant). Revised favorable: +1.24%. Unfavorable bank-initiated: -7.22%.",
+    "keyPoints": [
+      "New bank loans: -0.01% return (insignificant — no information advantage in initial evaluation)",
+      "Revised favorable loans: +1.24% (banks gain information through ongoing relationships)",
+      "Unfavorable bank-initiated revisions: -7.22% (market trusts bank's negative signal even more)",
+      "Banks' comparative advantage is in ongoing monitoring, not initial screening",
+      "Relationship lending is the source of banks' special role"
+    ],
+    "relevantTopicIds": ["banks-as-special-intermediaries"],
+    "examRelevance": "Practice Q9 requires distinguishing new vs revised loans. The -0.01% vs +1.24% distinction is the key finding."
+  },
+  {
+    "id": "kroszner-rajan-1994",
+    "title": "Is the Glass-Steagall Act Justified? A Study of the U.S. Experience with Universal Banking Before 1933",
+    "author": "Randall Kroszner and Raghuram Rajan",
+    "source": "American Economic Review",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Examines pre-Glass-Steagall data and finds commercial bank-underwritten bonds defaulted LESS than investment bank-underwritten bonds (12% vs 28%). Market mechanisms (separate affiliates, reputation) addressed conflicts without regulation.",
+    "keyPoints": [
+      "Commercial bank affiliate bonds: 12% default rate through 1940",
+      "Investment bank bonds: 28% default rate through 1940",
+      "Market forces addressed conflicts: separate affiliates, reputational incentives",
+      "Glass-Steagall rationale was weaker than commonly believed",
+      "The professor's own research — highly exam-relevant"
+    ],
+    "relevantTopicIds": ["glass-steagall-conflicts-of-interest", "banks-as-special-intermediaries", "structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "Practice Q12. The 12% vs 28% finding directly undermines the Glass-Steagall rationale. Cite this — it's the professor's own research."
+  },
+  {
+    "id": "sorkin-2012",
+    "title": "Reinstating an Old Rule Is Not a Cure for Crisis",
+    "author": "Andrew Ross Sorkin",
+    "source": "New York Times DealBook",
+    "week": 3,
+    "type": "news",
+    "required": true,
+    "summary": "Argues Glass-Steagall's repeal did NOT cause the 2008 crisis. Bear Stearns, Lehman, and Merrill were investment banks; AIG was insurance; WaMu and Wachovia failed from traditional mortgage lending. Reinstating Glass-Steagall would not have prevented 2008.",
+    "keyPoints": [
+      "Bear, Lehman, Merrill were pure investment banks — Glass-Steagall wouldn't have applied",
+      "AIG was an insurance company",
+      "WaMu and Wachovia failed from traditional mortgage lending",
+      "Glass-Steagall repeal was not the cause of the crisis",
+      "Focus should be on actual sources of fragility, not nostalgic legislation"
+    ],
+    "relevantTopicIds": ["glass-steagall-conflicts-of-interest", "structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "Practice Q12. Use to debunk the 'Glass-Steagall repeal caused 2008' narrative. Pair with Kroszner-Rajan evidence."
+  },
+  {
+    "id": "imf-structural-reform-comparison",
+    "title": "IMF Comparison of Structural Reform Proposals",
+    "author": "International Monetary Fund",
+    "source": "IMF Staff Discussion Note",
+    "week": 3,
+    "type": "report",
+    "required": true,
+    "summary": "Systematic comparison of Volcker, Vickers, and Liikanen approaches. Volcker best for bank-level risk reduction; Vickers best for resolvability; Liikanen most balanced. All have significant implementation costs.",
+    "keyPoints": [
+      "Volcker: best for reducing risk at the individual bank level",
+      "Vickers: best for improving resolvability of the retail bank",
+      "Liikanen: most balanced approach, combining features of both",
+      "All three have significant implementation and compliance costs",
+      "No single approach dominates — choice depends on policy priorities"
+    ],
+    "relevantTopicIds": ["structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "HW3 and Practice Q12. The IMF framework is the exam-ready comparison structure."
+  },
+  {
+    "id": "tarullo-2017-volcker",
+    "title": "Departing Thoughts on the Volcker Rule",
+    "author": "Daniel Tarullo",
+    "source": "Federal Reserve Governor Speech",
+    "week": 3,
+    "type": "speech",
+    "required": true,
+    "summary": "Former Fed Governor argues the Volcker Rule is too complicated: five agencies involved, intent-based approach (distinguishing proprietary trading from market making) doesn't work. Suggests simplification.",
+    "keyPoints": [
+      "Five agencies involved in Volcker Rule enforcement — coordination nightmare",
+      "Intent-based approach (was the trade for clients or profit?) is inherently unworkable",
+      "Market making and proprietary trading are nearly indistinguishable in practice",
+      "Suggests simplification rather than repeal",
+      "Regulatory complexity itself can be a source of risk"
+    ],
+    "relevantTopicIds": ["structural-reform-volcker-vickers-liikanen", "unintended-consequences"],
+    "examRelevance": "Use for HW3 and Q12 to show problems with Volcker Rule implementation. Provides insider perspective on regulatory failure."
+  },
+  {
+    "id": "kpmg-2025-ring-fencing",
+    "title": "UK Ring-Fencing Review",
+    "author": "KPMG",
+    "source": "KPMG Report",
+    "week": 3,
+    "type": "report",
+    "required": false,
+    "summary": "Reports that UK bank CEOs want ring-fencing removed, arguing it increases costs and reduces competitiveness. Part of the ongoing debate about whether structural reform is worth its costs.",
+    "keyPoints": [
+      "Bank CEOs argue ring-fencing increases costs without proportionate safety benefits",
+      "Competitiveness concerns relative to non-ring-fenced international rivals",
+      "Operational complexity of maintaining separate retail and wholesale entities",
+      "Political pressure to revisit post-crisis reforms"
+    ],
+    "relevantTopicIds": ["structural-reform-volcker-vickers-liikanen", "unintended-consequences"],
+    "examRelevance": "Use for HW3 to show current pressures on ring-fencing. Provides the 'against' case for structural reform."
+  },
+  {
+    "id": "boe-2025-ring-fencing",
+    "title": "Bank of England on Ring-Fencing",
+    "author": "Bank of England",
+    "source": "Bank of England Communication",
+    "week": 3,
+    "type": "report",
+    "required": false,
+    "summary": "Bank of England signals it will resist major changes to ring-fencing, arguing the policy remains essential for financial stability and depositor protection.",
+    "keyPoints": [
+      "BoE defends ring-fencing as essential for financial stability",
+      "Retail depositor protection remains the primary justification",
+      "Will resist CEOs' pressure for removal",
+      "Potential for modest tweaks rather than fundamental changes"
+    ],
+    "relevantTopicIds": ["structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "Use for HW3 to balance the KPMG/CEO perspective with the regulatory defense of ring-fencing."
+  },
+  {
+    "id": "radford-1945",
+    "title": "The Economic Organisation of a P.O.W. Camp",
+    "author": "R.A. Radford",
+    "source": "Economica",
+    "week": 4,
+    "type": "academic",
+    "required": true,
+    "summary": "Classic study of a WWII prisoner-of-war camp where cigarettes spontaneously emerged as money. Demonstrates all three functions of money, Gresham's Law, and the failure of paper currency (BMk) due to deflation.",
+    "keyPoints": [
+      "Cigarettes emerged spontaneously as medium of exchange, store of value, and unit of account",
+      "Gresham's Law: bad cigarettes smoked, good ones used as money",
+      "Paper currency (BMk) attempted but failed due to deflation and loss of convertibility",
+      "Prices quoted in cigarettes across the camp economy",
+      "Natural experiment demonstrating money's emergence"
+    ],
+    "relevantTopicIds": ["origin-and-functions-of-money"],
+    "examRelevance": "Practice Q15 and HW4 Q1. Know the Radford case in detail — cigarettes as money, Gresham's Law, BMk failure."
+  },
+  {
+    "id": "svb-fdic-report-2023",
+    "title": "FDIC Report on Silicon Valley Bank",
+    "author": "FDIC",
+    "source": "FDIC Report",
+    "week": 2,
+    "type": "report",
+    "required": true,
+    "summary": "Official FDIC analysis of SVB's failure. Documents the fastest bank run in history ($42B in one day), 90%+ uninsured deposits, HTM accounting masking losses, and inadequate interest rate risk management.",
+    "keyPoints": [
+      "$42 billion attempted withdrawals in one day (March 9, 2023)",
+      "Over 90% of deposits uninsured (above $250K FDIC limit)",
+      "HTM accounting masked $15B+ in unrealized losses",
+      "Mobile banking and social media coordination accelerated the run",
+      "Inadequate interest rate risk management despite clear warning signs"
+    ],
+    "relevantTopicIds": ["bank-runs-modern-vs-traditional", "maturity-mismatch", "capital-regulation", "deposit-insurance-moral-hazard"],
+    "examRelevance": "SVB appears in Practice Q8, Q10, Q11, Q13. Know the key facts: $42B, 90%+ uninsured, HTM masking, fastest run ever."
+  },
+  {
+    "id": "svb-fed-report-2023",
+    "title": "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank",
+    "author": "Federal Reserve Board",
+    "source": "Federal Reserve Report",
+    "week": 2,
+    "type": "report",
+    "required": true,
+    "summary": "Fed's self-assessment of its supervisory failures regarding SVB. Acknowledges supervisors identified risks but failed to act with sufficient urgency. Documents the regulatory gaps that allowed SVB's risk buildup.",
+    "keyPoints": [
+      "Supervisors identified interest rate risk but did not force corrective action",
+      "Tailoring of regulations (2018-2019) relaxed requirements for mid-size banks like SVB",
+      "SVB's EVE was -27.7% under 200bp rate rise (far exceeding Basel 15% threshold)",
+      "US did not require EVE disclosure for banks of SVB's size",
+      "Failure of supervisory culture — not just rules"
+    ],
+    "relevantTopicIds": ["capital-regulation", "maturity-mismatch", "bank-runs-modern-vs-traditional"],
+    "examRelevance": "The EVE figure (-27.7%) and the supervisory failure narrative are key for capital regulation questions (Q6)."
+  },
+  {
+    "id": "covid-fed-response-2020",
+    "title": "Federal Reserve COVID-19 Crisis Response",
+    "author": "Federal Reserve Board",
+    "source": "Federal Reserve Publications",
+    "week": 1,
+    "type": "report",
+    "required": true,
+    "summary": "Documents the Fed's unprecedented COVID-19 response: corporate credit facilities (primary and secondary market), municipal lending, Main Street Lending Program, PPP Liquidity Facility, and expanded swap lines.",
+    "keyPoints": [
+      "Even larger and faster response than 2008",
+      "New programs: corporate credit facilities, municipal lending, Main Street lending",
+      "PPP Liquidity Facility to support small business lending",
+      "Expanded swap lines to provide global dollar liquidity",
+      "Most facilities barely used — announcement effect was sufficient (like Draghi's OMT)"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses"],
+    "examRelevance": "Practice Q14 expects at least one COVID-era program. The 'announcement effect' parallel to Draghi is exam-worthy."
+  },
+  {
+    "id": "btfp-2023",
+    "title": "Bank Term Funding Program (BTFP)",
+    "author": "Federal Reserve Board",
+    "source": "Federal Reserve",
+    "week": 2,
+    "type": "report",
+    "required": true,
+    "summary": "Emergency Fed program created after SVB's collapse allowing banks to borrow using securities as collateral valued at PAR (not market value), preventing forced sales of depreciated bonds.",
+    "keyPoints": [
+      "Lending at par value — not market value — was the key innovation",
+      "Prevented other banks from experiencing SVB-like forced sales",
+      "Addressed the immediate systemic concern of unrealized losses across the banking system",
+      "Combined with expanded deposit insurance (systemic risk exception)",
+      "Temporary program — expired March 2024"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses", "bank-runs-modern-vs-traditional", "maturity-mismatch"],
+    "examRelevance": "Cite as the SVB-specific central bank response. The par-value lending innovation is a key exam point."
+  },
+  {
+    "id": "draghi-whatever-it-takes-2012",
+    "title": "Draghi 'Whatever It Takes' Speech and OMT",
+    "author": "Mario Draghi",
+    "source": "ECB Press Conference",
+    "week": 1,
+    "type": "speech",
+    "required": true,
+    "summary": "ECB President's July 2012 declaration that the ECB would do 'whatever it takes' to preserve the euro. The OMT program was announced but never actually used — credible commitment alone was sufficient to stabilize markets.",
+    "keyPoints": [
+      "'Whatever it takes to preserve the euro — and believe me, it will be enough'",
+      "OMT announced: unlimited bond buying for stressed sovereigns (with conditions)",
+      "Never actually used — credible commitment alone stabilized markets",
+      "Demonstrates the power of central bank communication and commitment",
+      "Reduced Spanish and Italian bond yields without purchasing a single bond"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses", "ecb-boj-pboc-policy"],
+    "examRelevance": "Use as example of credible commitment solving a crisis without actual intervention. Compare to COVID announcement effects."
+  },
+  {
+    "id": "supply-chain-analysis",
+    "title": "Supply Chain Fragilities and Financial Parallels",
+    "author": "Various (Course Materials)",
+    "source": "HW2 Materials",
+    "week": 2,
+    "type": "report",
+    "required": true,
+    "summary": "Analysis of how global supply chains mirror financial system fragilities: long chains, JIT vs JIC, concentration risk at chokepoints, and the COVID-19 stress test that exposed these vulnerabilities.",
+    "keyPoints": [
+      "Supplier's supplier's supplier = counterparty's counterparty's counterparty",
+      "JIT parallels low liquidity buffers in banking",
+      "Toyota: layer-by-layer analysis, stockpiled chips (good risk management)",
+      "Chokepoints: Hormuz (38% crude), Suez (Houthi attacks), Panama (drought)",
+      "Semiconductor shortage: auto makers paused orders, 'best efforts' contracts failed"
+    ],
+    "relevantTopicIds": ["supply-chain-fragilities", "sources-of-financial-fragility"],
+    "examRelevance": "HW2 Q3. Draw explicit parallel to Northern Rock's funding supply chain. Toyota = well-managed bank."
+  },
+  {
+    "id": "schmelzing-2020",
+    "title": "Eight Centuries of Global Real Interest Rates",
+    "author": "Paul Schmelzing",
+    "source": "Bank of England Staff Working Paper",
+    "week": 2,
+    "type": "academic",
+    "required": false,
+    "summary": "Documents an eight-century decline in global real interest rates, suggesting deep structural forces (beyond any single policy or cycle) have persistently pushed rates down over the very long run.",
+    "keyPoints": [
+      "Real rates have declined over 800 years, not just 40",
+      "Structural forces: demographics, productivity, institutional development",
+      "Challenges the view that low rates are solely due to central bank policy",
+      "Raises questions about whether recent rate increases are temporary or permanent reversal"
+    ],
+    "relevantTopicIds": ["long-term-interest-rate-trends"],
+    "examRelevance": "Provides long-run context for interest rate discussions. Use to show structural nature of rate decline."
+  },
+  {
+    "id": "kroszner-2023-basel-endgame",
+    "title": "Basel III Endgame: Costs and Benefits",
+    "author": "Randall Kroszner",
+    "source": "Working Paper / Testimony",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Argues Basel III Endgame (raising capital requirements 16-25% for large banks) needs rigorous cost-benefit analysis. Warns it may push activity to less-regulated private credit, creating new systemic risks.",
+    "keyPoints": [
+      "Basel III Endgame raises capital requirements 16-25% for large banks",
+      "May push lending to less-regulated private credit (regulatory arbitrage)",
+      "Need rigorous cost-benefit analysis before implementation",
+      "Parallel to Eastland — regulation making one part safer may make the whole system riskier",
+      "The professor's own work — know this well for the exam"
+    ],
+    "relevantTopicIds": ["capital-regulation", "unintended-consequences", "private-credit-turmoil"],
+    "examRelevance": "Key for Q6 (capital regulation) and unintended consequences discussion. Professor's own research — cite it."
+  },
+  {
+    "id": "bailey-private-credit-2024",
+    "title": "BoE Governor Bailey on Private Credit Risks",
+    "author": "Andrew Bailey",
+    "source": "Bank of England Speech",
+    "week": 1,
+    "type": "speech",
+    "required": false,
+    "summary": "Bank of England Governor warns that 'alarm bells are ringing' about the $1.7T private credit industry, citing opacity, liquidity risks, and parallels to pre-2008 shadow banking.",
+    "keyPoints": [
+      "'Alarm bells ringing' about private credit",
+      "$1.7 trillion industry growing rapidly outside regulatory perimeter",
+      "Liquidity challenges as investors try to withdraw",
+      "Opacity and lack of transparency mirror pre-2008 shadow banking",
+      "Potential for systemic risk if not addressed"
+    ],
+    "relevantTopicIds": ["private-credit-turmoil", "shadow-banking"],
+    "examRelevance": "Use as current evidence of shadow banking risks. Connect to regulatory arbitrage from Basel III."
+  },
+  {
+    "id": "first-brands-tricolor-2025",
+    "title": "Private Credit Securitization Failures (First Brands / Tricolor)",
+    "author": "Various Financial Press",
+    "source": "Financial Times / Bloomberg",
+    "week": 1,
+    "type": "news",
+    "required": false,
+    "summary": "AAA-rated securitized notes backed by auto dealer loans failed in early 2025, directly echoing the 2008 pattern of highly-rated structured products defaulting and undermining the credibility of ratings.",
+    "keyPoints": [
+      "AAA-rated notes failed — echoing 2008 CDO experience",
+      "Auto dealer loan-backed securitization",
+      "Ratings proved unreliable once again",
+      "Draws direct parallel to pre-2008 securitization crisis",
+      "Questions reliability of ratings-based regulatory framework"
+    ],
+    "relevantTopicIds": ["private-credit-turmoil", "shadow-banking", "sources-of-financial-fragility"],
+    "examRelevance": "Use as modern example of ratings failure. Connect to capital regulation (risk weights rely on ratings)."
+  },
+  {
+    "id": "mishkin-ch9-banking-analysis",
+    "title": "Banking and the Management of Financial Institutions (Textbook)",
+    "author": "Frederic Mishkin",
+    "source": "The Economics of Money, Banking, and Financial Markets",
+    "week": 2,
+    "type": "academic",
+    "required": true,
+    "summary": "Textbook coverage of bank balance sheet management: asset management, liability management, capital adequacy management, and liquidity management. Introduces T-account analysis of bank operations.",
+    "keyPoints": [
+      "Four types of bank management: asset, liability, capital adequacy, and liquidity",
+      "T-account analysis of deposit inflows/outflows and their balance sheet effects",
+      "Reserve requirements as a tax — the cost of foregone interest",
+      "Banks as transformers: short-term liabilities into long-term assets",
+      "Off-balance-sheet activities and their risks"
+    ],
+    "relevantTopicIds": ["bank-liquidity-management", "maturity-mismatch", "capital-regulation"],
+    "examRelevance": "Provides the textbook framework for Practice Q2, Q4, Q7, Q10, Q11. Know T-account analysis."
+  },
+  {
+    "id": "mishkin-ch10-banking-regulation",
+    "title": "Economic Analysis of Financial Regulation (Textbook)",
+    "author": "Frederic Mishkin",
+    "source": "The Economics of Money, Banking, and Financial Markets",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Textbook coverage of banking regulation rationale and tools: deposit insurance, capital requirements, risk management requirements, disclosure requirements, and the regulatory safety net.",
+    "keyPoints": [
+      "Deposit insurance: prevents runs but creates moral hazard",
+      "Capital requirements as 'deductible' — bank owners' skin in the game",
+      "Risk-weighted capital vs simple leverage ratio",
+      "Too-big-to-fail and its moral hazard implications",
+      "Geographic restrictions and their effects on US banking structure"
+    ],
+    "relevantTopicIds": ["capital-regulation", "deposit-insurance-moral-hazard", "geographic-restrictions-on-banking", "too-big-to-fail"],
+    "examRelevance": "Provides textbook foundation for Q3, Q6, Q8. Particularly important for understanding the 'deductible' concept."
+  },
+  {
+    "id": "mishkin-ch11-banking-industry",
+    "title": "Banking Industry: Structure and Competition (Textbook)",
+    "author": "Frederic Mishkin",
+    "source": "The Economics of Money, Banking, and Financial Markets",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Textbook coverage of US banking structure: historical geographic restrictions, consolidation trends, the separation of banking from other activities (Glass-Steagall), and international comparisons.",
+    "keyPoints": [
+      "US had 30,000+ banks in 1980, now ~3,815 — unique fragmentation",
+      "Geographic restrictions (unit banking, McFadden Act) created local monopolies",
+      "Riegle-Neal (1994) triggered consolidation wave",
+      "Glass-Steagall separation and its rationale",
+      "Many banks does NOT mean much competition"
+    ],
+    "relevantTopicIds": ["geographic-restrictions-on-banking", "glass-steagall-conflicts-of-interest"],
+    "examRelevance": "Practice Q3 directly tests this material. Know the counterintuitive 'many banks ≠ much competition' point."
+  },
+  {
+    "id": "mishkin-ch3-money",
+    "title": "What Is Money? (Textbook)",
+    "author": "Frederic Mishkin",
+    "source": "The Economics of Money, Banking, and Financial Markets",
+    "week": 4,
+    "type": "academic",
+    "required": true,
+    "summary": "Textbook definition of money's three functions (store of value, medium of exchange, unit of account), the evolution from commodity to fiat money, and measures of the money supply (M1, M2).",
+    "keyPoints": [
+      "Three functions: store of value, medium of exchange, unit of account",
+      "Hierarchy: medium of exchange first, unit of account last",
+      "Commodity money vs fiat money",
+      "Double coincidence of wants makes barter impractical",
+      "M1 and M2 measures of money supply"
+    ],
+    "relevantTopicIds": ["origin-and-functions-of-money"],
+    "examRelevance": "Provides the theoretical framework for evaluating Bitcoin and CBDCs against money's functions."
+  },
+  {
+    "id": "ecb-policy-overview",
+    "title": "ECB Monetary Policy Tools and Crisis Response",
+    "author": "European Central Bank",
+    "source": "ECB Publications",
+    "week": 1,
+    "type": "report",
+    "required": false,
+    "summary": "Overview of ECB's policy toolkit: SMP, LTRO, OMT, APP/QE, PEPP, and TPI. Explains the bank-centric Eurozone financial system and why ECB preferred lending to banks over buying bonds.",
+    "keyPoints": [
+      "Bank-centric system: European firms depend more on bank loans than capital markets",
+      "LTRO (lending to banks) was preferred to QE (buying bonds) for structural reasons",
+      "OMT never used — announcement alone stabilized markets",
+      "PEPP provided COVID-era flexibility across countries",
+      "TPI addresses fragmentation risk within the Eurozone"
+    ],
+    "relevantTopicIds": ["ecb-boj-pboc-policy", "central-bank-crisis-responses"],
+    "examRelevance": "Provides context for comparing Fed (market-based system) with ECB (bank-based system) approaches."
+  },
+  {
+    "id": "boj-policy-overview",
+    "title": "Bank of Japan: Decades of Fighting Deflation",
+    "author": "Bank of Japan / Course Materials",
+    "source": "BoJ / Academic Sources",
+    "week": 1,
+    "type": "report",
+    "required": false,
+    "summary": "Documents the BoJ's 30+ year fight against deflation using increasingly unconventional tools: QQE, negative rates, yield curve control. Only recently ended negative rates (March 2024), now at 0.75%.",
+    "keyPoints": [
+      "Longest fight against deflation of any major central bank (since 1990s)",
+      "QQE: buying government bonds, ETFs, and REITs",
+      "Negative interest rates: charging banks for holding excess reserves",
+      "Yield curve control: capping 10-year bond yields",
+      "Finally ended negative rates March 2024; now at 0.75%"
+    ],
+    "relevantTopicIds": ["ecb-boj-pboc-policy", "central-bank-crisis-responses"],
+    "examRelevance": "Key contrast with Bernanke's 'credit easing' — BoJ's 'quantitative easing' focused on quantity of reserves."
+  },
+  {
+    "id": "pboc-policy-overview",
+    "title": "People's Bank of China: Transition to Price-Based Policy",
+    "author": "PBoC / Course Materials",
+    "source": "PBoC / Academic Sources",
+    "week": 1,
+    "type": "report",
+    "required": false,
+    "summary": "Documents PBoC's transition from quantity-based (RRR, lending quotas) to price-based (LPR, interest rates) monetary policy. Currently at record low rates, facing near-deflation, and pushing digital yuan adoption.",
+    "keyPoints": [
+      "Transitioning from quantity-based (RRR, quotas) to price-based (LPR) policy",
+      "RRR cuts remain a primary easing tool",
+      "LPR reform (2019) makes lending rates more market-determined",
+      "Near-deflation since 2023 with record low rates",
+      "Digital yuan (e-CNY) push as part of financial modernization"
+    ],
+    "relevantTopicIds": ["ecb-boj-pboc-policy", "digital-currencies-and-cbdcs"],
+    "examRelevance": "Know for comparison of central bank approaches and for CBDC discussion (China's e-CNY is most advanced)."
+  },
+  {
+    "id": "bitcoin-evaluation",
+    "title": "Bitcoin as Money: Critical Evaluation",
+    "author": "Various (Course Materials)",
+    "source": "HW4 Materials",
+    "week": 4,
+    "type": "academic",
+    "required": true,
+    "summary": "Evaluation of Bitcoin against the three functions of money: fails as store of value (volatility), limited medium of exchange (slow, expensive, low acceptance), not used as unit of account. Fixed supply would cause deflation.",
+    "keyPoints": [
+      "Store of value: FAILS — extreme volatility, can lose 50%+ in months",
+      "Medium of exchange: FAILS — slow processing, high fees, limited acceptance",
+      "Unit of account: FAILS — virtually no goods priced in Bitcoin",
+      "Fixed supply (21M cap) would cause deflation in a Bitcoin economy",
+      "Blockchain technology has potential applications beyond currency"
+    ],
+    "relevantTopicIds": ["digital-currencies-and-cbdcs", "origin-and-functions-of-money"],
+    "examRelevance": "HW4 Q1 and Practice Q15. Must evaluate Bitcoin against all three functions. The fixed supply/deflation point is important."
+  },
+  {
+    "id": "cbdc-three-approaches",
+    "title": "Three National Approaches to CBDCs",
+    "author": "Various (Course Materials)",
+    "source": "HW4 Materials",
+    "week": 4,
+    "type": "report",
+    "required": true,
+    "summary": "Compares three CBDC strategies: China (pro-CBDC, ban crypto, e-CNY pilot), US (pro-crypto, anti-CBDC per Trump EO, Strategic Bitcoin Reserve), Hong Kong (both CBDC and crypto). Each reflects different views on government's role in money.",
+    "keyPoints": [
+      "China: most aggressive CBDC (e-CNY) but sluggish domestic adoption; banned crypto; cross-border potential (mBridge)",
+      "US: Trump EO explicitly bans CBDC development; promotes crypto via Strategic Bitcoin Reserve",
+      "Hong Kong: pursuing both CBDC development and crypto regulatory framework",
+      "China already has Alipay/WeChat Pay, so domestic CBDC adoption is a harder sell",
+      "Cross-border CBDCs may be more transformative than domestic ones"
+    ],
+    "relevantTopicIds": ["digital-currencies-and-cbdcs"],
+    "examRelevance": "HW4 Q2. Compare and contrast the three approaches. Make a recommendation with evidence."
+  },
+  {
+    "id": "ecny-analysis",
+    "title": "China's e-CNY: Digital Yuan Analysis",
+    "author": "Various (Course Materials)",
+    "source": "Academic / News Sources",
+    "week": 4,
+    "type": "report",
+    "required": false,
+    "summary": "Analysis of China's e-CNY: world's most advanced CBDC pilot, but domestic adoption sluggish because Alipay/WeChat Pay already dominate. Cross-border potential (Project mBridge) may be more significant for challenging dollar dominance.",
+    "keyPoints": [
+      "Most advanced CBDC pilot in the world",
+      "Domestic adoption sluggish — Alipay/WeChat Pay already serve digital payment needs",
+      "Project mBridge for cross-border payments could challenge dollar dominance",
+      "Offers government greater visibility into payment flows",
+      "Privacy concerns are significant"
+    ],
+    "relevantTopicIds": ["digital-currencies-and-cbdcs", "ecb-boj-pboc-policy"],
+    "examRelevance": "Use for HW4 Q2 to discuss China's approach. The cross-border angle (mBridge) is the most important point."
+  },
+  {
+    "id": "titanic-eastland-analogy",
+    "title": "The Titanic/Eastland Analogy for Unintended Consequences",
+    "author": "Course Materials",
+    "source": "Class Lecture",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "After the Titanic (1912), 'lifeboats for all' regulation was imposed. The SS Eastland, already top-heavy, capsized in the Chicago River (1915) due to additional lifeboats, killing 844 — more than the Titanic. Regulation designed to solve one problem created a worse one.",
+    "keyPoints": [
+      "Titanic: 1912 disaster led to 'lifeboats for all' regulation",
+      "Eastland: capsized 1915 in Chicago River, 844 dead — more than Titanic",
+      "Additional lifeboats made already top-heavy ship unstable",
+      "Perfect analogy for financial regulation unintended consequences",
+      "Lesson: cost-benefit analysis and second-order effects matter"
+    ],
+    "relevantTopicIds": ["unintended-consequences"],
+    "examRelevance": "Use as the opening analogy for any unintended consequences discussion. Professor's favorite example."
+  },
+  {
+    "id": "volcker-rule-market-liquidity",
+    "title": "Volcker Rule Effects on Market Liquidity",
+    "author": "Various Academic Studies",
+    "source": "Academic / Federal Reserve Research",
+    "week": 3,
+    "type": "academic",
+    "required": false,
+    "summary": "Studies documenting how the Volcker Rule reduced dealer inventories and worsened market liquidity, contributing to the Treasury flash crash (October 2014) and Treasury market dysfunction (March 2020).",
+    "keyPoints": [
+      "Volcker Rule reduced dealer bond inventories",
+      "Treasury flash crash (October 2014) linked to reduced market-making capacity",
+      "March 2020 Treasury market dysfunction — even safest market experienced liquidity crisis",
+      "Dealers pulled back from market-making due to regulatory constraints",
+      "Unintended consequence: safer banks but less liquid markets"
+    ],
+    "relevantTopicIds": ["unintended-consequences", "structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "Use as specific example of Volcker Rule unintended consequences. March 2020 Treasury dysfunction is particularly powerful."
+  },
+  {
+    "id": "dodd-frank-new-bank-formation",
+    "title": "Dodd-Frank and New Bank Formation",
+    "author": "Various",
+    "source": "Academic / Industry Sources",
+    "week": 3,
+    "type": "news",
+    "required": false,
+    "summary": "Documents the near-halt in new bank formation since Dodd-Frank's passage in 2010. The Bank of Bird-in-Hand, Pennsylvania is cited as a rare exception to the de novo bank drought.",
+    "keyPoints": [
+      "New bank formation nearly halted after Dodd-Frank (2010)",
+      "Bank of Bird-in-Hand, PA — rare new bank charter",
+      "Compliance costs disproportionately burden small banks",
+      "Consolidation accelerated as small banks find it uneconomic to comply",
+      "Reduces competition and potentially access to credit in underserved areas"
+    ],
+    "relevantTopicIds": ["unintended-consequences", "geographic-restrictions-on-banking"],
+    "examRelevance": "Use as Dodd-Frank unintended consequence example. Bank of Bird-in-Hand is a memorable specific case."
+  },
+  {
+    "id": "ey-project-everest",
+    "title": "EY's Failed Breakup: Project Everest",
+    "author": "Various Financial Press",
+    "source": "Financial Times",
+    "week": 3,
+    "type": "news",
+    "required": false,
+    "summary": "EY's attempted full separation of audit and consulting businesses (Project Everest) failed in 2023 due to internal partner disagreement, illustrating the difficulty of structural reform even when the rationale is clear.",
+    "keyPoints": [
+      "Full breakup of audit and consulting businesses attempted",
+      "Failed due to internal disagreement among partners",
+      "Partners could not agree on financial terms of separation",
+      "Illustrates difficulty of structural reform — analogous to banking breakup challenges",
+      "Market still perceives the conflict of interest as problematic"
+    ],
+    "relevantTopicIds": ["accounting-firm-conflicts", "glass-steagall-conflicts-of-interest"],
+    "examRelevance": "Use for Q12 to parallel banking structural reform challenges. EY Everest failure = difficulty of implementation."
+  },
+  {
+    "id": "pwc-consulting-curtailment",
+    "title": "PwC's Voluntary Consulting Curtailment",
+    "author": "Various",
+    "source": "Financial Press / Industry Reports",
+    "week": 3,
+    "type": "news",
+    "required": false,
+    "summary": "PwC voluntarily limited consulting services for audit clients — a market-driven response to conflict of interest concerns that parallels Kroszner's findings about 1920s banks self-regulating through separate affiliates.",
+    "keyPoints": [
+      "Voluntary curtailment of consulting for audit clients",
+      "Market-driven adaptation without regulatory mandate",
+      "Parallels Kroszner-Rajan findings: 1920s banks used separate affiliates to manage conflicts",
+      "Demonstrates that market forces can address conflicts of interest",
+      "UK subsequently mandated operational separation for all Big Four"
+    ],
+    "relevantTopicIds": ["accounting-firm-conflicts", "glass-steagall-conflicts-of-interest"],
+    "examRelevance": "Key supporting evidence for Kroszner's argument that market forces can address conflicts without Glass-Steagall-type regulation."
+  },
+  {
+    "id": "ubs-credit-suisse-tbtf",
+    "title": "UBS-Credit Suisse Merger and Too Big to Fail",
+    "author": "Various",
+    "source": "Financial Press / Swiss Government",
+    "week": 3,
+    "type": "news",
+    "required": false,
+    "summary": "UBS's forced acquisition of Credit Suisse created a bank with assets = 208% of Swiss GDP. 75% of Swiss citizens want UBS broken up. Illustrates the TBTF problem at its most extreme.",
+    "keyPoints": [
+      "Combined UBS+Credit Suisse assets = 208% of Swiss GDP",
+      "75% of Swiss citizens favor breakup",
+      "Swiss government effectively forced the merger to prevent Credit Suisse collapse",
+      "Creates extreme concentration — one bank dominates the entire financial system",
+      "International comparison: JPMorgan = ~15% of US GDP"
+    ],
+    "relevantTopicIds": ["too-big-to-fail", "structural-reform-volcker-vickers-liikanen"],
+    "examRelevance": "Powerful specific example for TBTF discussion. The 208% figure and 75% polling number are memorable."
+  },
+  {
+    "id": "trump-eo-cbdc-crypto",
+    "title": "Trump Executive Order on Digital Assets",
+    "author": "White House",
+    "source": "Executive Order",
+    "week": 4,
+    "type": "report",
+    "required": true,
+    "summary": "Trump administration EO explicitly banning CBDC development in the US while promoting cryptocurrency through the creation of a Strategic Bitcoin Reserve. Represents the polar opposite of China's approach.",
+    "keyPoints": [
+      "Explicitly bans federal CBDC development",
+      "Creates Strategic Bitcoin Reserve — government holds Bitcoin as reserve asset",
+      "Pro-crypto, anti-CBDC policy stance",
+      "Opposite of China's approach (pro-CBDC, anti-crypto)",
+      "Raises questions about US leadership in digital money infrastructure"
+    ],
+    "relevantTopicIds": ["digital-currencies-and-cbdcs"],
+    "examRelevance": "HW4 Q2. Key for comparing US vs China approaches. The explicit CBDC ban is the critical policy fact."
+  },
+  {
+    "id": "schumpeter-1911",
+    "title": "The Theory of Economic Development",
+    "author": "Joseph Schumpeter",
+    "source": "Book (translated 1934)",
+    "week": 2,
+    "type": "academic",
+    "required": false,
+    "summary": "Seminal argument that financial intermediaries are essential for economic development because they channel savings to innovative entrepreneurs, enabling 'creative destruction' and growth.",
+    "keyPoints": [
+      "Financial intermediaries essential for channeling resources to innovation",
+      "Banks identify and fund promising entrepreneurs",
+      "Creative destruction requires financial support",
+      "Finance is not just a veil — it drives real economic growth",
+      "Foundational for the entire finance-growth literature"
+    ],
+    "relevantTopicIds": ["financial-development-and-growth", "banks-as-special-intermediaries"],
+    "examRelevance": "Cite as the intellectual origin of the finance-growth debate. Start Q1 with 'Since Schumpeter (1911)...'"
+  },
+  {
+    "id": "bernanke-savings-glut-2005",
+    "title": "The Global Saving Glut and the U.S. Current Account Deficit",
+    "author": "Ben Bernanke",
+    "source": "Federal Reserve Speech",
+    "week": 2,
+    "type": "speech",
+    "required": false,
+    "summary": "Bernanke argues that a 'global savings glut' — driven by high savings rates in emerging markets (especially China) — pushed global interest rates down and fueled asset price bubbles in the US.",
+    "keyPoints": [
+      "Global savings exceeding investment opportunities pushed rates down",
+      "China and oil exporters were primary sources of excess savings",
+      "Capital flowed to US, financing consumption and housing bubble",
+      "Interest rates were driven by global forces, not just Fed policy",
+      "Framework for understanding the four-decade rate decline"
+    ],
+    "relevantTopicIds": ["long-term-interest-rate-trends", "sources-of-financial-fragility"],
+    "examRelevance": "Provides the 'savings glut' framework for understanding long-term rate trends and pre-crisis conditions."
+  },
+  {
+    "id": "svb-social-media-run",
+    "title": "SVB: Social Media and the Speed of Modern Bank Runs",
+    "author": "Various Financial Press",
+    "source": "Financial Times / WSJ / Bloomberg",
+    "week": 2,
+    "type": "news",
+    "required": true,
+    "summary": "Coverage of how VC investors coordinated via Twitter/social media to withdraw deposits from SVB simultaneously, accelerating the bank run to unprecedented speed ($42B in one day).",
+    "keyPoints": [
+      "$42 billion attempted withdrawals in a single day (March 9, 2023)",
+      "VC investors used Twitter and group chats to coordinate withdrawals",
+      "Mobile banking apps enabled instant withdrawal without visiting branches",
+      "Peter Thiel's Founders Fund advised companies to pull deposits",
+      "Fastest bank run in history — technology fundamentally changed the dynamics"
+    ],
+    "relevantTopicIds": ["bank-runs-modern-vs-traditional", "deposit-insurance-moral-hazard"],
+    "examRelevance": "Key evidence for Q8 and Q13 on modern bank runs. The $42B and social media coordination facts are essential."
+  },
+  {
+    "id": "diamond-dybvig-1983",
+    "title": "Bank Runs, Deposit Insurance, and Liquidity",
+    "author": "Douglas Diamond and Philip Dybvig",
+    "source": "Journal of Political Economy",
+    "week": 2,
+    "type": "academic",
+    "required": false,
+    "summary": "Classic model showing that bank runs are a self-fulfilling prophecy: if all depositors expect others to run, running is rational even at a solvent bank. Deposit insurance eliminates the bad equilibrium.",
+    "keyPoints": [
+      "Two equilibria: no run (good) and run (bad) — both are rational",
+      "Bank runs can happen at solvent banks — purely a coordination failure",
+      "Deposit insurance eliminates the bad equilibrium",
+      "Banks provide liquidity insurance by transforming illiquid assets to liquid claims",
+      "2022 Nobel Prize for this work (with Bernanke)"
+    ],
+    "relevantTopicIds": ["bank-runs-modern-vs-traditional", "deposit-insurance-moral-hazard", "maturity-mismatch"],
+    "examRelevance": "Theoretical foundation for understanding bank runs and deposit insurance. 2022 Nobel adds contemporary relevance."
+  },
+  {
+    "id": "private-credit-liquidity-2025",
+    "title": "Private Credit Is Learning All About Liquidity",
+    "author": "Various Financial Press",
+    "source": "Bloomberg / Financial Times",
+    "week": 1,
+    "type": "news",
+    "required": false,
+    "summary": "Coverage of investor withdrawals ($7B) from major private credit funds, revealing the liquidity illusion in private credit. Funds marketed as providing liquidity proved unable to meet redemptions.",
+    "keyPoints": [
+      "$7 billion pulled from biggest private credit funds",
+      "Redemption gates and queues — investors cannot get money out",
+      "Liquidity was an illusion — assets are fundamentally illiquid",
+      "Parallels to 2007-2008 when supposedly liquid markets froze",
+      "Questions about whether private credit structures can handle stress"
+    ],
+    "relevantTopicIds": ["private-credit-turmoil", "shadow-banking"],
+    "examRelevance": "Current example of liquidity illusion. Parallel to Northern Rock's wholesale funding freeze."
+  },
+  {
+    "id": "treasury-market-dysfunction-2020",
+    "title": "March 2020 Treasury Market Dysfunction",
+    "author": "Federal Reserve / Academic Studies",
+    "source": "Federal Reserve Research / NBER",
+    "week": 3,
+    "type": "academic",
+    "required": false,
+    "summary": "Analysis of how the world's safest and most liquid market (US Treasuries) experienced severe dysfunction in March 2020, partly due to Volcker Rule constraints on dealer inventories.",
+    "keyPoints": [
+      "Even the safest market experienced a liquidity crisis",
+      "Dealers had reduced inventories due to Volcker Rule and capital constraints",
+      "Bid-ask spreads widened dramatically",
+      "Fed had to step in as buyer of last resort",
+      "Unintended consequence of post-2008 regulation"
+    ],
+    "relevantTopicIds": ["unintended-consequences", "structural-reform-volcker-vickers-liikanen", "central-bank-crisis-responses"],
+    "examRelevance": "Powerful example of Volcker Rule unintended consequences. The irony that regulation made Treasuries less liquid is exam-worthy."
+  },
+  {
+    "id": "warren-glass-steagall-restoration",
+    "title": "Senator Warren and Glass-Steagall Restoration Efforts",
+    "author": "Senator Elizabeth Warren et al.",
+    "source": "Congressional Press / News",
+    "week": 3,
+    "type": "news",
+    "required": false,
+    "summary": "Senator Warren and some Republicans have proposed restoring Glass-Steagall separation of commercial and investment banking, arguing it would reduce systemic risk and TBTF problems.",
+    "keyPoints": [
+      "Bipartisan support for Glass-Steagall restoration",
+      "Warren argues universal banks pose systemic risk",
+      "Some Republicans support it on anti-TBTF grounds",
+      "Counter: Kroszner evidence suggests original rationale was weak",
+      "Counter: Sorkin shows 2008 failures were not from universal banks"
+    ],
+    "relevantTopicIds": ["glass-steagall-conflicts-of-interest", "too-big-to-fail"],
+    "examRelevance": "Provides the 'for restoration' view to balance against Kroszner-Rajan and Sorkin evidence."
+  },
+  {
+    "id": "fed-discount-window-stigma",
+    "title": "Discount Window Stigma and its Effects",
+    "author": "Various Federal Reserve Research",
+    "source": "Federal Reserve / Academic Studies",
+    "week": 1,
+    "type": "academic",
+    "required": false,
+    "summary": "Analysis of why banks refuse to borrow from the Fed's discount window even when they need liquidity — the stigma of being seen as in trouble. This is why the TAF (anonymous auctions) was created.",
+    "keyPoints": [
+      "Banks avoid discount window because borrowing signals weakness",
+      "Stigma makes the lender-of-last-resort function ineffective",
+      "TAF created as anonymous alternative — banks could borrow without being identified",
+      "Stigma persisted even during the crisis when many banks needed funds",
+      "Post-SVB: Fed eased discount window conditions to reduce stigma"
+    ],
+    "relevantTopicIds": ["central-bank-crisis-responses", "bank-liquidity-management"],
+    "examRelevance": "Explains why TAF was necessary — discount window stigma is a key exam concept."
+  },
+  {
+    "id": "basel-risk-weighting-critique",
+    "title": "Problems with Risk-Weighted Capital Regulation",
+    "author": "Various Academic Sources",
+    "source": "Academic / BIS Papers",
+    "week": 3,
+    "type": "academic",
+    "required": true,
+    "summary": "Critique of Basel risk-weighting approach: banks manipulate weights, political influences, backward-looking, misses future risks. SVB's zero-weight government bonds had massive interest rate risk.",
+    "keyPoints": [
+      "Banks manipulate risk weights through internal models (Basel II/III)",
+      "Political considerations influence weight assignments",
+      "Backward-looking: based on historical data that may not reflect future risks",
+      "SVB example: government bonds had zero risk weight despite massive duration risk",
+      "Risk weights capture credit risk but miss interest rate risk, concentration risk, etc."
+    ],
+    "relevantTopicIds": ["capital-regulation", "unintended-consequences"],
+    "examRelevance": "Essential for Q6. Must know both the logic of risk-weighting AND its specific failures (cite SVB)."
+  },
+  {
+    "id": "sbf-mackerel-prison",
+    "title": "SBF and Mackerel as Prison Currency",
+    "author": "Various News Sources",
+    "source": "News / Profile",
+    "week": 4,
+    "type": "news",
+    "required": false,
+    "summary": "After smoking was banned in US federal prisons, mackerel packets emerged as the new currency — and FTX founder Sam Bankman-Fried reportedly used them during imprisonment. Modern parallel to Radford's cigarettes.",
+    "keyPoints": [
+      "Mackerel packets replaced cigarettes as prison currency after smoking ban",
+      "SBF (former crypto exchange CEO) using mackerel as money — ironic given his crypto background",
+      "Demonstrates spontaneous emergence of commodity money in restricted environments",
+      "Modern parallel to Radford's 1945 POW camp study",
+      "Shows that money's functions are universal and emerge without central authority"
+    ],
+    "relevantTopicIds": ["origin-and-functions-of-money"],
+    "examRelevance": "Use as a memorable modern parallel to Radford. The SBF irony (crypto mogul using fish as currency) adds color."
+  },
+  {
+    "id": "semiconductor-shortage-analysis",
+    "title": "Global Semiconductor Shortage Analysis",
+    "author": "Various",
+    "source": "Industry / Academic Reports",
+    "week": 2,
+    "type": "report",
+    "required": false,
+    "summary": "Analysis of the 2020-2022 semiconductor shortage: auto makers paused chip orders during COVID, switched to 'best efforts' contracts, while Toyota had stockpiled chips through layer-by-layer supply chain analysis.",
+    "keyPoints": [
+      "Auto makers paused chip orders during early COVID — poor risk management",
+      "'Best efforts' contracts provided no supply guarantees",
+      "Toyota exception: did layer-by-layer analysis post-Fukushima, stockpiled chips",
+      "10x increase in shipping costs during COVID",
+      "Concentration risk: TSMC produces ~90% of advanced chips"
+    ],
+    "relevantTopicIds": ["supply-chain-fragilities"],
+    "examRelevance": "Toyota's risk management is the key case study. Parallel to banks: Toyota = well-managed bank with adequate buffers."
+  },
+  {
+    "id": "geopolitical-chokepoints",
+    "title": "Geopolitical Supply Chain Chokepoints",
+    "author": "Various",
+    "source": "Geopolitical Analysis / News",
+    "week": 2,
+    "type": "report",
+    "required": false,
+    "summary": "Analysis of physical chokepoints that represent 'common factor risk' in global supply chains: Strait of Hormuz (38% of seaborne crude), Suez Canal (Houthi attacks), Panama Canal (drought-related restrictions).",
+    "keyPoints": [
+      "Strait of Hormuz: 38% of seaborne crude oil transit",
+      "Suez Canal: Houthi attacks forced rerouting around Africa",
+      "Panama Canal: drought reduced capacity significantly",
+      "These are 'common factors' — single points of failure affecting entire global system",
+      "Parallel to concentrated clearing/settlement infrastructure in finance"
+    ],
+    "relevantTopicIds": ["supply-chain-fragilities"],
+    "examRelevance": "Use as specific examples of common factor risk in supply chain parallel discussion. The 38% Hormuz figure is exam-ready."
+  },
+  {
+    "id": "dodd-frank-overview",
+    "title": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "author": "US Congress / Regulatory Agencies",
+    "source": "Government / Academic Analysis",
+    "week": 3,
+    "type": "report",
+    "required": true,
+    "summary": "Comprehensive overview of the major post-2008 reform legislation: Volcker Rule, enhanced prudential standards, FSOC, OLA, CFPB, derivatives regulation, and its effects on banking structure.",
+    "keyPoints": [
+      "Volcker Rule: ban on proprietary trading by banks",
+      "Enhanced prudential standards for systemically important institutions",
+      "FSOC: new systemic risk oversight body",
+      "OLA (Orderly Liquidation Authority): resolution authority for failing SIFIs",
+      "Near-halt in de novo bank formation as unintended consequence"
+    ],
+    "relevantTopicIds": ["structural-reform-volcker-vickers-liikanen", "too-big-to-fail", "unintended-consequences", "capital-regulation"],
+    "examRelevance": "Foundation for understanding US structural reform approach. Know the Volcker Rule and its implementation challenges."
+  },
+  {
+    "id": "fednow-digital-payments",
+    "title": "FedNow and the Case Against CBDCs",
+    "author": "Federal Reserve",
+    "source": "Federal Reserve",
+    "week": 4,
+    "type": "report",
+    "required": false,
+    "summary": "The Fed's FedNow real-time payment system launched in 2023, providing instant bank-to-bank transfers. Raises the question: if real-time payments exist, is a CBDC necessary?",
+    "keyPoints": [
+      "Real-time bank-to-bank transfers available 24/7",
+      "Reduces need for a retail CBDC — core use case already addressed",
+      "Works within existing banking infrastructure",
+      "Does not require central bank balance sheet expansion",
+      "Counter-argument: FedNow still requires bank account, excluding unbanked"
+    ],
+    "relevantTopicIds": ["digital-currencies-and-cbdcs"],
+    "examRelevance": "Use as counterargument when discussing CBDC necessity in US context."
+  }
+]
