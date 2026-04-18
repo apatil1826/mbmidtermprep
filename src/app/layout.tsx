@@ -5,6 +5,7 @@ import { dark } from "@clerk/themes";
 import "./globals.css";
 import SearchModal from "../components/SearchModal";
 import AuthButtons from "../components/AuthButtons";
+import AuthGate from "../components/AuthGate";
 
 export const metadata: Metadata = {
   title: "MB Midterm Prep — Money & Banking Study Tool",
@@ -57,7 +58,9 @@ export default function RootLayout({
               </div>
             </div>
           </nav>
-          <main className="flex-1">{children}</main>
+          <main className="flex-1">
+            <AuthGate>{children}</AuthGate>
+          </main>
           <footer className="border-t border-card-border py-6 text-center text-xs text-muted">
             Built for BUSN 33401 — Money &amp; Banking &middot; Prof. Kroszner
             &middot; Chicago Booth
