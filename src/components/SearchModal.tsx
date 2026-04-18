@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import searchIndex from "../data/search-index.json";
 
@@ -12,22 +13,26 @@ interface SearchItem {
   topicId?: string;
 }
 
-const fuse = new Fuse(searchIndex as SearchItem[], {
-  keys: [
-    { name: "title", weight: 2 },
-    { name: "content", weight: 1 },
-  ],
-  threshold: 0.35,
-  includeMatches: true,
-  minMatchCharLength: 2,
-});
-
 export default function SearchModal() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [selectedIdx, setSelectedIdx] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  const listRef = useRef<HTMLDivElement>(null);
+
+  const fuse = useMemo(
+    () =>
+      new Fuse(searchIndex as SearchItem[], {
+        keys: [
+          { name: "title", weight: 2 },
+          { name: "content", weight: 1 },
+        ],
+        threshold: 0.35,
+        includeMatches: true,
+        minMatchCharLength: 2,
+      }),
+    []
+  );
 
   const results = query.length >= 2 ? fuse.search(query, { limit: 20 }) : [];
 
@@ -45,34 +50,42 @@ export default function SearchModal() {
     ...grouped.concept,
   ];
 
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
+  const handleOpen = useCallback(() => {
+    setOpen(true);
+  }, []);
+
+  const handleClose = useCallback(() => {
+    setOpen(false);
+  }, []);
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
         setOpen((o) => !o);
       }
-      if (e.key === "Escape") setOpen(false);
-    },
-    []
-  );
-
-  useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [handleKeyDown]);
+      if (e.key === "Escape") {
+        setOpen(false);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
 
   useEffect(() => {
     if (open) {
-      setTimeout(() => inputRef.current?.focus(), 50);
-      setQuery("");
-      setSelectedIdx(0);
+      const t = setTimeout(() => inputRef.current?.focus(), 50);
+      return () => clearTimeout(t);
     }
   }, [open]);
 
-  const navigate = (link: string) => {
-    setOpen(false);
-    window.location.href = link;
-  };
+  const navigate = useCallback(
+    (link: string) => {
+      setOpen(false);
+      router.push(link);
+    },
+    [router]
+  );
 
   const handleInputKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "ArrowDown") {
@@ -89,7 +102,7 @@ export default function SearchModal() {
   if (!open) {
     return (
       <button
-        onClick={() => setOpen(true)}
+        onClick={handleOpen}
         className="flex items-center gap-2 rounded-lg border border-card-border bg-card px-3 py-1.5 text-sm text-muted transition-colors hover:border-accent/30 hover:text-foreground"
       >
         <svg
@@ -125,7 +138,7 @@ export default function SearchModal() {
   return (
     <div
       className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 pt-[15vh] backdrop-blur-sm"
-      onClick={() => setOpen(false)}
+      onClick={handleClose}
     >
       <div
         className="w-full max-w-xl rounded-xl border border-card-border bg-[#1a1a1a] shadow-2xl"
@@ -158,12 +171,12 @@ export default function SearchModal() {
           />
           <kbd
             className="cursor-pointer rounded bg-white/5 px-2 py-0.5 text-xs text-muted"
-            onClick={() => setOpen(false)}
+            onClick={handleClose}
           >
             ESC
           </kbd>
         </div>
-        <div ref={listRef} className="max-h-80 overflow-y-auto p-2">
+        <div className="max-h-80 overflow-y-auto p-2">
           {query.length < 2 && (
             <p className="px-3 py-6 text-center text-sm text-muted">
               Type to search across all topics, readings, and terms...
