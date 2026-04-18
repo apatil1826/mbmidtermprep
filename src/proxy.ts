@@ -1,18 +1,10 @@
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
+import type { NextRequest } from "next/server";
 
-const isPublicRoute = createRouteMatcher([
-  "/sign-in(.*)",
-  "/sign-up(.*)",
-]);
+const handler = clerkMiddleware();
 
-const handler = clerkMiddleware(async (auth, request) => {
-  if (!isPublicRoute(request)) {
-    await auth.protect();
-  }
-});
-
-export function proxy(request: Parameters<typeof handler>[0], event: Parameters<typeof handler>[1]) {
-  return handler(request, event);
+export function proxy(request: NextRequest) {
+  return handler(request, {} as never);
 }
 
 export const config = {
